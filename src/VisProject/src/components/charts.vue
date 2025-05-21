@@ -3,10 +3,15 @@
       <div>
         <p>{{this.debugmessage}}绘图器被输入 {{databelong}}的 {{ readdatanum }} 个数据</p>
       </div>
+      <div class="date-selector">
+        <label>起始日期：</label>
+        <input type="date" v-model="startDate">
+        <label>结束日期：</label>
+        <input type="date" v-model="endDate">
+      </div>
       <div>
         <svg :width="width":height="height"></svg>
       </div>
-        
     </div>
 </template>
 <script>
@@ -18,10 +23,12 @@
       return {
         databelong: "",//储存当前储存的数据对应的城市
         data1: [],//用于绘图的数据
+        filteredData: [], // 经过日期筛选的数据
         readdatanum: 0,
         debugmessage: "not read data yet",
-        errorMessage: ""
-
+        errorMessage: "",
+        startDate: "2015-01-02", // 起始日期
+        endDate: "2021-12-31", // 结束日期
       };
     },
     props:{//从 app.vue 传来的数据
@@ -45,6 +52,12 @@
     watch:{
       CityName(newVal, oldVal) {
         this.fetchCityData();//因为这是个异步函数，所以后面导入完成之后才绘图
+      },
+      startDate() {
+        this.filterDataByDate();
+      },
+      endDate() {
+        this.filterDataByDate();
       }
     },
     methods: {
@@ -54,36 +67,52 @@
           const response = await fetch(`../assets/data/AQI/cities_json/${this.CityName}.json`);
           if (!response.ok) {
             this.data1 = [];
-            this.readdatanum = this.data1.length;
+            this.filteredData = [];
+            this.readdatanum = 0;
             this.debugmessage = "read data finish no data";  
             throw new Error(`HTTP error! status: ${response.status}`);
-
           }
           else{
             // 动态导入对应城市的 JSON 文件
             const module = await import(`../assets/data/AQI/cities_json/${this.CityName}.json`);
             this.data1 = module.default;
             this.databelong = this.CityName;
-            this.readdatanum = this.data1.length;
             this.debugmessage = "read data successfully";            
-
-            this.drawChart();//绘制图表
+            this.filterDataByDate(); // 应用日期过滤
           }
-
         } catch (error) {
           this.errorMessage = `无法加载 ${this.CityName} 的数据`;
         } 
       },
+      filterDataByDate() {
+        if (!this.startDate && !this.endDate) {
+          this.filteredData = this.data1;
+        } else {
+          this.filteredData = this.data1.filter(item => {
+            const itemDate = item.date.replace(/\//g, '-'); // 将数据中的日期格式转换为与输入框相同的格式
+            const isAfterStart = !this.startDate || itemDate >= this.startDate;
+            const isBeforeEnd = !this.endDate || itemDate <= this.endDate;
+            return isAfterStart && isBeforeEnd;
+          });
+        }
+        this.readdatanum = this.filteredData.length;
+        this.drawChart();
+      },
       drawChart() {//绘制柱形图
         const svg = d3.select("svg");
         svg.selectAll("*").remove(); // 清除之前的内容
+        
+        if (!this.filteredData || this.filteredData.length === 0) {
+          return; // 如果没有数据，直接返回
+        }
+
         const x = d3.scaleBand()//设置x轴
-          .domain(this.data1.map(d => d.date))
+          .domain(this.filteredData.map(d => d.date))
           .range([0, this.width])
           .padding(0);
 
         const y = d3.scaleLinear()
-          .domain([0, d3.max(this.data1, d => d.aqi)])
+          .domain([0, d3.max(this.filteredData, d => d.aqi)])
           .nice()
           .range([this.height, 0]);
 
@@ -95,7 +124,7 @@
           .call(d3.axisLeft(y));
 
         svg.selectAll(".bar")
-          .data(this.data1)
+          .data(this.filteredData)
           .enter().append("rect")
           .attr("class", "bar")
           .attr("x", d => x(d.date))
@@ -120,8 +149,29 @@
     }
     .chart-container {
       display: flex;
-      justify-content: center;
+      flex-direction: row;
+      align-items: flex-start;
       margin-top: 20px;
+      position: relative;
+    }
+    .date-selector {
+      position: absolute;
+      right: -150px;
+      top: 10px;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 10px;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .date-selector label {
+      display: block;
+      margin: 5px 0;
+    }
+    .date-selector input {
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      width: 140px;
     }
     .axis-label {
       font-size: 12px;
