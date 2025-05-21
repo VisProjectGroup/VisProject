@@ -1,1 +1,5 @@
 # 排除工程文件
+src/VisProject/.vscode/
+src/VisProject/node_modules/
+src/VisProject/public/
+src/VisProject/vite.config.js

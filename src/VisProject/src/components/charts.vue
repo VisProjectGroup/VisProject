@@ -11,7 +11,6 @@
 </template>
 <script>
   import * as d3 from 'd3';
-  import { DOM } from 'd3-selection';
   
   export default {
     name: "Gradient-encoding",
@@ -87,14 +86,6 @@
           .domain([0, d3.max(this.data1, d => d.aqi)])
           .nice()
           .range([this.height, 0]);
-        
-        const color = d3.scaleSequential(y.domain(), d3.interpolateTurbo);
-        const line = d3.line()
-          .curve(d3.curveStep)
-          .defined(d => !isNaN(d.aqi))
-          .x(d => x(d.date))
-          .y(d => y(d.aqi));
-
 
         svg.append("g")
           .attr("transform", `translate(0, ${this.height})`)
@@ -118,32 +109,6 @@
           .on("mouseout", function (event, d) {
             d3.select(this).attr("fill", "steelblue");
           });
-        
-
-        // Append the color gradient.
-        const gradient = DOM.uid();
-        svg.append("linearGradient")
-            .attr("id", gradient.id)
-            .attr("gradientUnits", "userSpaceOnUse")
-            .attr("x1", 0)
-            .attr("y1", this.height)
-            .attr("x2", 0)
-            .attr("y2", 10)
-          .selectAll("stop")
-            .data(d3.ticks(0, 1, 10))
-          .join("stop")
-            .attr("offset", d => d)
-            .attr("stop-color", color.interpolator());
-
-        // Append the line.
-        svg.append("path")
-            .datum(this.data1)
-            .attr("fill", "none")
-            .attr("stroke", gradient)
-            .attr("stroke-width", 1.5)
-            .attr("stroke-linejoin", "round")
-            .attr("stroke-linecap", "round")
-            .attr("d", line);
       }
     }
   };
