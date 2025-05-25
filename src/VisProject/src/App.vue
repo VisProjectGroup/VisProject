@@ -10,7 +10,13 @@
       <p>app.vue 接收map.vue传递出的点击城市： {{ selectedCity}}</p>
       <ChartComponent :CityName="selectedCity" />
     </div>
-      
+    
+    <div class="polar-area">
+      <PolarAQIRainComponent :CityName="selectedCity"/>
+    </div>
+    <div class="polar-area">
+      <PolarAQIWindComponent :CityName="selectedCity"/>
+    </div>
   </div>
 </template>
 
@@ -18,6 +24,8 @@
 import { ref } from 'vue';
 import MapComponent from './components/Map.vue'; // 引入地图组件
 import ChartComponent from './components/charts.vue'; // 引入图表组件
+import PolarAQIRainComponent from './components/polar_aqi_rain.vue';
+import PolarAQIWindComponent from './components/polar_aqi_wind.vue';
 
 const selectedCity = ref('');
 
@@ -52,6 +60,12 @@ const handleCityClick = (CityName) => {
 
 .chart-area {
   width: 50%;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.polar-area {
+  width: 80%;
   background-color: #f5f5f5;
   padding: 20px;
 }
