@@ -14,8 +14,7 @@
           :class="['year-btn-rect', { active: selectedYear === y }]"
           @click="selectedYear = y"
           style="border-radius: 0; margin: 0; border: 1px solid #4a90e2; border-right: none; padding: 8px 20px; background: white; color: #4a90e2; font-size: 16px;"
-          :style="idx === years.length - 1 ? 'border-right:1px solid #4a90e2;' : ''"
-        >
+          :style="idx === years.length - 1 ? 'border-right:1px solid #4a90e2;' : ''">
           {{ y }}
         </button>
       </div>
@@ -72,7 +71,7 @@ export default {
       const wind = getMonthlyData(windData);
 
       return Array.from({length: 12}, (_, i) => ({
-        month: i + 1,  // 1-12 month
+        month: i + 1,
         precipitation: precipitation[i] || 0,
         wind: wind[i] || 0,
         aqi: aqi[i] || 0
@@ -114,8 +113,7 @@ export default {
         .append("g")
         .attr("transform", `translate(${margin.left},${margin.top})`);
 
-      // 为每个维度设置单独的数据范围
-      // 1. 构建每个维度的y比例尺
+      // 每个维度坐标轴自定义
       const y = {};
       this.dimensions.forEach(dim => {
         if (dim === "month") {
@@ -135,17 +133,17 @@ export default {
         }
       });
 
-      // 2. 构建x比例尺
+      // x 比例尺
       const x = d3.scalePoint()
         .domain(this.dimensions)
         .range([0, width]);
 
-      // 3. 构建颜色比例尺，按 AQI 绝对大小设置
+      // 按照 AQI 设置颜色比例尺
       const color = d3.scaleLinear()
         .domain([0, 50, 100, 150, 200, 300, 500])
-        .range(["#4ae24a", "#aee24a", "#ffe24a", "#ffc04a", "#ff7e4a", "#e24a4a", "#7e0023"]); // 绿-浅绿-黄-橙-橙红-红-紫红
+        .range(["#4ae24a", "#aee24a", "#ffe24a", "#ffc04a", "#ff7e4a", "#e24a4a", "#7e0023"]);
 
-      // 4. 绘制数据线
+      // 绘制数据线
       svg.selectAll(".data-line")
         .data(this.processedData)
         .enter()
@@ -153,11 +151,11 @@ export default {
         .attr("class", "data-line")
         .attr("d", d => d3.line()(this.dimensions.map(dim => [x(dim), y[dim](d[dim])])))
         .attr("stroke", d => color(d.aqi))
-        .attr("stroke-width", 2)
+        .attr("stroke-width", 2.4)
         .attr("fill", "none")
         .attr("opacity", 0.7);
 
-      // 5. 绘制坐标轴（每个轴独立范围）
+      // 绘制坐标轴
       this.dimensions.forEach(dim => {
         const axis = d3.axisLeft(y[dim]);
         svg.append("g")
@@ -167,6 +165,7 @@ export default {
           .style("text-anchor", "middle")
           .attr("y", -16)
           .attr("fill", "#333")
+          .style("font-size", "15px")
           .text(this.getAxisLabel(dim));
       });
 
@@ -188,32 +187,30 @@ export default {
         // 单击任何地方取消所有刷选
         d3.select(this.$refs.chartContainer)
           .on("click", (event) => {
-            // 只在点击非坐标轴和非刷选区域时响应
             if (event.target.tagName === "svg" || event.target.classList.contains("chart-container")) {
               this.brushedRegions.clear();
               this.dimensions.forEach(dim => {
-          d3.select(`.brush-${dim}`).call(brush.move, null);
-              });
-              this.updateHighlight();
-            }
+            d3.select(`.brush-${dim}`).call(brush.move, null);
+                });
+                this.updateHighlight();
+              }
           });
 
         // 如果有已刷选区域，恢复显示
         if (this.brushedRegions.has(dim)) {
           const [min, max] = this.brushedRegions.get(dim);
           d3.select(`.brush-${dim}`)
-        .call(brush.move, [y[dim](max), y[dim](min)]);
+            .call(brush.move, [y[dim](max), y[dim](min)]);
         }
       });
 
       // 悬浮显示线条数据
-      // 创建 tooltip
       let tooltip = d3.select(this.$refs.chartContainer)
         .selectAll(".pc-tooltip")
         .data([null])
         .join("div")
         .attr("class", "pc-tooltip")
-        .style("position", "absolute")
+        .style("position", "fixed")
         .style("pointer-events", "none")
         .style("background", "rgba(255,255,255,0.95)")
         .style("border", "1px solid #aaa")
@@ -224,7 +221,8 @@ export default {
         .style("box-shadow", "0 2px 8px rgba(0,0,0,0.15)")
         .style("display", "none")
         .style("z-index", 10);
-
+      
+      // 添加鼠标悬浮交互
       svg.selectAll(".data-line")
         .on("mouseover", function(event, d) {
           d3.select(this).attr("stroke-width", 4).attr("opacity", 1);
@@ -240,8 +238,8 @@ export default {
         })
         .on("mousemove", function(event) {
           tooltip
-        .style("left", (event.offsetX + 30) + "px")
-        .style("top", (event.offsetY + 30) + "px");
+          .style("left", (event.clientX + 20) + "px")
+          .style("top", (event.clientY + 20) + "px");
         })
         .on("mouseleave", function() {
           d3.select(this).attr("stroke-width", 2).attr("opacity", 0.7);
@@ -249,36 +247,36 @@ export default {
         });
         },
 
-        handleBrush(event, dim, yScales) {
+    handleBrush(event, dim, yScales) {
       if (!event.selection) return;
       const [y0, y1] = event.selection.map(yScales[dim].invert);
       this.brushedRegions.set(dim, [Math.min(y0, y1), Math.max(y0, y1)]);
       this.updateHighlight();
-        },
+    },
 
-        handleBrushEnd(event, dim, yScales) {
+    handleBrushEnd(event, dim, yScales) {
       // 如果没有刷选，清除该维度的刷选
       if (!event.selection) {
         this.brushedRegions.delete(dim);
         this.updateHighlight();
       }
-        },
+    },
 
-        updateHighlight() {
+    updateHighlight() {
       d3.selectAll(".data-line")
         .transition()
         .duration(200)
         .style("opacity", d =>
           Array.from(this.brushedRegions).every(([dim, [min, max]]) =>
-        d[dim] >= min && d[dim] <= max
-          ) ? 1 : 0.1
-        );
-        },
+           d[dim] >= min && d[dim] <= max
+        ) ? 1 : 0.1
+      );
+    },
 
     getAxisLabel(dim) {
       const labels = {
         precipitation: "降水量 (mm)",
-        wind: "风速 (km/hs)",
+        wind: "风速 (km/h)",
         aqi: "AQI 指数",
         month: "月份"
       };

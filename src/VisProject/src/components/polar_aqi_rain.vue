@@ -14,8 +14,7 @@
           :class="['year-btn-rect', { active: selectedYear === y }]"
           @click="selectedYear = y"
           style="border-radius: 0; margin: 0; border: 1px solid #4a90e2; border-right: none; padding: 8px 20px; background: white; color: #4a90e2; font-size: 16px;"
-          :style="idx === years.length - 1 ? 'border-right:1px solid #4a90e2;' : ''"
-        >
+          :style="idx === years.length - 1 ? 'border-right:1px solid #4a90e2;' : ''">
           {{ y }}
         </button>
       </div>
@@ -46,14 +45,6 @@ export default {
     Year: {
       type: String,
       default: "2015",
-    },
-    width: {
-      type: Number,
-      default: 500,
-    },
-    height: {
-      type: Number,
-      default: 300,
     },
   },
   data() {
@@ -115,7 +106,7 @@ export default {
         precipitation: precipMonths[i],
         aqi: aqiMonths[i],
       }));
-      this.mergedData = mergedData; // 保存数据用于点击时显示
+      this.mergedData = mergedData;
 
       const width = 800;
       const height = 600;
@@ -177,6 +168,7 @@ export default {
         .attr("stroke", "#4a90e2")
         .attr("stroke-width", 2);
 
+      // 月份扇形级交互
       chart.selectAll(".month-hover")
         .data(mergedData)
         .join("path")
@@ -237,7 +229,7 @@ export default {
         .attr("class", "legend")
         .attr("transform", `translate(${width - 150}, 20)`);
 
-      // AQI 区域
+      // AQI 区域图例
       legend
         .append("rect")
         .attr("width", 20)
@@ -250,7 +242,7 @@ export default {
         .attr("y", 15)
         .text("AQI");
 
-      // 降水折线
+      // 降水折线图例
       legend
         .append("path")
         .attr("d", d3.line()([[0, 40], [20, 40]]))

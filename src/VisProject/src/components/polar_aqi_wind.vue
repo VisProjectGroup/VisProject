@@ -14,15 +14,14 @@
           :class="['year-btn-rect', { active: selectedYear === y }]"
           @click="selectedYear = y"
           style="border-radius: 0; margin: 0; border: 1px solid #4a90e2; border-right: none; padding: 8px 20px; background: white; color: #4a90e2; font-size: 16px;"
-          :style="idx === years.length - 1 ? 'border-right:1px solid #4a90e2;' : ''"
-        >
+          :style="idx === years.length - 1 ? 'border-right:1px solid #4a90e2;' : ''">
           {{ y }}
         </button>
       </div>
     </div>
     <div ref="chartContainer" class="chart-container" style="display: flex; justify-content: center;"></div>
     <div v-if="selectedMonth !== null" style="margin-top: 16px; font-size: 18px;">
-      <b>{{ months[selectedMonth] }}</b> - 风速: {{ monthData.winditation.toFixed(2) }} km/h, AQI: {{ monthData.aqi.toFixed(2) }}
+      <b>{{ months[selectedMonth] }}</b> - 风速: {{ monthData.wind.toFixed(2) }} km/h, AQI: {{ monthData.aqi.toFixed(2) }}
     </div>
   </div>
 </template>
@@ -46,14 +45,6 @@ export default {
     Year: {
       type: String,
       default: "2015",
-    },
-    width: {
-      type: Number,
-      default: 500,
-    },
-    height: {
-      type: Number,
-      default: 300,
     },
   },
   data() {
@@ -112,10 +103,10 @@ export default {
 
       const mergedData = Array.from({ length: 12 }, (_, i) => ({
         month: i,
-        winditation: windMonths[i],
+        wind: windMonths[i],
         aqi: aqiMonths[i],
       }));
-      this.mergedData = mergedData; // 保存数据用于点击时显示
+      this.mergedData = mergedData;
 
       const width = 800;
       const height = 600;
@@ -141,11 +132,11 @@ export default {
         .domain([0, radiusMax])
         .range([0, Math.min(width, height) / 2 - Math.max(margin.top, margin.bottom)]);
 
-      const winditationArea = d3
+      const windArea = d3
         .areaRadial()
         .angle((d) => angleScale(d.month))
         .innerRadius(0)
-        .outerRadius((d) => radiusScale(d.winditation) / aqi_scaling)
+        .outerRadius((d) => radiusScale(d.wind) / aqi_scaling)
         .curve(d3.curveLinearClosed);
       
       const aqiLine = d3
@@ -172,7 +163,7 @@ export default {
       chart
         .append("path")
         .datum(mergedData)
-        .attr("d", winditationArea)
+        .attr("d", windArea)
         .attr("fill", "none")
         .attr("stroke", "#f39c12")
         .attr("stroke-width", 2);
@@ -189,7 +180,7 @@ export default {
         )
         .attr("fill", "transparent")
         .attr("cursor", "pointer")
-        .on("mouseover", (event, d) => {
+        .on("mouseover", (d) => {
           this.selectedMonth = d.month;
           this.monthData = d;
         })
@@ -237,7 +228,7 @@ export default {
         .attr("class", "legend")
         .attr("transform", `translate(${width - 150}, 20)`);
 
-      // AQI 区域
+      // AQI 区域图例
       legend
         .append("rect")
         .attr("width", 20)
@@ -250,11 +241,11 @@ export default {
         .attr("y", 15)
         .text("AQI");
 
-      // 风速折线
+      // 风速折线图例
       legend
         .append("path")
         .attr("d", d3.line()([[0, 40], [20, 40]]))
-        .attr("stroke", "#4a90e2")
+        .attr("stroke", "#f39c12")
         .attr("stroke-width", 2);
       legend
         .append("text")

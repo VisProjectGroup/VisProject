@@ -12,7 +12,7 @@
 
 <script>
 import * as d3 from "d3";
-import industryData from "../assets/data/yearly_data/2015-2021_energy_consumption_per_year.json"
+import energyData from "../assets/data/yearly_data/2015-2021_energy_consumption_per_year.json"
 import precipData from "../assets/data/yearly_data/2015-2021_precipitation_per_year.json";
 import aqiData from "../assets/data/yearly_data/2015-2021_aqi_per_year.json";
 import windData from "../assets/data/yearly_data/2015-2021_wind_speed_per_year.json";
@@ -46,15 +46,15 @@ export default {
   },
   computed: {
     processedData() {
-      // 适配你提供的数据结构：数组，每个元素有 city, city_code, years（对象，key为年份）
+
       const getYearlyValue = (dataset) => {
       const city = dataset.find(d => d.city === this.CityName);
       if (!city || !city.years) return [];
-        // years 为对象，按顺序取出 2015-2021
+
         return this.years.map(y => city.years[y] !== undefined ? Number(city.years[y]) : null);
       };
 
-      const industry = getYearlyValue(industryData);
+      const industry = getYearlyValue(energyData);
       const precipitation = getYearlyValue(precipData);
       const aqi = getYearlyValue(aqiData);
       const wind = getYearlyValue(windData);
@@ -70,7 +70,7 @@ export default {
         !isNaN(d.precipitation) &&
         !isNaN(d.wind) &&
         !isNaN(d.aqi)
-        );
+      );
     }
     },
   watch: {
@@ -102,7 +102,6 @@ export default {
         .attr("transform", `translate(${margin.left},${margin.top})`);
 
       // 为每个维度设置单独的数据范围
-      // 1. 构建每个维度的y比例尺
       const y = {};
       this.dimensions.forEach(dim => {
         if (dim === "years") {
@@ -117,17 +116,17 @@ export default {
         }
       });
 
-      // 2. 构建x比例尺
+      // 构建 x 比例尺
       const x = d3.scalePoint()
         .domain(this.dimensions)
         .range([0, width]);
 
-      // 3. 构建颜色比例尺，按 AQI 绝对大小设置
+      // 按 AQI 指数设置颜色比例尺
       const color = d3.scaleLinear()
         .domain([0, 50, 100, 150, 200, 300, 500])
-        .range(["#4ae24a", "#aee24a", "#ffe24a", "#ffc04a", "#ff7e4a", "#e24a4a", "#7e0023"]); // 绿-浅绿-黄-橙-橙红-红-紫红
+        .range(["#4ae24a", "#aee24a", "#ffe24a", "#ffc04a", "#ff7e4a", "#e24a4a", "#7e0023"]);
 
-      // 4. 绘制数据线
+      // 绘制数据线
       svg.selectAll(".data-line")
         .data(this.processedData)
         .enter()
@@ -139,7 +138,7 @@ export default {
         .attr("fill", "none")
         .attr("opacity", 0.7);
 
-      // 5. 绘制坐标轴（每个轴独立范围）
+      // 绘制坐标轴
       this.dimensions.forEach(dim => {
         const axis = d3.axisLeft(y[dim])
           .tickFormat(d3.format("d"));
@@ -150,7 +149,8 @@ export default {
           .style("text-anchor", "middle")
           .attr("y", -16)
           .attr("fill", "#333")
-          .text(this.getAxisLabel(dim));
+          .text(this.getAxisLabel(dim))
+          .style("font-size", "15px");
       });
 
       // 初始化刷选区域
@@ -171,7 +171,6 @@ export default {
         // 单击任何地方取消所有刷选
         d3.select(this.$refs.chartContainer)
           .on("click", (event) => {
-            // 只在点击非坐标轴和非刷选区域时响应
             if (event.target.tagName === "svg" || event.target.classList.contains("chart-container")) {
               this.brushedRegions.clear();
               this.dimensions.forEach(dim => {
@@ -190,13 +189,12 @@ export default {
       });
 
       // 悬浮显示线条数据
-      // 创建 tooltip
       let tooltip = d3.select(this.$refs.chartContainer)
         .selectAll(".pc-tooltip")
         .data([null])
         .join("div")
         .attr("class", "pc-tooltip")
-        .style("position", "absolute")
+        .style("position", "fixed")
         .style("pointer-events", "none")
         .style("background", "rgba(255,255,255,0.95)")
         .style("border", "1px solid #aaa")
@@ -208,6 +206,7 @@ export default {
         .style("display", "none")
         .style("z-index", 10);
 
+      // 添加鼠标悬浮交互
       svg.selectAll(".data-line")
         .on("mouseover", function(event, d) {
           d3.select(this).attr("stroke-width", 4).attr("opacity", 1);
@@ -215,22 +214,22 @@ export default {
         .style("display", "block")
         .style("text-align", "left")
         .html(
-            `<div><b>年份:</b> ${d.years}</div>
-             <div><b>AQI:</b> ${d.aqi.toFixed(2)}</div>
-             <div><b>降水量:</b> ${d.precipitation.toFixed(2)} mm</div>
-             <div><b>风速:</b> ${d.wind.toFixed(2)} km/h</div>
-             <div><b>能源消耗:</b> ${d.industry.toFixed(2)} kwh</div>`
-          );
+          `<div><b>年份:</b> ${d.years}</div>
+           <div><b>AQI:</b> ${d.aqi.toFixed(2)}</div>
+           <div><b>降水量:</b> ${d.precipitation.toFixed(2)} mm</div>
+           <div><b>风速:</b> ${d.wind.toFixed(2)} km/h</div>
+           <div><b>能源消耗:</b> ${d.industry.toFixed(2)} kwh</div>`
+        );
         })
         .on("mousemove", function(event) {
           tooltip
-        .style("left", (event.offsetX + 30) + "px")
-        .style("top", (event.offsetY + 30) + "px");
+        .style("left", (event.clientX + 20) + "px")
+        .style("top", (event.clientY + 20) + "px");
         })
         .on("mouseleave", function() {
-          d3.select(this).attr("stroke-width", 2).attr("opacity", 0.7);
+          d3.select(this).attr("stroke-width", 2.4).attr("opacity", 0.7);
           tooltip.style("display", "none");
-      });
+        });
       },
 
       handleBrush(event, dim, yScales) {
@@ -240,8 +239,7 @@ export default {
         this.updateHighlight();
       },
 
-      handleBrushEnd(event, dim, yScales) {
-        // 如果没有刷选，清除该维度的刷选
+      handleBrushEnd(event, dim) {
         if (!event.selection) {
           this.brushedRegions.delete(dim);
           this.updateHighlight();
@@ -263,7 +261,7 @@ export default {
       const labels = {
         industry: "能源消耗 (kwh)",
         precipitation: "降水量 (mm)",
-        wind: "风速 (km/hs)",
+        wind: "风速 (km/h)",
         aqi: "AQI 指数",
         years: "年份"
       };
@@ -282,11 +280,6 @@ export default {
   fill: none;
   stroke-width: 1.5;
   transition: opacity 0.2s ease;
-}
-
-.year-btn-rect.active {
-  background-color: #4a90e2 !important;
-  color: white !important;
 }
 
 .axis text {
