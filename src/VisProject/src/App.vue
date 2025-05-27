@@ -17,6 +17,12 @@
     <div class="polar-area">
       <PolarAQIWindComponent :CityName="selectedCity"/>
     </div>
+    <div class="right-panel">
+      <ParallelMonthlyComponent :CityName="selectedCity"/>
+    </div>
+    <div class="right-panel">
+      <ParallelYearlyComponent :CityName="selectedCity"/>
+    </div>
   </div>
 </template>
 
@@ -26,6 +32,8 @@ import MapComponent from './components/Map.vue'; // 引入地图组件
 import ChartComponent from './components/charts.vue'; // 引入图表组件
 import PolarAQIRainComponent from './components/polar_aqi_rain.vue';
 import PolarAQIWindComponent from './components/polar_aqi_wind.vue';
+import ParallelMonthlyComponent from './components/parralel_monthly.vue';
+import ParallelYearlyComponent from './components/parralel_yearly.vue';
 
 const selectedCity = ref('');
 
