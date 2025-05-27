@@ -1,8 +1,5 @@
 <template>
     <div class="chart-container">
-      <div>
-        <p>{{this.debugmessage}}绘图器被输入 {{databelong}}的 {{ readdatanum }} 个数据</p>
-      </div>
       <div class="date-selector">
         <label>起始日期：</label>
         <input type="date" v-model="startDate">
