@@ -71,7 +71,6 @@ import PolarAQIRainComponent from './components/polar_aqi_rain.vue';
 import PolarAQIWindComponent from './components/polar_aqi_wind.vue';
 import ParallelMonthlyComponent from './components/parralel_monthly.vue';
 import ParallelYearlyComponent from './components/parralel_yearly.vue';
-import { active } from 'd3';
 
 const selectedCity = ref('');
 
