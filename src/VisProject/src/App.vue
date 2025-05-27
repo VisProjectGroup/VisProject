@@ -43,7 +43,7 @@
     </div>
     <!-- 右侧面板：显示选中的省份 -->
     <div class="polar-area" v-if="columAQIshow">
-      <ChartComponent :CityName="selectedCity" />
+      <ColumnAQIComponent :CityName="selectedCity" />
     </div>
     
     <div class="polar-area" v-if="roseAQIrainshow">
@@ -66,12 +66,11 @@
 import { ElContainer, ElAside, ElMenu, ElSubMenu, ElMenuItem, ElMenuItemGroup } from 'element-plus';
 import { ref } from 'vue';
 import MapComponent from './components/Map.vue'; // 引入地图组件
-import ChartComponent from './components/charts.vue'; // 引入图表组件
+import ColumnAQIComponent from './components/ColumnAQI.vue'; // 引入柱状图1
 import PolarAQIRainComponent from './components/polar_aqi_rain.vue';
 import PolarAQIWindComponent from './components/polar_aqi_wind.vue';
 import ParallelMonthlyComponent from './components/parralel_monthly.vue';
 import ParallelYearlyComponent from './components/parralel_yearly.vue';
-import { active } from 'd3';
 
 const selectedCity = ref('');
 
