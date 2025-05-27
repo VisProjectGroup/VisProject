@@ -53,6 +53,12 @@
       let options = {
           title: {//配置地图标题，主标题是 "中国地图"，副标题设置了一个链接
           text: '中国地图',
+          textStyle: {
+              fontSize: 24,  // 加大字体
+              fontWeight: 'bold'  // 加粗
+          },
+          left: 250, 
+          top: 20,  // 距离顶部的距离
           sublink:
               'http://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E8%A1%8C%E6%94%BF%E5%8D%80%E5%8A%83#cite_note-12'
           },
@@ -120,6 +126,7 @@
   width: 100%;  /* 占满父容器宽度 */
   height: 80vh; /* 使用视口高度的80% */
   margin: 0 auto;
+  overflow: hidden; /* 添加overflow:hidden使超出部分隐藏 */
 }
 
 #mapDom {
