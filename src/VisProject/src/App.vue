@@ -33,6 +33,15 @@
     <div class="polar-area" v-if="columAQIshow">
       <ColumnAQIComponent :CityName="selectedCity" />
     </div>
+    <div class="polar-area" v-if="columRainshow">
+      <ColumnRainComponent :CityName="selectedCity" />
+    </div>
+    <div class="polar-area" v-if="columWindshow">
+      <ColumnWindComponent :CityName="selectedCity" />
+    </div>
+    <div class="polar-area" v-if="columFactoryshow">
+      <ColumnFactoryComponent :CityName="selectedCity" />
+    </div>
     <div class="polar-area" v-if="roseAQIrainshow">
       <PolarAQIRainComponent :CityName="selectedCity"/>
     </div>
@@ -53,12 +62,15 @@ import { ElContainer, ElAside, ElMenu, ElSubMenu, ElMenuItem } from 'element-plu
 import { ref } from 'vue';
 import MapComponent from './components/Map.vue';
 import ColumnAQIComponent from './components/ColumnAQI.vue';
+import ColumnRainComponent from './components/ColumnRain.vue';
+import ColumnWindComponent from './components/ColumnWind.vue';
+import ColumnFactoryComponent from './components/ColumnFactory.vue';
 import PolarAQIRainComponent from './components/polar_aqi_rain.vue';
 import PolarAQIWindComponent from './components/polar_aqi_wind.vue';
 import ParallelMonthlyComponent from './components/parralel_monthly.vue';
 import ParallelYearlyComponent from './components/parralel_yearly.vue';
 
-const selectedCity = ref('');
+const selectedCity = ref('杭州市');
 const handleCityClick = (CityName) => {
   selectedCity.value = CityName;
 };
@@ -117,10 +129,6 @@ const ChartData = [
       {
         id : 42,
         functionName : "风力-空气质量玫瑰图"
-      },
-      {
-        id : 43,
-        functionName : "工业产值-空气质量玫瑰图",
       }
 
     ]
@@ -162,7 +170,6 @@ export default {
       columFactoryshow: false,
       roseAQIrainshow: false,
       roseAQIwindshow: false,
-      roseFactoryshow: false,
       lineshow: false,
       bubbleshow: false,
       heatmapshow: false,
@@ -200,9 +207,6 @@ export default {
       if(newval === 42){
         this.roseAQIwindshow = true;
       }
-      if(newval === 43){
-        this.roseFactoryshow = true;
-      }
       if(newval === 21){
         this.lineshow = true;
       }
@@ -235,9 +239,6 @@ export default {
       }
       if(oldval === 42){
         this.roseAQIwindshow = false;
-      }
-      if(oldval === 43){
-        this.roseFactoryshow = false;
       }
       if(oldval === 21){
         this.lineshow = false;

@@ -1,0 +1,10230 @@
+[
+  {
+    "date": "2015/1/1",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/1/10",
+    "precipitation": 6.7355935924
+  },
+  {
+    "date": "2015/1/11",
+    "precipitation": 21.1256732619
+  },
+  {
+    "date": "2015/1/12",
+    "precipitation": 25.3432455913
+  },
+  {
+    "date": "2015/1/13",
+    "precipitation": 11.8934074425
+  },
+  {
+    "date": "2015/1/14",
+    "precipitation": 0.057956084981
+  },
+  {
+    "date": "2015/1/15",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/1/16",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/1/17",
+    "precipitation": 0.000721460935402
+  },
+  {
+    "date": "2015/1/18",
+    "precipitation": 0.0785919013601
+  },
+  {
+    "date": "2015/1/19",
+    "precipitation": 0.0427765069193
+  },
+  {
+    "date": "2015/1/2",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/1/20",
+    "precipitation": 0.0678108494033
+  },
+  {
+    "date": "2015/1/21",
+    "precipitation": 0.0525321288797
+  },
+  {
+    "date": "2015/1/22",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/1/23",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/1/24",
+    "precipitation": 0.145441906959
+  },
+  {
+    "date": "2015/1/25",
+    "precipitation": 0.25366776696
+  },
+  {
+    "date": "2015/1/26",
+    "precipitation": 0.444848642552
+  },
+  {
+    "date": "2015/1/27",
+    "precipitation": 2.26127022376
+  },
+  {
+    "date": "2015/1/28",
+    "precipitation": 0.710140409276
+  },
+  {
+    "date": "2015/1/29",
+    "precipitation": 1.07939546805
+  },
+  {
+    "date": "2015/1/3",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/1/30",
+    "precipitation": 0.20054335526
+  },
+  {
+    "date": "2015/1/31",
+    "precipitation": 0.229494445288
+  },
+  {
+    "date": "2015/1/4",
+    "precipitation": 0.134627047527
+  },
+  {
+    "date": "2015/1/5",
+    "precipitation": 1.17525331802
+  },
+  {
+    "date": "2015/1/6",
+    "precipitation": 1.69952428499
+  },
+  {
+    "date": "2015/1/7",
+    "precipitation": 0.646086964693
+  },
+  {
+    "date": "2015/1/8",
+    "precipitation": 0.0144421740842
+  },
+  {
+    "date": "2015/1/9",
+    "precipitation": 2.35483911037
+  },
+  {
+    "date": "2015/10/1",
+    "precipitation": 0.135920105619
+  },
+  {
+    "date": "2015/10/10",
+    "precipitation": 10.1963143659
+  },
+  {
+    "date": "2015/10/11",
+    "precipitation": 3.95002219304
+  },
+  {
+    "date": "2015/10/12",
+    "precipitation": 0.00224622658577
+  },
+  {
+    "date": "2015/10/13",
+    "precipitation": 0.00315438752197
+  },
+  {
+    "date": "2015/10/14",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/10/15",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/10/16",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/10/17",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/10/18",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/10/19",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/10/2",
+    "precipitation": 0.00119063789586
+  },
+  {
+    "date": "2015/10/20",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/10/21",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/10/22",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/10/23",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/10/24",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/10/25",
+    "precipitation": 0.636799941616
+  },
+  {
+    "date": "2015/10/26",
+    "precipitation": 4.93702195653
+  },
+  {
+    "date": "2015/10/27",
+    "precipitation": 1.4028945646
+  },
+  {
+    "date": "2015/10/28",
+    "precipitation": 4.3354769915
+  },
+  {
+    "date": "2015/10/29",
+    "precipitation": 6.74969820804
+  },
+  {
+    "date": "2015/10/3",
+    "precipitation": 1.61775624298
+  },
+  {
+    "date": "2015/10/30",
+    "precipitation": 12.4174120248
+  },
+  {
+    "date": "2015/10/31",
+    "precipitation": 31.9976691717
+  },
+  {
+    "date": "2015/10/4",
+    "precipitation": 41.0562568756
+  },
+  {
+    "date": "2015/10/5",
+    "precipitation": 74.5627620927
+  },
+  {
+    "date": "2015/10/6",
+    "precipitation": 18.5032810625
+  },
+  {
+    "date": "2015/10/7",
+    "precipitation": 4.01214934315
+  },
+  {
+    "date": "2015/10/8",
+    "precipitation": 1.02420687146
+  },
+  {
+    "date": "2015/10/9",
+    "precipitation": 0.336014981382
+  },
+  {
+    "date": "2015/11/1",
+    "precipitation": 3.54354121829
+  },
+  {
+    "date": "2015/11/10",
+    "precipitation": 13.4520910309
+  },
+  {
+    "date": "2015/11/11",
+    "precipitation": 27.6668280774
+  },
+  {
+    "date": "2015/11/12",
+    "precipitation": 48.5864231202
+  },
+  {
+    "date": "2015/11/13",
+    "precipitation": 19.5255314563
+  },
+  {
+    "date": "2015/11/14",
+    "precipitation": 9.39341067076
+  },
+  {
+    "date": "2015/11/15",
+    "precipitation": 16.8458553774
+  },
+  {
+    "date": "2015/11/16",
+    "precipitation": 20.9081261371
+  },
+  {
+    "date": "2015/11/17",
+    "precipitation": 1.59231111249
+  },
+  {
+    "date": "2015/11/18",
+    "precipitation": 0.299159352625
+  },
+  {
+    "date": "2015/11/19",
+    "precipitation": 0.977241130119
+  },
+  {
+    "date": "2015/11/2",
+    "precipitation": 0.490929187457
+  },
+  {
+    "date": "2015/11/20",
+    "precipitation": 22.7599434657
+  },
+  {
+    "date": "2015/11/21",
+    "precipitation": 6.0357694511
+  },
+  {
+    "date": "2015/11/22",
+    "precipitation": 0.202412385675
+  },
+  {
+    "date": "2015/11/23",
+    "precipitation": 0.0522165902138
+  },
+  {
+    "date": "2015/11/24",
+    "precipitation": 0.831284977047
+  },
+  {
+    "date": "2015/11/25",
+    "precipitation": 0.630701564773
+  },
+  {
+    "date": "2015/11/26",
+    "precipitation": 0.0220629026126
+  },
+  {
+    "date": "2015/11/27",
+    "precipitation": 0.217454789871
+  },
+  {
+    "date": "2015/11/28",
+    "precipitation": 2.28896383291
+  },
+  {
+    "date": "2015/11/29",
+    "precipitation": 1.71745406576
+  },
+  {
+    "date": "2015/11/3",
+    "precipitation": 0.121980379006
+  },
+  {
+    "date": "2015/11/30",
+    "precipitation": 0.546239803893
+  },
+  {
+    "date": "2015/11/4",
+    "precipitation": 0.00147178031684
+  },
+  {
+    "date": "2015/11/5",
+    "precipitation": 0.0802977379358
+  },
+  {
+    "date": "2015/11/6",
+    "precipitation": 5.70927395361
+  },
+  {
+    "date": "2015/11/7",
+    "precipitation": 3.78410386694
+  },
+  {
+    "date": "2015/11/8",
+    "precipitation": 25.68982987
+  },
+  {
+    "date": "2015/11/9",
+    "precipitation": 2.03535730724
+  },
+  {
+    "date": "2015/12/1",
+    "precipitation": 3.68965309241
+  },
+  {
+    "date": "2015/12/10",
+    "precipitation": 5.74531795282
+  },
+  {
+    "date": "2015/12/11",
+    "precipitation": 2.70028511903
+  },
+  {
+    "date": "2015/12/12",
+    "precipitation": 7.28071690353
+  },
+  {
+    "date": "2015/12/13",
+    "precipitation": 9.9712394588
+  },
+  {
+    "date": "2015/12/14",
+    "precipitation": 5.9792118665
+  },
+  {
+    "date": "2015/12/15",
+    "precipitation": 0.116999852599
+  },
+  {
+    "date": "2015/12/16",
+    "precipitation": 0.123330993816
+  },
+  {
+    "date": "2015/12/17",
+    "precipitation": 0.0621422275766
+  },
+  {
+    "date": "2015/12/18",
+    "precipitation": 0.00100704297558
+  },
+  {
+    "date": "2015/12/19",
+    "precipitation": 0.00472960968738
+  },
+  {
+    "date": "2015/12/2",
+    "precipitation": 5.65657169934
+  },
+  {
+    "date": "2015/12/20",
+    "precipitation": 0.012961049333
+  },
+  {
+    "date": "2015/12/21",
+    "precipitation": 1.00653487415
+  },
+  {
+    "date": "2015/12/22",
+    "precipitation": 22.0032176397
+  },
+  {
+    "date": "2015/12/23",
+    "precipitation": 3.98443241866
+  },
+  {
+    "date": "2015/12/24",
+    "precipitation": 2.63700405805
+  },
+  {
+    "date": "2015/12/25",
+    "precipitation": 2.26938954735
+  },
+  {
+    "date": "2015/12/26",
+    "precipitation": 15.1428598565
+  },
+  {
+    "date": "2015/12/27",
+    "precipitation": 10.8497317992
+  },
+  {
+    "date": "2015/12/28",
+    "precipitation": 1.56476901425
+  },
+  {
+    "date": "2015/12/29",
+    "precipitation": 8.23258546921
+  },
+  {
+    "date": "2015/12/3",
+    "precipitation": 4.70228492481
+  },
+  {
+    "date": "2015/12/30",
+    "precipitation": 6.33029761889
+  },
+  {
+    "date": "2015/12/31",
+    "precipitation": 1.07653067758
+  },
+  {
+    "date": "2015/12/4",
+    "precipitation": 15.687326491
+  },
+  {
+    "date": "2015/12/5",
+    "precipitation": 23.5430560698
+  },
+  {
+    "date": "2015/12/6",
+    "precipitation": 12.4851885876
+  },
+  {
+    "date": "2015/12/7",
+    "precipitation": 0.124904115588
+  },
+  {
+    "date": "2015/12/8",
+    "precipitation": 13.5208714129
+  },
+  {
+    "date": "2015/12/9",
+    "precipitation": 19.7764722537
+  },
+  {
+    "date": "2015/2/1",
+    "precipitation": 0.123735746719
+  },
+  {
+    "date": "2015/2/10",
+    "precipitation": 0.0836593081198
+  },
+  {
+    "date": "2015/2/11",
+    "precipitation": 0.0981972803306
+  },
+  {
+    "date": "2015/2/12",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/2/13",
+    "precipitation": 0.174639165563
+  },
+  {
+    "date": "2015/2/14",
+    "precipitation": 9.8726749064
+  },
+  {
+    "date": "2015/2/15",
+    "precipitation": 1.48696604508
+  },
+  {
+    "date": "2015/2/16",
+    "precipitation": 2.6097528426
+  },
+  {
+    "date": "2015/2/17",
+    "precipitation": 2.06455440291
+  },
+  {
+    "date": "2015/2/18",
+    "precipitation": 5.86496809965
+  },
+  {
+    "date": "2015/2/19",
+    "precipitation": 4.61308568587
+  },
+  {
+    "date": "2015/2/2",
+    "precipitation": 0.256397029425
+  },
+  {
+    "date": "2015/2/20",
+    "precipitation": 6.55558994908
+  },
+  {
+    "date": "2015/2/21",
+    "precipitation": 7.80930807073
+  },
+  {
+    "date": "2015/2/22",
+    "precipitation": 1.98515915404
+  },
+  {
+    "date": "2015/2/23",
+    "precipitation": 1.12214890641
+  },
+  {
+    "date": "2015/2/24",
+    "precipitation": 0.241941716926
+  },
+  {
+    "date": "2015/2/25",
+    "precipitation": 0.892641855256
+  },
+  {
+    "date": "2015/2/26",
+    "precipitation": 0.555575521236
+  },
+  {
+    "date": "2015/2/27",
+    "precipitation": 0.356395475315
+  },
+  {
+    "date": "2015/2/28",
+    "precipitation": 1.66752037183
+  },
+  {
+    "date": "2015/2/3",
+    "precipitation": 1.55712003133
+  },
+  {
+    "date": "2015/2/4",
+    "precipitation": 1.06320686843
+  },
+  {
+    "date": "2015/2/5",
+    "precipitation": 0.381870150656
+  },
+  {
+    "date": "2015/2/6",
+    "precipitation": 0.0415555623719
+  },
+  {
+    "date": "2015/2/7",
+    "precipitation": 0.0914730552719
+  },
+  {
+    "date": "2015/2/8",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/2/9",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/3/1",
+    "precipitation": 0.0847704610148
+  },
+  {
+    "date": "2015/3/10",
+    "precipitation": 2.85779206667
+  },
+  {
+    "date": "2015/3/11",
+    "precipitation": 5.81189254853
+  },
+  {
+    "date": "2015/3/12",
+    "precipitation": 3.59638564213
+  },
+  {
+    "date": "2015/3/13",
+    "precipitation": 3.43019921952
+  },
+  {
+    "date": "2015/3/14",
+    "precipitation": 3.7514568573
+  },
+  {
+    "date": "2015/3/15",
+    "precipitation": 2.46830902875
+  },
+  {
+    "date": "2015/3/16",
+    "precipitation": 0.598665550746
+  },
+  {
+    "date": "2015/3/17",
+    "precipitation": 0.376079798786
+  },
+  {
+    "date": "2015/3/18",
+    "precipitation": 0.128477160704
+  },
+  {
+    "date": "2015/3/19",
+    "precipitation": 0.00323036919146
+  },
+  {
+    "date": "2015/3/2",
+    "precipitation": 2.68969231973
+  },
+  {
+    "date": "2015/3/20",
+    "precipitation": 0.0110173247721
+  },
+  {
+    "date": "2015/3/21",
+    "precipitation": 0.264604339376
+  },
+  {
+    "date": "2015/3/22",
+    "precipitation": 2.33046992299
+  },
+  {
+    "date": "2015/3/23",
+    "precipitation": 10.6459201537
+  },
+  {
+    "date": "2015/3/24",
+    "precipitation": 4.08881665425
+  },
+  {
+    "date": "2015/3/25",
+    "precipitation": 2.19238526333
+  },
+  {
+    "date": "2015/3/26",
+    "precipitation": 0.311414961862
+  },
+  {
+    "date": "2015/3/27",
+    "precipitation": 0.100476195098
+  },
+  {
+    "date": "2015/3/28",
+    "precipitation": 2.38116640025
+  },
+  {
+    "date": "2015/3/29",
+    "precipitation": 2.19964465212
+  },
+  {
+    "date": "2015/3/3",
+    "precipitation": 4.28933309963
+  },
+  {
+    "date": "2015/3/30",
+    "precipitation": 2.22839422197
+  },
+  {
+    "date": "2015/3/31",
+    "precipitation": 0.133846425887
+  },
+  {
+    "date": "2015/3/4",
+    "precipitation": 1.01645820012
+  },
+  {
+    "date": "2015/3/5",
+    "precipitation": 6.37863695593
+  },
+  {
+    "date": "2015/3/6",
+    "precipitation": 1.14855997203
+  },
+  {
+    "date": "2015/3/7",
+    "precipitation": 1.17375056485
+  },
+  {
+    "date": "2015/3/8",
+    "precipitation": 1.42698174902
+  },
+  {
+    "date": "2015/3/9",
+    "precipitation": 0.458455379972
+  },
+  {
+    "date": "2015/4/1",
+    "precipitation": 0.134914620283
+  },
+  {
+    "date": "2015/4/10",
+    "precipitation": 6.49872448272
+  },
+  {
+    "date": "2015/4/11",
+    "precipitation": 1.23330169255
+  },
+  {
+    "date": "2015/4/12",
+    "precipitation": 0.383187698384
+  },
+  {
+    "date": "2015/4/13",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/4/14",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/4/15",
+    "precipitation": 0.0260799755612
+  },
+  {
+    "date": "2015/4/16",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/4/17",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/4/18",
+    "precipitation": 0.000906996611865
+  },
+  {
+    "date": "2015/4/19",
+    "precipitation": 19.8667982952
+  },
+  {
+    "date": "2015/4/2",
+    "precipitation": 1.83921319774
+  },
+  {
+    "date": "2015/4/20",
+    "precipitation": 5.2475009608
+  },
+  {
+    "date": "2015/4/21",
+    "precipitation": 2.59073804071
+  },
+  {
+    "date": "2015/4/22",
+    "precipitation": 0.495578302115
+  },
+  {
+    "date": "2015/4/23",
+    "precipitation": 1.22902596737
+  },
+  {
+    "date": "2015/4/24",
+    "precipitation": 0.825855480547
+  },
+  {
+    "date": "2015/4/25",
+    "precipitation": 0.399086888556
+  },
+  {
+    "date": "2015/4/26",
+    "precipitation": 1.61840556553
+  },
+  {
+    "date": "2015/4/27",
+    "precipitation": 1.83169053779
+  },
+  {
+    "date": "2015/4/28",
+    "precipitation": 3.58096443659
+  },
+  {
+    "date": "2015/4/29",
+    "precipitation": 1.41524825613
+  },
+  {
+    "date": "2015/4/3",
+    "precipitation": 0.113145076124
+  },
+  {
+    "date": "2015/4/30",
+    "precipitation": 6.31512092424
+  },
+  {
+    "date": "2015/4/4",
+    "precipitation": 5.56725243761
+  },
+  {
+    "date": "2015/4/5",
+    "precipitation": 0.426262133586
+  },
+  {
+    "date": "2015/4/6",
+    "precipitation": 0.855622963661
+  },
+  {
+    "date": "2015/4/7",
+    "precipitation": 5.86483489979
+  },
+  {
+    "date": "2015/4/8",
+    "precipitation": 4.39769393277
+  },
+  {
+    "date": "2015/4/9",
+    "precipitation": 7.37551323017
+  },
+  {
+    "date": "2015/5/1",
+    "precipitation": 21.1537774764
+  },
+  {
+    "date": "2015/5/10",
+    "precipitation": 14.9665489243
+  },
+  {
+    "date": "2015/5/11",
+    "precipitation": 21.4375586981
+  },
+  {
+    "date": "2015/5/12",
+    "precipitation": 12.349330662
+  },
+  {
+    "date": "2015/5/13",
+    "precipitation": 0.148969250101
+  },
+  {
+    "date": "2015/5/14",
+    "precipitation": 15.657837966
+  },
+  {
+    "date": "2015/5/15",
+    "precipitation": 30.1879544637
+  },
+  {
+    "date": "2015/5/16",
+    "precipitation": 5.75763945838
+  },
+  {
+    "date": "2015/5/17",
+    "precipitation": 5.65600186227
+  },
+  {
+    "date": "2015/5/18",
+    "precipitation": 19.1115122669
+  },
+  {
+    "date": "2015/5/19",
+    "precipitation": 30.2291837118
+  },
+  {
+    "date": "2015/5/2",
+    "precipitation": 11.5961310967
+  },
+  {
+    "date": "2015/5/20",
+    "precipitation": 50.804290675
+  },
+  {
+    "date": "2015/5/21",
+    "precipitation": 8.35815030063
+  },
+  {
+    "date": "2015/5/22",
+    "precipitation": 29.8468132341
+  },
+  {
+    "date": "2015/5/23",
+    "precipitation": 38.0550733773
+  },
+  {
+    "date": "2015/5/24",
+    "precipitation": 7.73465132081
+  },
+  {
+    "date": "2015/5/25",
+    "precipitation": 14.2455001015
+  },
+  {
+    "date": "2015/5/26",
+    "precipitation": 9.92139748723
+  },
+  {
+    "date": "2015/5/27",
+    "precipitation": 1.93443837453
+  },
+  {
+    "date": "2015/5/28",
+    "precipitation": 0.0898328912097
+  },
+  {
+    "date": "2015/5/29",
+    "precipitation": 0.696633988008
+  },
+  {
+    "date": "2015/5/3",
+    "precipitation": 11.7379983218
+  },
+  {
+    "date": "2015/5/30",
+    "precipitation": 14.8359687989
+  },
+  {
+    "date": "2015/5/31",
+    "precipitation": 11.8454959835
+  },
+  {
+    "date": "2015/5/4",
+    "precipitation": 20.8653853574
+  },
+  {
+    "date": "2015/5/5",
+    "precipitation": 8.35226229329
+  },
+  {
+    "date": "2015/5/6",
+    "precipitation": 19.4378490505
+  },
+  {
+    "date": "2015/5/7",
+    "precipitation": 6.17561795453
+  },
+  {
+    "date": "2015/5/8",
+    "precipitation": 22.5178335305
+  },
+  {
+    "date": "2015/5/9",
+    "precipitation": 19.0595667598
+  },
+  {
+    "date": "2015/6/1",
+    "precipitation": 9.60216352968
+  },
+  {
+    "date": "2015/6/10",
+    "precipitation": 17.9139851582
+  },
+  {
+    "date": "2015/6/11",
+    "precipitation": 18.5983424658
+  },
+  {
+    "date": "2015/6/12",
+    "precipitation": 5.7973487291
+  },
+  {
+    "date": "2015/6/13",
+    "precipitation": 46.9989623518
+  },
+  {
+    "date": "2015/6/14",
+    "precipitation": 24.3417896661
+  },
+  {
+    "date": "2015/6/15",
+    "precipitation": 5.2152984757
+  },
+  {
+    "date": "2015/6/16",
+    "precipitation": 0.365912436766
+  },
+  {
+    "date": "2015/6/17",
+    "precipitation": 0.00470518158322
+  },
+  {
+    "date": "2015/6/18",
+    "precipitation": 9.52645435333
+  },
+  {
+    "date": "2015/6/19",
+    "precipitation": 8.44875246933
+  },
+  {
+    "date": "2015/6/2",
+    "precipitation": 11.8969360087
+  },
+  {
+    "date": "2015/6/20",
+    "precipitation": 3.40171133768
+  },
+  {
+    "date": "2015/6/21",
+    "precipitation": 1.84562580761
+  },
+  {
+    "date": "2015/6/22",
+    "precipitation": 4.69582026148
+  },
+  {
+    "date": "2015/6/23",
+    "precipitation": 4.85939549552
+  },
+  {
+    "date": "2015/6/24",
+    "precipitation": 3.30624624965
+  },
+  {
+    "date": "2015/6/25",
+    "precipitation": 3.27243336195
+  },
+  {
+    "date": "2015/6/26",
+    "precipitation": 1.02088112637
+  },
+  {
+    "date": "2015/6/27",
+    "precipitation": 0.186846060164
+  },
+  {
+    "date": "2015/6/28",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/6/29",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/6/3",
+    "precipitation": 4.95600702791
+  },
+  {
+    "date": "2015/6/30",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/6/4",
+    "precipitation": 23.5961771563
+  },
+  {
+    "date": "2015/6/5",
+    "precipitation": 9.7153134685
+  },
+  {
+    "date": "2015/6/6",
+    "precipitation": 4.40305912078
+  },
+  {
+    "date": "2015/6/7",
+    "precipitation": 8.14466910075
+  },
+  {
+    "date": "2015/6/8",
+    "precipitation": 11.3196380046
+  },
+  {
+    "date": "2015/6/9",
+    "precipitation": 19.2951012324
+  },
+  {
+    "date": "2015/7/1",
+    "precipitation": 1.35926108719
+  },
+  {
+    "date": "2015/7/10",
+    "precipitation": 12.5499052071
+  },
+  {
+    "date": "2015/7/11",
+    "precipitation": 7.50112792124
+  },
+  {
+    "date": "2015/7/12",
+    "precipitation": 1.62431240222
+  },
+  {
+    "date": "2015/7/13",
+    "precipitation": 0.326876417673
+  },
+  {
+    "date": "2015/7/14",
+    "precipitation": 0.000775957031243
+  },
+  {
+    "date": "2015/7/15",
+    "precipitation": 2.51729089201
+  },
+  {
+    "date": "2015/7/16",
+    "precipitation": 17.7606046125
+  },
+  {
+    "date": "2015/7/17",
+    "precipitation": 23.6848684357
+  },
+  {
+    "date": "2015/7/18",
+    "precipitation": 1.45538475741
+  },
+  {
+    "date": "2015/7/19",
+    "precipitation": 0.775494257329
+  },
+  {
+    "date": "2015/7/2",
+    "precipitation": 13.346137557
+  },
+  {
+    "date": "2015/7/20",
+    "precipitation": 1.98767634099
+  },
+  {
+    "date": "2015/7/21",
+    "precipitation": 23.5924957683
+  },
+  {
+    "date": "2015/7/22",
+    "precipitation": 12.1583387088
+  },
+  {
+    "date": "2015/7/23",
+    "precipitation": 40.8826239138
+  },
+  {
+    "date": "2015/7/24",
+    "precipitation": 21.9820365285
+  },
+  {
+    "date": "2015/7/25",
+    "precipitation": 18.9966965963
+  },
+  {
+    "date": "2015/7/26",
+    "precipitation": 9.81357822418
+  },
+  {
+    "date": "2015/7/27",
+    "precipitation": 5.60324854793
+  },
+  {
+    "date": "2015/7/28",
+    "precipitation": 2.27088976553
+  },
+  {
+    "date": "2015/7/29",
+    "precipitation": 5.38911698583
+  },
+  {
+    "date": "2015/7/3",
+    "precipitation": 15.5857019264
+  },
+  {
+    "date": "2015/7/30",
+    "precipitation": 1.79596455679
+  },
+  {
+    "date": "2015/7/31",
+    "precipitation": 1.64105202807
+  },
+  {
+    "date": "2015/7/4",
+    "precipitation": 12.3330821497
+  },
+  {
+    "date": "2015/7/5",
+    "precipitation": 7.95162009906
+  },
+  {
+    "date": "2015/7/6",
+    "precipitation": 0.601365268913
+  },
+  {
+    "date": "2015/7/7",
+    "precipitation": 0.0824329024837
+  },
+  {
+    "date": "2015/7/8",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/7/9",
+    "precipitation": 7.68093050664
+  },
+  {
+    "date": "2015/8/1",
+    "precipitation": 1.32002221389
+  },
+  {
+    "date": "2015/8/10",
+    "precipitation": 2.2508995073
+  },
+  {
+    "date": "2015/8/11",
+    "precipitation": 3.59729049014
+  },
+  {
+    "date": "2015/8/12",
+    "precipitation": 6.82372663107
+  },
+  {
+    "date": "2015/8/13",
+    "precipitation": 9.91815963826
+  },
+  {
+    "date": "2015/8/14",
+    "precipitation": 14.5962883383
+  },
+  {
+    "date": "2015/8/15",
+    "precipitation": 24.3089335361
+  },
+  {
+    "date": "2015/8/16",
+    "precipitation": 5.2165718745
+  },
+  {
+    "date": "2015/8/17",
+    "precipitation": 5.99777827952
+  },
+  {
+    "date": "2015/8/18",
+    "precipitation": 2.37849043809
+  },
+  {
+    "date": "2015/8/19",
+    "precipitation": 2.45679807002
+  },
+  {
+    "date": "2015/8/2",
+    "precipitation": 0.111932007609
+  },
+  {
+    "date": "2015/8/20",
+    "precipitation": 1.45409201997
+  },
+  {
+    "date": "2015/8/21",
+    "precipitation": 8.039834561e-06
+  },
+  {
+    "date": "2015/8/22",
+    "precipitation": 0.274059602168
+  },
+  {
+    "date": "2015/8/23",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/8/24",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2015/8/25",
+    "precipitation": 0.0267384810609
+  },
+  {
+    "date": "2015/8/26",
+    "precipitation": 0.334697124856
+  },
+  {
+    "date": "2015/8/27",
+    "precipitation": 3.19561845574
+  },
+  {
+    "date": "2015/8/28",
+    "precipitation": 17.366443526
+  },
+  {
+    "date": "2015/8/29",
+    "precipitation": 16.2994881136
+  },
+  {
+    "date": "2015/8/3",
+    "precipitation": 0.105334128952
+  },
+  {
+    "date": "2015/8/30",
+    "precipitation": 7.65921633042
+  },
+  {
+    "date": "2015/8/31",
+    "precipitation": 16.007482593
+  },
+  {
+    "date": "2015/8/4",
+    "precipitation": 0.316662586804
+  },
+  {
+    "date": "2015/8/5",
+    "precipitation": 0.0941642335055
+  },
+  {
+    "date": "2015/8/6",
+    "precipitation": 0.852022792327
+  },
+  {
+    "date": "2015/8/7",
+    "precipitation": 0.570757184831
+  },
+  {
+    "date": "2015/8/8",
+    "precipitation": 0.00111923214183
+  },
+  {
+    "date": "2015/8/9",
+    "precipitation": 3.54452428703
+  },
+  {
+    "date": "2015/9/1",
+    "precipitation": 37.1637040104
+  },
+  {
+    "date": "2015/9/10",
+    "precipitation": 0.097417054653
+  },
+  {
+    "date": "2015/9/11",
+    "precipitation": 0.485037784682
+  },
+  {
+    "date": "2015/9/12",
+    "precipitation": 9.71987178239
+  },
+  {
+    "date": "2015/9/13",
+    "precipitation": 0.848329761355
+  },
+  {
+    "date": "2015/9/14",
+    "precipitation": 1.6401262662e-05
+  },
+  {
+    "date": "2015/9/15",
+    "precipitation": 0.00646709479274
+  },
+  {
+    "date": "2015/9/16",
+    "precipitation": 0.93425753534
+  },
+  {
+    "date": "2015/9/17",
+    "precipitation": 0.0691112547888
+  },
+  {
+    "date": "2015/9/18",
+    "precipitation": 2.43416022269
+  },
+  {
+    "date": "2015/9/19",
+    "precipitation": 6.48123546796
+  },
+  {
+    "date": "2015/9/2",
+    "precipitation": 17.151028532
+  },
+  {
+    "date": "2015/9/20",
+    "precipitation": 17.1758530054
+  },
+  {
+    "date": "2015/9/21",
+    "precipitation": 7.24340978013
+  },
+  {
+    "date": "2015/9/22",
+    "precipitation": 13.6130779812
+  },
+  {
+    "date": "2015/9/23",
+    "precipitation": 12.5738739829
+  },
+  {
+    "date": "2015/9/24",
+    "precipitation": 1.37626586628
+  },
+  {
+    "date": "2015/9/25",
+    "precipitation": 3.93269530535
+  },
+  {
+    "date": "2015/9/26",
+    "precipitation": 3.92883733382
+  },
+  {
+    "date": "2015/9/27",
+    "precipitation": 1.39352895201
+  },
+  {
+    "date": "2015/9/28",
+    "precipitation": 8.9163912589e-05
+  },
+  {
+    "date": "2015/9/29",
+    "precipitation": 0.171340285993
+  },
+  {
+    "date": "2015/9/3",
+    "precipitation": 8.89404204035
+  },
+  {
+    "date": "2015/9/30",
+    "precipitation": 0.408474175188
+  },
+  {
+    "date": "2015/9/4",
+    "precipitation": 7.45607489391
+  },
+  {
+    "date": "2015/9/5",
+    "precipitation": 2.64373157664
+  },
+  {
+    "date": "2015/9/6",
+    "precipitation": 18.6348939746
+  },
+  {
+    "date": "2015/9/7",
+    "precipitation": 26.2143091133
+  },
+  {
+    "date": "2015/9/8",
+    "precipitation": 10.6707748591
+  },
+  {
+    "date": "2015/9/9",
+    "precipitation": 1.06584502602
+  },
+  {
+    "date": "2016/1/1",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/1/10",
+    "precipitation": 31.3139887844
+  },
+  {
+    "date": "2016/1/11",
+    "precipitation": 6.64209749569
+  },
+  {
+    "date": "2016/1/12",
+    "precipitation": 0.142326596927
+  },
+  {
+    "date": "2016/1/13",
+    "precipitation": 0.4273449915
+  },
+  {
+    "date": "2016/1/14",
+    "precipitation": 10.4066273189
+  },
+  {
+    "date": "2016/1/15",
+    "precipitation": 9.89129708072
+  },
+  {
+    "date": "2016/1/16",
+    "precipitation": 5.20307568958
+  },
+  {
+    "date": "2016/1/17",
+    "precipitation": 2.66571314019
+  },
+  {
+    "date": "2016/1/18",
+    "precipitation": 0.00194058038227
+  },
+  {
+    "date": "2016/1/19",
+    "precipitation": 0.121762364744
+  },
+  {
+    "date": "2016/1/2",
+    "precipitation": 3.0036272863e-05
+  },
+  {
+    "date": "2016/1/20",
+    "precipitation": 6.43423949954
+  },
+  {
+    "date": "2016/1/21",
+    "precipitation": 1.2584529127
+  },
+  {
+    "date": "2016/1/22",
+    "precipitation": 5.89276354859
+  },
+  {
+    "date": "2016/1/23",
+    "precipitation": 4.31294217828
+  },
+  {
+    "date": "2016/1/24",
+    "precipitation": 0.902195210198
+  },
+  {
+    "date": "2016/1/25",
+    "precipitation": 0.352799156995
+  },
+  {
+    "date": "2016/1/26",
+    "precipitation": 16.227589166
+  },
+  {
+    "date": "2016/1/27",
+    "precipitation": 18.5592981729
+  },
+  {
+    "date": "2016/1/28",
+    "precipitation": 45.7317026161
+  },
+  {
+    "date": "2016/1/29",
+    "precipitation": 6.78078448859
+  },
+  {
+    "date": "2016/1/3",
+    "precipitation": 2.9327122337e-05
+  },
+  {
+    "date": "2016/1/30",
+    "precipitation": 2.21690170894
+  },
+  {
+    "date": "2016/1/31",
+    "precipitation": 25.03738077
+  },
+  {
+    "date": "2016/1/4",
+    "precipitation": 3.40875215793
+  },
+  {
+    "date": "2016/1/5",
+    "precipitation": 7.2036087243
+  },
+  {
+    "date": "2016/1/6",
+    "precipitation": 3.27219865018
+  },
+  {
+    "date": "2016/1/7",
+    "precipitation": 0.621596936846
+  },
+  {
+    "date": "2016/1/8",
+    "precipitation": 1.86848798674
+  },
+  {
+    "date": "2016/1/9",
+    "precipitation": 7.01098812057
+  },
+  {
+    "date": "2016/10/1",
+    "precipitation": 2.81077293655
+  },
+  {
+    "date": "2016/10/10",
+    "precipitation": 0.00989924993097
+  },
+  {
+    "date": "2016/10/11",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/10/12",
+    "precipitation": 2.15592576811
+  },
+  {
+    "date": "2016/10/13",
+    "precipitation": 0.858464793592
+  },
+  {
+    "date": "2016/10/14",
+    "precipitation": 0.203257233156
+  },
+  {
+    "date": "2016/10/15",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/10/16",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/10/17",
+    "precipitation": 1.04019948729
+  },
+  {
+    "date": "2016/10/18",
+    "precipitation": 27.6992660339
+  },
+  {
+    "date": "2016/10/19",
+    "precipitation": 15.4476461479
+  },
+  {
+    "date": "2016/10/2",
+    "precipitation": 1.82017803357
+  },
+  {
+    "date": "2016/10/20",
+    "precipitation": 6.89528568969
+  },
+  {
+    "date": "2016/10/21",
+    "precipitation": 3.70933875032
+  },
+  {
+    "date": "2016/10/22",
+    "precipitation": 0.568826101837
+  },
+  {
+    "date": "2016/10/23",
+    "precipitation": 0.644036896976
+  },
+  {
+    "date": "2016/10/24",
+    "precipitation": 5.91826331817
+  },
+  {
+    "date": "2016/10/25",
+    "precipitation": 5.03036379584
+  },
+  {
+    "date": "2016/10/26",
+    "precipitation": 2.57243827194
+  },
+  {
+    "date": "2016/10/27",
+    "precipitation": 0.00271290698375
+  },
+  {
+    "date": "2016/10/28",
+    "precipitation": 0.213753088191
+  },
+  {
+    "date": "2016/10/29",
+    "precipitation": 0.155440391306
+  },
+  {
+    "date": "2016/10/3",
+    "precipitation": 0.249822091399
+  },
+  {
+    "date": "2016/10/30",
+    "precipitation": 0.0132838810429
+  },
+  {
+    "date": "2016/10/31",
+    "precipitation": 1.47929729367
+  },
+  {
+    "date": "2016/10/4",
+    "precipitation": 0.0388613393132
+  },
+  {
+    "date": "2016/10/5",
+    "precipitation": 0.234586814585
+  },
+  {
+    "date": "2016/10/6",
+    "precipitation": 0.0501716773532
+  },
+  {
+    "date": "2016/10/7",
+    "precipitation": 0.296228883107
+  },
+  {
+    "date": "2016/10/8",
+    "precipitation": 0.0702957225156
+  },
+  {
+    "date": "2016/10/9",
+    "precipitation": 0.0230252061174
+  },
+  {
+    "date": "2016/11/1",
+    "precipitation": 0.556898994591
+  },
+  {
+    "date": "2016/11/10",
+    "precipitation": 7.14529723805
+  },
+  {
+    "date": "2016/11/11",
+    "precipitation": 1.18177936393
+  },
+  {
+    "date": "2016/11/12",
+    "precipitation": 4.3611394368
+  },
+  {
+    "date": "2016/11/13",
+    "precipitation": 4.29420609273
+  },
+  {
+    "date": "2016/11/14",
+    "precipitation": 0.59906138205
+  },
+  {
+    "date": "2016/11/15",
+    "precipitation": 1.05984603942
+  },
+  {
+    "date": "2016/11/16",
+    "precipitation": 0.881613488513
+  },
+  {
+    "date": "2016/11/17",
+    "precipitation": 0.015652063728
+  },
+  {
+    "date": "2016/11/18",
+    "precipitation": 0.888252442788
+  },
+  {
+    "date": "2016/11/19",
+    "precipitation": 29.665963644
+  },
+  {
+    "date": "2016/11/2",
+    "precipitation": 1.06899613316
+  },
+  {
+    "date": "2016/11/20",
+    "precipitation": 18.9796224732
+  },
+  {
+    "date": "2016/11/21",
+    "precipitation": 7.34439669575
+  },
+  {
+    "date": "2016/11/22",
+    "precipitation": 15.5324977254
+  },
+  {
+    "date": "2016/11/23",
+    "precipitation": 2.47719249036
+  },
+  {
+    "date": "2016/11/24",
+    "precipitation": 7.30414538728
+  },
+  {
+    "date": "2016/11/25",
+    "precipitation": 22.927318141
+  },
+  {
+    "date": "2016/11/26",
+    "precipitation": 12.783309516
+  },
+  {
+    "date": "2016/11/27",
+    "precipitation": 4.78268596494
+  },
+  {
+    "date": "2016/11/28",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/11/29",
+    "precipitation": 0.0166449495698
+  },
+  {
+    "date": "2016/11/3",
+    "precipitation": 0.0584174714225
+  },
+  {
+    "date": "2016/11/30",
+    "precipitation": 0.260724237378
+  },
+  {
+    "date": "2016/11/4",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/11/5",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/11/6",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/11/7",
+    "precipitation": 0.967824024393
+  },
+  {
+    "date": "2016/11/8",
+    "precipitation": 1.77873038578
+  },
+  {
+    "date": "2016/11/9",
+    "precipitation": 13.3210986907
+  },
+  {
+    "date": "2016/12/1",
+    "precipitation": 0.00690220207655
+  },
+  {
+    "date": "2016/12/10",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/12/11",
+    "precipitation": 0.125764253587
+  },
+  {
+    "date": "2016/12/12",
+    "precipitation": 2.65909736602
+  },
+  {
+    "date": "2016/12/13",
+    "precipitation": 1.4337622259
+  },
+  {
+    "date": "2016/12/14",
+    "precipitation": 0.561434557675
+  },
+  {
+    "date": "2016/12/15",
+    "precipitation": 0.296030228827
+  },
+  {
+    "date": "2016/12/16",
+    "precipitation": 0.0334388971396
+  },
+  {
+    "date": "2016/12/17",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/12/18",
+    "precipitation": 1.09815274491
+  },
+  {
+    "date": "2016/12/19",
+    "precipitation": 4.51334320867
+  },
+  {
+    "date": "2016/12/2",
+    "precipitation": 0.0221962019072
+  },
+  {
+    "date": "2016/12/20",
+    "precipitation": 3.34897645956
+  },
+  {
+    "date": "2016/12/21",
+    "precipitation": 2.1500334293
+  },
+  {
+    "date": "2016/12/22",
+    "precipitation": 1.6017581525
+  },
+  {
+    "date": "2016/12/23",
+    "precipitation": 6.1273996729e-05
+  },
+  {
+    "date": "2016/12/24",
+    "precipitation": 1.52817275495
+  },
+  {
+    "date": "2016/12/25",
+    "precipitation": 6.38273681847
+  },
+  {
+    "date": "2016/12/26",
+    "precipitation": 1.4702100524
+  },
+  {
+    "date": "2016/12/27",
+    "precipitation": 0.905500919758
+  },
+  {
+    "date": "2016/12/28",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/12/29",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/12/3",
+    "precipitation": 0.0356552458267
+  },
+  {
+    "date": "2016/12/30",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/12/31",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/12/4",
+    "precipitation": 0.00839265510973
+  },
+  {
+    "date": "2016/12/5",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/12/6",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/12/7",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/12/8",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/12/9",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/2/1",
+    "precipitation": 4.04282833869
+  },
+  {
+    "date": "2016/2/10",
+    "precipitation": 0.100085481219
+  },
+  {
+    "date": "2016/2/11",
+    "precipitation": 0.0293587602762
+  },
+  {
+    "date": "2016/2/12",
+    "precipitation": 0.116665679896
+  },
+  {
+    "date": "2016/2/13",
+    "precipitation": 0.45252182123
+  },
+  {
+    "date": "2016/2/14",
+    "precipitation": 0.132742127258
+  },
+  {
+    "date": "2016/2/15",
+    "precipitation": 0.149599476471
+  },
+  {
+    "date": "2016/2/16",
+    "precipitation": 0.0334552984023
+  },
+  {
+    "date": "2016/2/17",
+    "precipitation": 8.039834561e-06
+  },
+  {
+    "date": "2016/2/18",
+    "precipitation": 0.0804903807365
+  },
+  {
+    "date": "2016/2/19",
+    "precipitation": 1.03188576904
+  },
+  {
+    "date": "2016/2/2",
+    "precipitation": 1.69827606978
+  },
+  {
+    "date": "2016/2/20",
+    "precipitation": 0.807895645499
+  },
+  {
+    "date": "2016/2/21",
+    "precipitation": 4.87593052761
+  },
+  {
+    "date": "2016/2/22",
+    "precipitation": 4.81777671245
+  },
+  {
+    "date": "2016/2/23",
+    "precipitation": 4.41863621947
+  },
+  {
+    "date": "2016/2/24",
+    "precipitation": 3.25676589012
+  },
+  {
+    "date": "2016/2/25",
+    "precipitation": 3.77012748115
+  },
+  {
+    "date": "2016/2/26",
+    "precipitation": 2.25139315789
+  },
+  {
+    "date": "2016/2/27",
+    "precipitation": 1.05671923089
+  },
+  {
+    "date": "2016/2/28",
+    "precipitation": 0.0126650651004
+  },
+  {
+    "date": "2016/2/29",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/2/3",
+    "precipitation": 0.142697906099
+  },
+  {
+    "date": "2016/2/4",
+    "precipitation": 0.379222830757
+  },
+  {
+    "date": "2016/2/5",
+    "precipitation": 0.31639371539
+  },
+  {
+    "date": "2016/2/6",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/2/7",
+    "precipitation": 0.0111863208853
+  },
+  {
+    "date": "2016/2/8",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/2/9",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/3/1",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/3/10",
+    "precipitation": 7.43095937838
+  },
+  {
+    "date": "2016/3/11",
+    "precipitation": 1.59115654158
+  },
+  {
+    "date": "2016/3/12",
+    "precipitation": 4.45602143414
+  },
+  {
+    "date": "2016/3/13",
+    "precipitation": 4.66304077743
+  },
+  {
+    "date": "2016/3/14",
+    "precipitation": 3.45064302561
+  },
+  {
+    "date": "2016/3/15",
+    "precipitation": 0.976746291999
+  },
+  {
+    "date": "2016/3/16",
+    "precipitation": 2.1112803192
+  },
+  {
+    "date": "2016/3/17",
+    "precipitation": 3.99465385316
+  },
+  {
+    "date": "2016/3/18",
+    "precipitation": 1.99648592745
+  },
+  {
+    "date": "2016/3/19",
+    "precipitation": 10.4622789504
+  },
+  {
+    "date": "2016/3/2",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/3/20",
+    "precipitation": 32.9577488382
+  },
+  {
+    "date": "2016/3/21",
+    "precipitation": 18.6416191607
+  },
+  {
+    "date": "2016/3/22",
+    "precipitation": 27.8666139396
+  },
+  {
+    "date": "2016/3/23",
+    "precipitation": 13.2630748312
+  },
+  {
+    "date": "2016/3/24",
+    "precipitation": 6.48206871217
+  },
+  {
+    "date": "2016/3/25",
+    "precipitation": 3.30212079387
+  },
+  {
+    "date": "2016/3/26",
+    "precipitation": 0.0874794711931
+  },
+  {
+    "date": "2016/3/27",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/3/28",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/3/29",
+    "precipitation": 0.170019101657
+  },
+  {
+    "date": "2016/3/3",
+    "precipitation": 0.042800626727
+  },
+  {
+    "date": "2016/3/30",
+    "precipitation": 0.438559470514
+  },
+  {
+    "date": "2016/3/31",
+    "precipitation": 0.0856841543083
+  },
+  {
+    "date": "2016/3/4",
+    "precipitation": 3.1658812112e-05
+  },
+  {
+    "date": "2016/3/5",
+    "precipitation": 2.41975858872
+  },
+  {
+    "date": "2016/3/6",
+    "precipitation": 1.5797007127
+  },
+  {
+    "date": "2016/3/7",
+    "precipitation": 0.869849840309
+  },
+  {
+    "date": "2016/3/8",
+    "precipitation": 0.624541904948
+  },
+  {
+    "date": "2016/3/9",
+    "precipitation": 6.41541806991
+  },
+  {
+    "date": "2016/4/1",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/4/10",
+    "precipitation": 7.13953711268
+  },
+  {
+    "date": "2016/4/11",
+    "precipitation": 1.58328370628
+  },
+  {
+    "date": "2016/4/12",
+    "precipitation": 45.3902841407
+  },
+  {
+    "date": "2016/4/13",
+    "precipitation": 5.23148509293
+  },
+  {
+    "date": "2016/4/14",
+    "precipitation": 4.2516141061
+  },
+  {
+    "date": "2016/4/15",
+    "precipitation": 4.05546682197
+  },
+  {
+    "date": "2016/4/16",
+    "precipitation": 3.54448237035
+  },
+  {
+    "date": "2016/4/17",
+    "precipitation": 38.5053620074
+  },
+  {
+    "date": "2016/4/18",
+    "precipitation": 2.77176772859
+  },
+  {
+    "date": "2016/4/19",
+    "precipitation": 3.4062001066
+  },
+  {
+    "date": "2016/4/2",
+    "precipitation": 0.667878171281
+  },
+  {
+    "date": "2016/4/20",
+    "precipitation": 26.3484866705
+  },
+  {
+    "date": "2016/4/21",
+    "precipitation": 19.6867144883
+  },
+  {
+    "date": "2016/4/22",
+    "precipitation": 11.5931515276
+  },
+  {
+    "date": "2016/4/23",
+    "precipitation": 2.95713645091
+  },
+  {
+    "date": "2016/4/24",
+    "precipitation": 10.7070277062
+  },
+  {
+    "date": "2016/4/25",
+    "precipitation": 3.89478555444
+  },
+  {
+    "date": "2016/4/26",
+    "precipitation": 9.4190342822
+  },
+  {
+    "date": "2016/4/27",
+    "precipitation": 0.462223242313
+  },
+  {
+    "date": "2016/4/28",
+    "precipitation": 0.0425983905747
+  },
+  {
+    "date": "2016/4/29",
+    "precipitation": 5.37680634389
+  },
+  {
+    "date": "2016/4/3",
+    "precipitation": 11.5914407765
+  },
+  {
+    "date": "2016/4/30",
+    "precipitation": 12.0389656526
+  },
+  {
+    "date": "2016/4/4",
+    "precipitation": 7.35517546527
+  },
+  {
+    "date": "2016/4/5",
+    "precipitation": 1.71181380576
+  },
+  {
+    "date": "2016/4/6",
+    "precipitation": 3.22712520303
+  },
+  {
+    "date": "2016/4/7",
+    "precipitation": 15.1714545687
+  },
+  {
+    "date": "2016/4/8",
+    "precipitation": 7.57975640067
+  },
+  {
+    "date": "2016/4/9",
+    "precipitation": 18.5158346636
+  },
+  {
+    "date": "2016/5/1",
+    "precipitation": 3.98258133423
+  },
+  {
+    "date": "2016/5/10",
+    "precipitation": 6.54947885548
+  },
+  {
+    "date": "2016/5/11",
+    "precipitation": 1.36245431361
+  },
+  {
+    "date": "2016/5/12",
+    "precipitation": 1.74077099702
+  },
+  {
+    "date": "2016/5/13",
+    "precipitation": 8.56685322652
+  },
+  {
+    "date": "2016/5/14",
+    "precipitation": 3.85533642898
+  },
+  {
+    "date": "2016/5/15",
+    "precipitation": 22.1046014993
+  },
+  {
+    "date": "2016/5/16",
+    "precipitation": 1.27692091156
+  },
+  {
+    "date": "2016/5/17",
+    "precipitation": 0.0456484133063
+  },
+  {
+    "date": "2016/5/18",
+    "precipitation": 13.6789214766
+  },
+  {
+    "date": "2016/5/19",
+    "precipitation": 17.6345988722
+  },
+  {
+    "date": "2016/5/2",
+    "precipitation": 1.09556098012
+  },
+  {
+    "date": "2016/5/20",
+    "precipitation": 45.3663026879
+  },
+  {
+    "date": "2016/5/21",
+    "precipitation": 8.797765741
+  },
+  {
+    "date": "2016/5/22",
+    "precipitation": 0.249060067114
+  },
+  {
+    "date": "2016/5/23",
+    "precipitation": 1.66503290933
+  },
+  {
+    "date": "2016/5/24",
+    "precipitation": 1.31633398748
+  },
+  {
+    "date": "2016/5/25",
+    "precipitation": 11.4644107491
+  },
+  {
+    "date": "2016/5/26",
+    "precipitation": 2.74286006531
+  },
+  {
+    "date": "2016/5/27",
+    "precipitation": 22.632134865
+  },
+  {
+    "date": "2016/5/28",
+    "precipitation": 30.8056808931
+  },
+  {
+    "date": "2016/5/29",
+    "precipitation": 13.9513660063
+  },
+  {
+    "date": "2016/5/3",
+    "precipitation": 9.06785500825
+  },
+  {
+    "date": "2016/5/30",
+    "precipitation": 9.84063787575
+  },
+  {
+    "date": "2016/5/31",
+    "precipitation": 0.609753443211
+  },
+  {
+    "date": "2016/5/4",
+    "precipitation": 8.4410733266
+  },
+  {
+    "date": "2016/5/5",
+    "precipitation": 3.94305480956
+  },
+  {
+    "date": "2016/5/6",
+    "precipitation": 41.2385712405
+  },
+  {
+    "date": "2016/5/7",
+    "precipitation": 9.61936862842
+  },
+  {
+    "date": "2016/5/8",
+    "precipitation": 37.3127037393
+  },
+  {
+    "date": "2016/5/9",
+    "precipitation": 12.2108820904
+  },
+  {
+    "date": "2016/6/1",
+    "precipitation": 0.00558393711606
+  },
+  {
+    "date": "2016/6/10",
+    "precipitation": 5.36731991193
+  },
+  {
+    "date": "2016/6/11",
+    "precipitation": 13.6742770574
+  },
+  {
+    "date": "2016/6/12",
+    "precipitation": 31.8960277282
+  },
+  {
+    "date": "2016/6/13",
+    "precipitation": 13.572801675
+  },
+  {
+    "date": "2016/6/14",
+    "precipitation": 15.8260320686
+  },
+  {
+    "date": "2016/6/15",
+    "precipitation": 33.2831019252
+  },
+  {
+    "date": "2016/6/16",
+    "precipitation": 4.18194781269
+  },
+  {
+    "date": "2016/6/17",
+    "precipitation": 2.35011828588
+  },
+  {
+    "date": "2016/6/18",
+    "precipitation": 1.40609153695
+  },
+  {
+    "date": "2016/6/19",
+    "precipitation": 1.1658655349
+  },
+  {
+    "date": "2016/6/2",
+    "precipitation": 6.08825691637
+  },
+  {
+    "date": "2016/6/20",
+    "precipitation": 0.0305020080475
+  },
+  {
+    "date": "2016/6/21",
+    "precipitation": 3.37591813616
+  },
+  {
+    "date": "2016/6/22",
+    "precipitation": 1.33480286799
+  },
+  {
+    "date": "2016/6/23",
+    "precipitation": 0.116011996334
+  },
+  {
+    "date": "2016/6/24",
+    "precipitation": 0.0455411169936
+  },
+  {
+    "date": "2016/6/25",
+    "precipitation": 0.093909619274
+  },
+  {
+    "date": "2016/6/26",
+    "precipitation": 1.6250728088
+  },
+  {
+    "date": "2016/6/27",
+    "precipitation": 0.0461224986891
+  },
+  {
+    "date": "2016/6/28",
+    "precipitation": 4.00145074121
+  },
+  {
+    "date": "2016/6/29",
+    "precipitation": 3.62610592329
+  },
+  {
+    "date": "2016/6/3",
+    "precipitation": 21.6534677678
+  },
+  {
+    "date": "2016/6/30",
+    "precipitation": 6.78316035845
+  },
+  {
+    "date": "2016/6/4",
+    "precipitation": 20.8292401279
+  },
+  {
+    "date": "2016/6/5",
+    "precipitation": 19.4118325722
+  },
+  {
+    "date": "2016/6/6",
+    "precipitation": 5.2787924824
+  },
+  {
+    "date": "2016/6/7",
+    "precipitation": 7.24600574913
+  },
+  {
+    "date": "2016/6/8",
+    "precipitation": 10.296316152
+  },
+  {
+    "date": "2016/6/9",
+    "precipitation": 15.1609841933
+  },
+  {
+    "date": "2016/7/1",
+    "precipitation": 12.185333206
+  },
+  {
+    "date": "2016/7/10",
+    "precipitation": 11.3332970249
+  },
+  {
+    "date": "2016/7/11",
+    "precipitation": 5.52710971775
+  },
+  {
+    "date": "2016/7/12",
+    "precipitation": 18.1736842638
+  },
+  {
+    "date": "2016/7/13",
+    "precipitation": 5.31415002892
+  },
+  {
+    "date": "2016/7/14",
+    "precipitation": 3.38525512506
+  },
+  {
+    "date": "2016/7/15",
+    "precipitation": 2.75920345525
+  },
+  {
+    "date": "2016/7/16",
+    "precipitation": 3.0543976839
+  },
+  {
+    "date": "2016/7/17",
+    "precipitation": 4.31332970642
+  },
+  {
+    "date": "2016/7/18",
+    "precipitation": 1.74956817483
+  },
+  {
+    "date": "2016/7/19",
+    "precipitation": 1.51958954693
+  },
+  {
+    "date": "2016/7/2",
+    "precipitation": 14.0904539821
+  },
+  {
+    "date": "2016/7/20",
+    "precipitation": 4.07832431104
+  },
+  {
+    "date": "2016/7/21",
+    "precipitation": 0.376948594508
+  },
+  {
+    "date": "2016/7/22",
+    "precipitation": 0.790225516134
+  },
+  {
+    "date": "2016/7/23",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/7/24",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/7/25",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/7/26",
+    "precipitation": 5.7281449496
+  },
+  {
+    "date": "2016/7/27",
+    "precipitation": 8.72966192602
+  },
+  {
+    "date": "2016/7/28",
+    "precipitation": 1.84109525673
+  },
+  {
+    "date": "2016/7/29",
+    "precipitation": 0.0580546165985
+  },
+  {
+    "date": "2016/7/3",
+    "precipitation": 20.5376326963
+  },
+  {
+    "date": "2016/7/30",
+    "precipitation": 1.77763667327
+  },
+  {
+    "date": "2016/7/31",
+    "precipitation": 2.32832548762
+  },
+  {
+    "date": "2016/7/4",
+    "precipitation": 38.6379682748
+  },
+  {
+    "date": "2016/7/5",
+    "precipitation": 7.40986056213
+  },
+  {
+    "date": "2016/7/6",
+    "precipitation": 6.37190158884
+  },
+  {
+    "date": "2016/7/7",
+    "precipitation": 3.12446344274
+  },
+  {
+    "date": "2016/7/8",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/7/9",
+    "precipitation": 1.00547171459
+  },
+  {
+    "date": "2016/8/1",
+    "precipitation": 2.39599536794
+  },
+  {
+    "date": "2016/8/10",
+    "precipitation": 18.4739925178
+  },
+  {
+    "date": "2016/8/11",
+    "precipitation": 1.26063624215
+  },
+  {
+    "date": "2016/8/12",
+    "precipitation": 61.0408348175
+  },
+  {
+    "date": "2016/8/13",
+    "precipitation": 8.58596603095
+  },
+  {
+    "date": "2016/8/14",
+    "precipitation": 13.2568223884
+  },
+  {
+    "date": "2016/8/15",
+    "precipitation": 8.06312413962
+  },
+  {
+    "date": "2016/8/16",
+    "precipitation": 3.49405580343
+  },
+  {
+    "date": "2016/8/17",
+    "precipitation": 0.958501073467
+  },
+  {
+    "date": "2016/8/18",
+    "precipitation": 4.12277898788
+  },
+  {
+    "date": "2016/8/19",
+    "precipitation": 9.93791380733
+  },
+  {
+    "date": "2016/8/2",
+    "precipitation": 44.5927660977
+  },
+  {
+    "date": "2016/8/20",
+    "precipitation": 8.07825563974
+  },
+  {
+    "date": "2016/8/21",
+    "precipitation": 6.17845922349
+  },
+  {
+    "date": "2016/8/22",
+    "precipitation": 3.10201183687
+  },
+  {
+    "date": "2016/8/23",
+    "precipitation": 2.94083353755
+  },
+  {
+    "date": "2016/8/24",
+    "precipitation": 0.236523969848
+  },
+  {
+    "date": "2016/8/25",
+    "precipitation": 1.75383457488
+  },
+  {
+    "date": "2016/8/26",
+    "precipitation": 7.00520473388
+  },
+  {
+    "date": "2016/8/27",
+    "precipitation": 2.13505495937
+  },
+  {
+    "date": "2016/8/28",
+    "precipitation": 1.07278555258
+  },
+  {
+    "date": "2016/8/29",
+    "precipitation": 3.2802525324e-05
+  },
+  {
+    "date": "2016/8/3",
+    "precipitation": 20.329235718
+  },
+  {
+    "date": "2016/8/30",
+    "precipitation": 0.0466424877026
+  },
+  {
+    "date": "2016/8/31",
+    "precipitation": 2.03430789005
+  },
+  {
+    "date": "2016/8/4",
+    "precipitation": 9.46707248343
+  },
+  {
+    "date": "2016/8/5",
+    "precipitation": 0.486052846962
+  },
+  {
+    "date": "2016/8/6",
+    "precipitation": 0.673040236838
+  },
+  {
+    "date": "2016/8/7",
+    "precipitation": 3.02748512087
+  },
+  {
+    "date": "2016/8/8",
+    "precipitation": 2.12506162732
+  },
+  {
+    "date": "2016/8/9",
+    "precipitation": 1.64177802406
+  },
+  {
+    "date": "2016/9/1",
+    "precipitation": 11.8916820181
+  },
+  {
+    "date": "2016/9/10",
+    "precipitation": 36.3716407224
+  },
+  {
+    "date": "2016/9/11",
+    "precipitation": 26.7547250265
+  },
+  {
+    "date": "2016/9/12",
+    "precipitation": 12.6188877761
+  },
+  {
+    "date": "2016/9/13",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/9/14",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/9/15",
+    "precipitation": 0.0438392665372
+  },
+  {
+    "date": "2016/9/16",
+    "precipitation": 0.038605612439
+  },
+  {
+    "date": "2016/9/17",
+    "precipitation": 0.114518142051
+  },
+  {
+    "date": "2016/9/18",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/9/19",
+    "precipitation": 0.0021361797689
+  },
+  {
+    "date": "2016/9/2",
+    "precipitation": 6.80562277673
+  },
+  {
+    "date": "2016/9/20",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/9/21",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2016/9/22",
+    "precipitation": 0.480241859013
+  },
+  {
+    "date": "2016/9/23",
+    "precipitation": 0.00122527085155
+  },
+  {
+    "date": "2016/9/24",
+    "precipitation": 0.015572658255
+  },
+  {
+    "date": "2016/9/25",
+    "precipitation": 0.00245201539203
+  },
+  {
+    "date": "2016/9/26",
+    "precipitation": 0.00196347646864
+  },
+  {
+    "date": "2016/9/27",
+    "precipitation": 0.107669569298
+  },
+  {
+    "date": "2016/9/28",
+    "precipitation": 0.745256537181
+  },
+  {
+    "date": "2016/9/29",
+    "precipitation": 0.844417063591
+  },
+  {
+    "date": "2016/9/3",
+    "precipitation": 2.49772564105
+  },
+  {
+    "date": "2016/9/30",
+    "precipitation": 1.37368732189
+  },
+  {
+    "date": "2016/9/4",
+    "precipitation": 4.14841559766
+  },
+  {
+    "date": "2016/9/5",
+    "precipitation": 1.64452765792
+  },
+  {
+    "date": "2016/9/6",
+    "precipitation": 9.3099814787
+  },
+  {
+    "date": "2016/9/7",
+    "precipitation": 1.7505091404
+  },
+  {
+    "date": "2016/9/8",
+    "precipitation": 11.0413603833
+  },
+  {
+    "date": "2016/9/9",
+    "precipitation": 8.59763986059
+  },
+  {
+    "date": "2017/1/1",
+    "precipitation": 0.125764253587
+  },
+  {
+    "date": "2017/1/10",
+    "precipitation": 3.99129756071
+  },
+  {
+    "date": "2017/1/11",
+    "precipitation": 9.42503515496
+  },
+  {
+    "date": "2017/1/12",
+    "precipitation": 16.7058271845
+  },
+  {
+    "date": "2017/1/13",
+    "precipitation": 5.46083818574
+  },
+  {
+    "date": "2017/1/14",
+    "precipitation": 0.6680909569
+  },
+  {
+    "date": "2017/1/15",
+    "precipitation": 0.43224528405
+  },
+  {
+    "date": "2017/1/16",
+    "precipitation": 3.69262733402
+  },
+  {
+    "date": "2017/1/17",
+    "precipitation": 3.79238411432
+  },
+  {
+    "date": "2017/1/18",
+    "precipitation": 2.57952421947
+  },
+  {
+    "date": "2017/1/19",
+    "precipitation": 1.10621423635
+  },
+  {
+    "date": "2017/1/2",
+    "precipitation": 0.134416080553
+  },
+  {
+    "date": "2017/1/20",
+    "precipitation": 0.0743698801823
+  },
+  {
+    "date": "2017/1/21",
+    "precipitation": 0.00989779377278
+  },
+  {
+    "date": "2017/1/22",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/1/23",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/1/24",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/1/25",
+    "precipitation": 0.00646947399988
+  },
+  {
+    "date": "2017/1/26",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/1/27",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/1/28",
+    "precipitation": 0.141622230013
+  },
+  {
+    "date": "2017/1/29",
+    "precipitation": 0.581723720733
+  },
+  {
+    "date": "2017/1/3",
+    "precipitation": 0.01206893252
+  },
+  {
+    "date": "2017/1/30",
+    "precipitation": 0.0622776270468
+  },
+  {
+    "date": "2017/1/31",
+    "precipitation": 0.0688681352794
+  },
+  {
+    "date": "2017/1/4",
+    "precipitation": 1.5519025696e-05
+  },
+  {
+    "date": "2017/1/5",
+    "precipitation": 0.10595902602
+  },
+  {
+    "date": "2017/1/6",
+    "precipitation": 0.200225234265
+  },
+  {
+    "date": "2017/1/7",
+    "precipitation": 1.14659804792
+  },
+  {
+    "date": "2017/1/8",
+    "precipitation": 0.643869650328
+  },
+  {
+    "date": "2017/1/9",
+    "precipitation": 0.156597380933
+  },
+  {
+    "date": "2017/10/1",
+    "precipitation": 1.50738026026
+  },
+  {
+    "date": "2017/10/10",
+    "precipitation": 0.290385117409
+  },
+  {
+    "date": "2017/10/11",
+    "precipitation": 2.55309607879
+  },
+  {
+    "date": "2017/10/12",
+    "precipitation": 1.88512442148
+  },
+  {
+    "date": "2017/10/13",
+    "precipitation": 0.206331458164
+  },
+  {
+    "date": "2017/10/14",
+    "precipitation": 0.646459439351
+  },
+  {
+    "date": "2017/10/15",
+    "precipitation": 6.48150394336
+  },
+  {
+    "date": "2017/10/16",
+    "precipitation": 5.04742207786
+  },
+  {
+    "date": "2017/10/17",
+    "precipitation": 3.47972810757
+  },
+  {
+    "date": "2017/10/18",
+    "precipitation": 0.620580885784
+  },
+  {
+    "date": "2017/10/19",
+    "precipitation": 0.104096538976
+  },
+  {
+    "date": "2017/10/2",
+    "precipitation": 0.293752117168
+  },
+  {
+    "date": "2017/10/20",
+    "precipitation": 0.0392397703687
+  },
+  {
+    "date": "2017/10/21",
+    "precipitation": 0.0167194485698
+  },
+  {
+    "date": "2017/10/22",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/10/23",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/10/24",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/10/25",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/10/26",
+    "precipitation": 3.1658812112e-05
+  },
+  {
+    "date": "2017/10/27",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/10/28",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/10/29",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/10/3",
+    "precipitation": 1.80126036222
+  },
+  {
+    "date": "2017/10/30",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/10/31",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/10/4",
+    "precipitation": 6.54356017285
+  },
+  {
+    "date": "2017/10/5",
+    "precipitation": 2.70558278403
+  },
+  {
+    "date": "2017/10/6",
+    "precipitation": 1.01363958447
+  },
+  {
+    "date": "2017/10/7",
+    "precipitation": 0.185897577177
+  },
+  {
+    "date": "2017/10/8",
+    "precipitation": 0.00701181704981
+  },
+  {
+    "date": "2017/10/9",
+    "precipitation": 2.28622773943
+  },
+  {
+    "date": "2017/11/1",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/11/10",
+    "precipitation": 0.583345631342
+  },
+  {
+    "date": "2017/11/11",
+    "precipitation": 0.741686111294
+  },
+  {
+    "date": "2017/11/12",
+    "precipitation": 0.464976543224
+  },
+  {
+    "date": "2017/11/13",
+    "precipitation": 2.94425620702
+  },
+  {
+    "date": "2017/11/14",
+    "precipitation": 7.31732982498
+  },
+  {
+    "date": "2017/11/15",
+    "precipitation": 3.3062409309
+  },
+  {
+    "date": "2017/11/16",
+    "precipitation": 4.32758170093
+  },
+  {
+    "date": "2017/11/17",
+    "precipitation": 9.58051351639
+  },
+  {
+    "date": "2017/11/18",
+    "precipitation": 7.52528654811
+  },
+  {
+    "date": "2017/11/19",
+    "precipitation": 4.2272685028
+  },
+  {
+    "date": "2017/11/2",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/11/20",
+    "precipitation": 2.22880025197
+  },
+  {
+    "date": "2017/11/21",
+    "precipitation": 1.29091880436
+  },
+  {
+    "date": "2017/11/22",
+    "precipitation": 0.630767234765
+  },
+  {
+    "date": "2017/11/23",
+    "precipitation": 8.79977346213
+  },
+  {
+    "date": "2017/11/24",
+    "precipitation": 5.76084755013
+  },
+  {
+    "date": "2017/11/25",
+    "precipitation": 8.86764376882
+  },
+  {
+    "date": "2017/11/26",
+    "precipitation": 1.84569104608
+  },
+  {
+    "date": "2017/11/27",
+    "precipitation": 0.956555800122
+  },
+  {
+    "date": "2017/11/28",
+    "precipitation": 3.91085208992
+  },
+  {
+    "date": "2017/11/29",
+    "precipitation": 2.40661096946
+  },
+  {
+    "date": "2017/11/3",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/11/30",
+    "precipitation": 0.40020648557
+  },
+  {
+    "date": "2017/11/4",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/11/5",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/11/6",
+    "precipitation": 2.7333928519
+  },
+  {
+    "date": "2017/11/7",
+    "precipitation": 10.3266882443
+  },
+  {
+    "date": "2017/11/8",
+    "precipitation": 4.37697243619
+  },
+  {
+    "date": "2017/11/9",
+    "precipitation": 0.340150748696
+  },
+  {
+    "date": "2017/12/1",
+    "precipitation": 0.0583881588305
+  },
+  {
+    "date": "2017/12/10",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/12/11",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/12/12",
+    "precipitation": 0.227725805163
+  },
+  {
+    "date": "2017/12/13",
+    "precipitation": 6.55215772836
+  },
+  {
+    "date": "2017/12/14",
+    "precipitation": 6.86203252494
+  },
+  {
+    "date": "2017/12/15",
+    "precipitation": 3.47289872169
+  },
+  {
+    "date": "2017/12/16",
+    "precipitation": 1.23400086136
+  },
+  {
+    "date": "2017/12/17",
+    "precipitation": 0.0341603581064
+  },
+  {
+    "date": "2017/12/18",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/12/19",
+    "precipitation": 0.000721460935402
+  },
+  {
+    "date": "2017/12/2",
+    "precipitation": 0.027628163579
+  },
+  {
+    "date": "2017/12/20",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/12/21",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/12/22",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/12/23",
+    "precipitation": 0.0422411839433
+  },
+  {
+    "date": "2017/12/24",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/12/25",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/12/26",
+    "precipitation": 0.000721460935402
+  },
+  {
+    "date": "2017/12/27",
+    "precipitation": 1.0339039944
+  },
+  {
+    "date": "2017/12/28",
+    "precipitation": 1.32629272033
+  },
+  {
+    "date": "2017/12/29",
+    "precipitation": 2.69031630151
+  },
+  {
+    "date": "2017/12/3",
+    "precipitation": 0.0716828234488
+  },
+  {
+    "date": "2017/12/30",
+    "precipitation": 1.91554310264
+  },
+  {
+    "date": "2017/12/31",
+    "precipitation": 1.13149094452
+  },
+  {
+    "date": "2017/12/4",
+    "precipitation": 0.134667445634
+  },
+  {
+    "date": "2017/12/5",
+    "precipitation": 0.0914652184527
+  },
+  {
+    "date": "2017/12/6",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/12/7",
+    "precipitation": 0.0501452481441
+  },
+  {
+    "date": "2017/12/8",
+    "precipitation": 0.00879018345612
+  },
+  {
+    "date": "2017/12/9",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/2/1",
+    "precipitation": 0.130973015811
+  },
+  {
+    "date": "2017/2/10",
+    "precipitation": 0.0409708194331
+  },
+  {
+    "date": "2017/2/11",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/2/12",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/2/13",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/2/14",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/2/15",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/2/16",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/2/17",
+    "precipitation": 8.039834561e-06
+  },
+  {
+    "date": "2017/2/18",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/2/19",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/2/2",
+    "precipitation": 0.0469838778247
+  },
+  {
+    "date": "2017/2/20",
+    "precipitation": 0.00692343427267
+  },
+  {
+    "date": "2017/2/21",
+    "precipitation": 1.3864248758
+  },
+  {
+    "date": "2017/2/22",
+    "precipitation": 4.93968685715
+  },
+  {
+    "date": "2017/2/23",
+    "precipitation": 2.8797599651
+  },
+  {
+    "date": "2017/2/24",
+    "precipitation": 6.50993027658
+  },
+  {
+    "date": "2017/2/25",
+    "precipitation": 4.69558406336
+  },
+  {
+    "date": "2017/2/26",
+    "precipitation": 1.5316067129
+  },
+  {
+    "date": "2017/2/27",
+    "precipitation": 0.417875979437
+  },
+  {
+    "date": "2017/2/28",
+    "precipitation": 1.64728538674
+  },
+  {
+    "date": "2017/2/3",
+    "precipitation": 0.549562487473
+  },
+  {
+    "date": "2017/2/4",
+    "precipitation": 7.85625434841
+  },
+  {
+    "date": "2017/2/5",
+    "precipitation": 0.688226569525
+  },
+  {
+    "date": "2017/2/6",
+    "precipitation": 0.0747117722688
+  },
+  {
+    "date": "2017/2/7",
+    "precipitation": 6.15486592327
+  },
+  {
+    "date": "2017/2/8",
+    "precipitation": 5.33269819581
+  },
+  {
+    "date": "2017/2/9",
+    "precipitation": 3.04505814357
+  },
+  {
+    "date": "2017/3/1",
+    "precipitation": 1.86231280996
+  },
+  {
+    "date": "2017/3/10",
+    "precipitation": 6.21689229758
+  },
+  {
+    "date": "2017/3/11",
+    "precipitation": 1.363566817
+  },
+  {
+    "date": "2017/3/12",
+    "precipitation": 1.84083219293
+  },
+  {
+    "date": "2017/3/13",
+    "precipitation": 1.33822208916
+  },
+  {
+    "date": "2017/3/14",
+    "precipitation": 1.38359943585
+  },
+  {
+    "date": "2017/3/15",
+    "precipitation": 2.29998825774
+  },
+  {
+    "date": "2017/3/16",
+    "precipitation": 1.10905915973
+  },
+  {
+    "date": "2017/3/17",
+    "precipitation": 3.0910822403
+  },
+  {
+    "date": "2017/3/18",
+    "precipitation": 27.4515389316
+  },
+  {
+    "date": "2017/3/19",
+    "precipitation": 7.4190560157
+  },
+  {
+    "date": "2017/3/2",
+    "precipitation": 0.014138373709
+  },
+  {
+    "date": "2017/3/20",
+    "precipitation": 5.56101656089
+  },
+  {
+    "date": "2017/3/21",
+    "precipitation": 4.03337613359
+  },
+  {
+    "date": "2017/3/22",
+    "precipitation": 22.1401589221
+  },
+  {
+    "date": "2017/3/23",
+    "precipitation": 13.2003498468
+  },
+  {
+    "date": "2017/3/24",
+    "precipitation": 2.93919084072
+  },
+  {
+    "date": "2017/3/25",
+    "precipitation": 8.28681163328
+  },
+  {
+    "date": "2017/3/26",
+    "precipitation": 1.7384048123
+  },
+  {
+    "date": "2017/3/27",
+    "precipitation": 0.547171126127
+  },
+  {
+    "date": "2017/3/28",
+    "precipitation": 25.1589850552
+  },
+  {
+    "date": "2017/3/29",
+    "precipitation": 11.6766682648
+  },
+  {
+    "date": "2017/3/3",
+    "precipitation": 0.508267387083
+  },
+  {
+    "date": "2017/3/30",
+    "precipitation": 34.2856085306
+  },
+  {
+    "date": "2017/3/31",
+    "precipitation": 8.56906540681
+  },
+  {
+    "date": "2017/3/4",
+    "precipitation": 0.75966365341
+  },
+  {
+    "date": "2017/3/5",
+    "precipitation": 2.70088734598
+  },
+  {
+    "date": "2017/3/6",
+    "precipitation": 2.51595839449
+  },
+  {
+    "date": "2017/3/7",
+    "precipitation": 5.76825887898
+  },
+  {
+    "date": "2017/3/8",
+    "precipitation": 2.59742615855
+  },
+  {
+    "date": "2017/3/9",
+    "precipitation": 29.822276228
+  },
+  {
+    "date": "2017/4/1",
+    "precipitation": 1.95423081973
+  },
+  {
+    "date": "2017/4/10",
+    "precipitation": 0.760055577288
+  },
+  {
+    "date": "2017/4/11",
+    "precipitation": 1.24304785177
+  },
+  {
+    "date": "2017/4/12",
+    "precipitation": 2.61261696596
+  },
+  {
+    "date": "2017/4/13",
+    "precipitation": 0.0595501997752
+  },
+  {
+    "date": "2017/4/14",
+    "precipitation": 0.374826797295
+  },
+  {
+    "date": "2017/4/15",
+    "precipitation": 0.589797960635
+  },
+  {
+    "date": "2017/4/16",
+    "precipitation": 5.50351062309
+  },
+  {
+    "date": "2017/4/17",
+    "precipitation": 8.31820906214
+  },
+  {
+    "date": "2017/4/18",
+    "precipitation": 2.51123846496
+  },
+  {
+    "date": "2017/4/19",
+    "precipitation": 12.4845957791
+  },
+  {
+    "date": "2017/4/2",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/4/20",
+    "precipitation": 8.69860833869
+  },
+  {
+    "date": "2017/4/21",
+    "precipitation": 26.679311927
+  },
+  {
+    "date": "2017/4/22",
+    "precipitation": 1.47805181203
+  },
+  {
+    "date": "2017/4/23",
+    "precipitation": 0.594895493392
+  },
+  {
+    "date": "2017/4/24",
+    "precipitation": 7.40906383905
+  },
+  {
+    "date": "2017/4/25",
+    "precipitation": 18.1904323923
+  },
+  {
+    "date": "2017/4/26",
+    "precipitation": 19.6057935531
+  },
+  {
+    "date": "2017/4/27",
+    "precipitation": 5.65431965403
+  },
+  {
+    "date": "2017/4/28",
+    "precipitation": 0.0167194485698
+  },
+  {
+    "date": "2017/4/29",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/4/3",
+    "precipitation": 0.00147178031684
+  },
+  {
+    "date": "2017/4/30",
+    "precipitation": 0.122676761161
+  },
+  {
+    "date": "2017/4/4",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/4/5",
+    "precipitation": 0.065588097683
+  },
+  {
+    "date": "2017/4/6",
+    "precipitation": 0.857207030991
+  },
+  {
+    "date": "2017/4/7",
+    "precipitation": 1.12112538563
+  },
+  {
+    "date": "2017/4/8",
+    "precipitation": 3.29953751779
+  },
+  {
+    "date": "2017/4/9",
+    "precipitation": 1.34271390977
+  },
+  {
+    "date": "2017/5/1",
+    "precipitation": 3.94516928577
+  },
+  {
+    "date": "2017/5/10",
+    "precipitation": 1.04570734684
+  },
+  {
+    "date": "2017/5/11",
+    "precipitation": 21.0388738471
+  },
+  {
+    "date": "2017/5/12",
+    "precipitation": 8.16983429667
+  },
+  {
+    "date": "2017/5/13",
+    "precipitation": 0.213874900256
+  },
+  {
+    "date": "2017/5/14",
+    "precipitation": 19.0853221807
+  },
+  {
+    "date": "2017/5/15",
+    "precipitation": 26.8923906028
+  },
+  {
+    "date": "2017/5/16",
+    "precipitation": 11.6380855997
+  },
+  {
+    "date": "2017/5/17",
+    "precipitation": 0.021076918606
+  },
+  {
+    "date": "2017/5/18",
+    "precipitation": 1.09489699049
+  },
+  {
+    "date": "2017/5/19",
+    "precipitation": 5.48510166881
+  },
+  {
+    "date": "2017/5/2",
+    "precipitation": 3.73108239002
+  },
+  {
+    "date": "2017/5/20",
+    "precipitation": 6.18739283688
+  },
+  {
+    "date": "2017/5/21",
+    "precipitation": 5.67164300206
+  },
+  {
+    "date": "2017/5/22",
+    "precipitation": 3.48840026166
+  },
+  {
+    "date": "2017/5/23",
+    "precipitation": 36.7541870347
+  },
+  {
+    "date": "2017/5/24",
+    "precipitation": 8.02290019702
+  },
+  {
+    "date": "2017/5/25",
+    "precipitation": 1.26099349592
+  },
+  {
+    "date": "2017/5/26",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/5/27",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/5/28",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/5/29",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/5/3",
+    "precipitation": 15.9286903266
+  },
+  {
+    "date": "2017/5/30",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/5/31",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/5/4",
+    "precipitation": 9.98302201535
+  },
+  {
+    "date": "2017/5/5",
+    "precipitation": 0.242205637963
+  },
+  {
+    "date": "2017/5/6",
+    "precipitation": 7.54818152232
+  },
+  {
+    "date": "2017/5/7",
+    "precipitation": 27.6921182288
+  },
+  {
+    "date": "2017/5/8",
+    "precipitation": 34.6535767613
+  },
+  {
+    "date": "2017/5/9",
+    "precipitation": 9.99617704081
+  },
+  {
+    "date": "2017/6/1",
+    "precipitation": 2.79895551434
+  },
+  {
+    "date": "2017/6/10",
+    "precipitation": 3.53741253298
+  },
+  {
+    "date": "2017/6/11",
+    "precipitation": 6.81572156987
+  },
+  {
+    "date": "2017/6/12",
+    "precipitation": 2.58857335499
+  },
+  {
+    "date": "2017/6/13",
+    "precipitation": 13.004952325
+  },
+  {
+    "date": "2017/6/14",
+    "precipitation": 13.0579656831
+  },
+  {
+    "date": "2017/6/15",
+    "precipitation": 21.6307673213
+  },
+  {
+    "date": "2017/6/16",
+    "precipitation": 23.6150780276
+  },
+  {
+    "date": "2017/6/17",
+    "precipitation": 6.38615284828
+  },
+  {
+    "date": "2017/6/18",
+    "precipitation": 0.758822667599
+  },
+  {
+    "date": "2017/6/19",
+    "precipitation": 6.14100002438
+  },
+  {
+    "date": "2017/6/2",
+    "precipitation": 4.152053725
+  },
+  {
+    "date": "2017/6/20",
+    "precipitation": 19.0412199802
+  },
+  {
+    "date": "2017/6/21",
+    "precipitation": 16.0216236459
+  },
+  {
+    "date": "2017/6/22",
+    "precipitation": 12.027726016
+  },
+  {
+    "date": "2017/6/23",
+    "precipitation": 4.25912740647
+  },
+  {
+    "date": "2017/6/24",
+    "precipitation": 7.90617951428
+  },
+  {
+    "date": "2017/6/25",
+    "precipitation": 18.5473411732
+  },
+  {
+    "date": "2017/6/26",
+    "precipitation": 23.4576754375
+  },
+  {
+    "date": "2017/6/27",
+    "precipitation": 16.4153870341
+  },
+  {
+    "date": "2017/6/28",
+    "precipitation": 6.02627607886
+  },
+  {
+    "date": "2017/6/29",
+    "precipitation": 5.66663295102
+  },
+  {
+    "date": "2017/6/3",
+    "precipitation": 6.43204184713
+  },
+  {
+    "date": "2017/6/30",
+    "precipitation": 11.595901356
+  },
+  {
+    "date": "2017/6/4",
+    "precipitation": 2.87894724814
+  },
+  {
+    "date": "2017/6/5",
+    "precipitation": 18.4385845621
+  },
+  {
+    "date": "2017/6/6",
+    "precipitation": 30.7831826635
+  },
+  {
+    "date": "2017/6/7",
+    "precipitation": 4.28073734318
+  },
+  {
+    "date": "2017/6/8",
+    "precipitation": 5.93776921192
+  },
+  {
+    "date": "2017/6/9",
+    "precipitation": 6.58189779075
+  },
+  {
+    "date": "2017/7/1",
+    "precipitation": 39.7952351352
+  },
+  {
+    "date": "2017/7/10",
+    "precipitation": 21.5998846606
+  },
+  {
+    "date": "2017/7/11",
+    "precipitation": 5.47785492977
+  },
+  {
+    "date": "2017/7/12",
+    "precipitation": 3.07507349468
+  },
+  {
+    "date": "2017/7/13",
+    "precipitation": 2.43719531858
+  },
+  {
+    "date": "2017/7/14",
+    "precipitation": 1.00968478484
+  },
+  {
+    "date": "2017/7/15",
+    "precipitation": 1.51664602455
+  },
+  {
+    "date": "2017/7/16",
+    "precipitation": 9.80113629031
+  },
+  {
+    "date": "2017/7/17",
+    "precipitation": 7.60187675378
+  },
+  {
+    "date": "2017/7/18",
+    "precipitation": 18.8541283389
+  },
+  {
+    "date": "2017/7/19",
+    "precipitation": 20.8887427445
+  },
+  {
+    "date": "2017/7/2",
+    "precipitation": 59.5991934719
+  },
+  {
+    "date": "2017/7/20",
+    "precipitation": 7.31461808107
+  },
+  {
+    "date": "2017/7/21",
+    "precipitation": 0.984579671076
+  },
+  {
+    "date": "2017/7/22",
+    "precipitation": 1.04728771661
+  },
+  {
+    "date": "2017/7/23",
+    "precipitation": 9.77150188124
+  },
+  {
+    "date": "2017/7/24",
+    "precipitation": 7.50153734368
+  },
+  {
+    "date": "2017/7/25",
+    "precipitation": 0.76686708604
+  },
+  {
+    "date": "2017/7/26",
+    "precipitation": 1.55510864125
+  },
+  {
+    "date": "2017/7/27",
+    "precipitation": 0.030767133685
+  },
+  {
+    "date": "2017/7/28",
+    "precipitation": 0.0331691930407
+  },
+  {
+    "date": "2017/7/29",
+    "precipitation": 0.640086066691
+  },
+  {
+    "date": "2017/7/3",
+    "precipitation": 15.0955061832
+  },
+  {
+    "date": "2017/7/30",
+    "precipitation": 2.67465479431
+  },
+  {
+    "date": "2017/7/31",
+    "precipitation": 4.15673207217
+  },
+  {
+    "date": "2017/7/4",
+    "precipitation": 7.74564277235
+  },
+  {
+    "date": "2017/7/5",
+    "precipitation": 3.42541537199
+  },
+  {
+    "date": "2017/7/6",
+    "precipitation": 5.25019967125
+  },
+  {
+    "date": "2017/7/7",
+    "precipitation": 9.63989068801
+  },
+  {
+    "date": "2017/7/8",
+    "precipitation": 14.6674390632
+  },
+  {
+    "date": "2017/7/9",
+    "precipitation": 16.663603438
+  },
+  {
+    "date": "2017/8/1",
+    "precipitation": 8.30568373433
+  },
+  {
+    "date": "2017/8/10",
+    "precipitation": 16.2218942585
+  },
+  {
+    "date": "2017/8/11",
+    "precipitation": 5.8880299505
+  },
+  {
+    "date": "2017/8/12",
+    "precipitation": 3.05728326907
+  },
+  {
+    "date": "2017/8/13",
+    "precipitation": 5.60898810869
+  },
+  {
+    "date": "2017/8/14",
+    "precipitation": 16.3155083587
+  },
+  {
+    "date": "2017/8/15",
+    "precipitation": 20.6222128006
+  },
+  {
+    "date": "2017/8/16",
+    "precipitation": 2.48412068443
+  },
+  {
+    "date": "2017/8/17",
+    "precipitation": 1.93645352771
+  },
+  {
+    "date": "2017/8/18",
+    "precipitation": 0.471503969004
+  },
+  {
+    "date": "2017/8/19",
+    "precipitation": 0.000501635561821
+  },
+  {
+    "date": "2017/8/2",
+    "precipitation": 1.93081840761
+  },
+  {
+    "date": "2017/8/20",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/8/21",
+    "precipitation": 0.058938117332
+  },
+  {
+    "date": "2017/8/22",
+    "precipitation": 7.7068118155
+  },
+  {
+    "date": "2017/8/23",
+    "precipitation": 16.1998098201
+  },
+  {
+    "date": "2017/8/24",
+    "precipitation": 8.48132792438
+  },
+  {
+    "date": "2017/8/25",
+    "precipitation": 3.25938600546
+  },
+  {
+    "date": "2017/8/26",
+    "precipitation": 7.66831506764
+  },
+  {
+    "date": "2017/8/27",
+    "precipitation": 19.7830181547
+  },
+  {
+    "date": "2017/8/28",
+    "precipitation": 7.45580017595
+  },
+  {
+    "date": "2017/8/29",
+    "precipitation": 5.75576229957
+  },
+  {
+    "date": "2017/8/3",
+    "precipitation": 7.16056074809
+  },
+  {
+    "date": "2017/8/30",
+    "precipitation": 2.79479483136
+  },
+  {
+    "date": "2017/8/31",
+    "precipitation": 0.575058511756
+  },
+  {
+    "date": "2017/8/4",
+    "precipitation": 10.6619013114
+  },
+  {
+    "date": "2017/8/5",
+    "precipitation": 7.95574605925
+  },
+  {
+    "date": "2017/8/6",
+    "precipitation": 0.0210744238986
+  },
+  {
+    "date": "2017/8/7",
+    "precipitation": 1.42501533219
+  },
+  {
+    "date": "2017/8/8",
+    "precipitation": 0.10077226745
+  },
+  {
+    "date": "2017/8/9",
+    "precipitation": 9.98125291215
+  },
+  {
+    "date": "2017/9/1",
+    "precipitation": 1.12358064436
+  },
+  {
+    "date": "2017/9/10",
+    "precipitation": 4.81670947613
+  },
+  {
+    "date": "2017/9/11",
+    "precipitation": 9.5926037578
+  },
+  {
+    "date": "2017/9/12",
+    "precipitation": 1.38571801579
+  },
+  {
+    "date": "2017/9/13",
+    "precipitation": 0.654943643097
+  },
+  {
+    "date": "2017/9/14",
+    "precipitation": 0.303951780143
+  },
+  {
+    "date": "2017/9/15",
+    "precipitation": 0.317041522103
+  },
+  {
+    "date": "2017/9/16",
+    "precipitation": 0.000212251637355
+  },
+  {
+    "date": "2017/9/17",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2017/9/18",
+    "precipitation": 0.597210899916
+  },
+  {
+    "date": "2017/9/19",
+    "precipitation": 2.56131829023
+  },
+  {
+    "date": "2017/9/2",
+    "precipitation": 0.231873756153
+  },
+  {
+    "date": "2017/9/20",
+    "precipitation": 10.6732227041
+  },
+  {
+    "date": "2017/9/21",
+    "precipitation": 3.7139903875
+  },
+  {
+    "date": "2017/9/22",
+    "precipitation": 4.10776971564
+  },
+  {
+    "date": "2017/9/23",
+    "precipitation": 0.674254503092
+  },
+  {
+    "date": "2017/9/24",
+    "precipitation": 2.2807363281
+  },
+  {
+    "date": "2017/9/25",
+    "precipitation": 1.22070543134
+  },
+  {
+    "date": "2017/9/26",
+    "precipitation": 0.662222770251
+  },
+  {
+    "date": "2017/9/27",
+    "precipitation": 0.298781234039
+  },
+  {
+    "date": "2017/9/28",
+    "precipitation": 0.386462266429
+  },
+  {
+    "date": "2017/9/29",
+    "precipitation": 3.65101873616
+  },
+  {
+    "date": "2017/9/3",
+    "precipitation": 3.72769651474
+  },
+  {
+    "date": "2017/9/30",
+    "precipitation": 6.37186437572
+  },
+  {
+    "date": "2017/9/4",
+    "precipitation": 12.9525872107
+  },
+  {
+    "date": "2017/9/5",
+    "precipitation": 8.45702159491
+  },
+  {
+    "date": "2017/9/6",
+    "precipitation": 8.83097176839
+  },
+  {
+    "date": "2017/9/7",
+    "precipitation": 4.11826436577
+  },
+  {
+    "date": "2017/9/8",
+    "precipitation": 6.97188419549
+  },
+  {
+    "date": "2017/9/9",
+    "precipitation": 7.60520949996
+  },
+  {
+    "date": "2018/1/1",
+    "precipitation": 0.0773832870804
+  },
+  {
+    "date": "2018/1/10",
+    "precipitation": 0.196821484975
+  },
+  {
+    "date": "2018/1/11",
+    "precipitation": 0.00250340493688
+  },
+  {
+    "date": "2018/1/12",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/1/13",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/1/14",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/1/15",
+    "precipitation": 0.0198272463563
+  },
+  {
+    "date": "2018/1/16",
+    "precipitation": 0.0650389763336
+  },
+  {
+    "date": "2018/1/17",
+    "precipitation": 0.0298236153077
+  },
+  {
+    "date": "2018/1/18",
+    "precipitation": 0.00664194052147
+  },
+  {
+    "date": "2018/1/19",
+    "precipitation": 0.0263917282179
+  },
+  {
+    "date": "2018/1/2",
+    "precipitation": 0.124212378183
+  },
+  {
+    "date": "2018/1/20",
+    "precipitation": 0.0571746367355
+  },
+  {
+    "date": "2018/1/21",
+    "precipitation": 0.446972431117
+  },
+  {
+    "date": "2018/1/22",
+    "precipitation": 0.138429319122
+  },
+  {
+    "date": "2018/1/23",
+    "precipitation": 0.0845910535822
+  },
+  {
+    "date": "2018/1/24",
+    "precipitation": 1.34907154577
+  },
+  {
+    "date": "2018/1/25",
+    "precipitation": 0.584696508998
+  },
+  {
+    "date": "2018/1/26",
+    "precipitation": 0.408521171758
+  },
+  {
+    "date": "2018/1/27",
+    "precipitation": 3.25138462969
+  },
+  {
+    "date": "2018/1/28",
+    "precipitation": 6.80562893856
+  },
+  {
+    "date": "2018/1/29",
+    "precipitation": 2.08563705367
+  },
+  {
+    "date": "2018/1/3",
+    "precipitation": 0.280823740356
+  },
+  {
+    "date": "2018/1/30",
+    "precipitation": 3.718516976
+  },
+  {
+    "date": "2018/1/31",
+    "precipitation": 1.10600782209
+  },
+  {
+    "date": "2018/1/4",
+    "precipitation": 2.42249492479
+  },
+  {
+    "date": "2018/1/5",
+    "precipitation": 3.66572636122
+  },
+  {
+    "date": "2018/1/6",
+    "precipitation": 29.7907878646
+  },
+  {
+    "date": "2018/1/7",
+    "precipitation": 26.987833115
+  },
+  {
+    "date": "2018/1/8",
+    "precipitation": 22.0338826099
+  },
+  {
+    "date": "2018/1/9",
+    "precipitation": 10.0226299849
+  },
+  {
+    "date": "2018/10/1",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/10/10",
+    "precipitation": 6.42249855708
+  },
+  {
+    "date": "2018/10/11",
+    "precipitation": 3.84120243414
+  },
+  {
+    "date": "2018/10/12",
+    "precipitation": 0.055042635912
+  },
+  {
+    "date": "2018/10/13",
+    "precipitation": 4.89490129459
+  },
+  {
+    "date": "2018/10/14",
+    "precipitation": 19.942337043
+  },
+  {
+    "date": "2018/10/15",
+    "precipitation": 7.48800248755
+  },
+  {
+    "date": "2018/10/16",
+    "precipitation": 12.3759156124
+  },
+  {
+    "date": "2018/10/17",
+    "precipitation": 6.09897284335
+  },
+  {
+    "date": "2018/10/18",
+    "precipitation": 3.226982948
+  },
+  {
+    "date": "2018/10/19",
+    "precipitation": 5.01673921677
+  },
+  {
+    "date": "2018/10/2",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/10/20",
+    "precipitation": 2.42474604127
+  },
+  {
+    "date": "2018/10/21",
+    "precipitation": 12.9845334932
+  },
+  {
+    "date": "2018/10/22",
+    "precipitation": 11.3414147526
+  },
+  {
+    "date": "2018/10/23",
+    "precipitation": 13.8518991953
+  },
+  {
+    "date": "2018/10/24",
+    "precipitation": 3.19155738095
+  },
+  {
+    "date": "2018/10/25",
+    "precipitation": 1.52084096886
+  },
+  {
+    "date": "2018/10/26",
+    "precipitation": 2.71234215225
+  },
+  {
+    "date": "2018/10/27",
+    "precipitation": 0.902260278937
+  },
+  {
+    "date": "2018/10/28",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/10/29",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/10/3",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/10/30",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/10/31",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/10/4",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/10/5",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/10/6",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/10/7",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/10/8",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/10/9",
+    "precipitation": 4.59004897784
+  },
+  {
+    "date": "2018/11/1",
+    "precipitation": 0.0131861751961
+  },
+  {
+    "date": "2018/11/10",
+    "precipitation": 1.93296770683
+  },
+  {
+    "date": "2018/11/11",
+    "precipitation": 5.7003767838
+  },
+  {
+    "date": "2018/11/12",
+    "precipitation": 2.83576905821
+  },
+  {
+    "date": "2018/11/13",
+    "precipitation": 0.280579810087
+  },
+  {
+    "date": "2018/11/14",
+    "precipitation": 4.94176146955
+  },
+  {
+    "date": "2018/11/15",
+    "precipitation": 20.0355953354
+  },
+  {
+    "date": "2018/11/16",
+    "precipitation": 5.84845670246
+  },
+  {
+    "date": "2018/11/17",
+    "precipitation": 4.23732094477
+  },
+  {
+    "date": "2018/11/18",
+    "precipitation": 7.60951372399
+  },
+  {
+    "date": "2018/11/19",
+    "precipitation": 3.00352014964
+  },
+  {
+    "date": "2018/11/2",
+    "precipitation": 0.239178159508
+  },
+  {
+    "date": "2018/11/20",
+    "precipitation": 5.80474251437
+  },
+  {
+    "date": "2018/11/21",
+    "precipitation": 4.86945804918
+  },
+  {
+    "date": "2018/11/22",
+    "precipitation": 1.21974440023
+  },
+  {
+    "date": "2018/11/23",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/11/24",
+    "precipitation": 0.00271290698375
+  },
+  {
+    "date": "2018/11/25",
+    "precipitation": 0.717723876245
+  },
+  {
+    "date": "2018/11/26",
+    "precipitation": 0.03607452623
+  },
+  {
+    "date": "2018/11/27",
+    "precipitation": 0.088286364101
+  },
+  {
+    "date": "2018/11/28",
+    "precipitation": 0.00539883223463
+  },
+  {
+    "date": "2018/11/29",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/11/3",
+    "precipitation": 0.0509778707229
+  },
+  {
+    "date": "2018/11/30",
+    "precipitation": 6.40876839419
+  },
+  {
+    "date": "2018/11/4",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/11/5",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/11/6",
+    "precipitation": 4.40172538714
+  },
+  {
+    "date": "2018/11/7",
+    "precipitation": 3.99645656132
+  },
+  {
+    "date": "2018/11/8",
+    "precipitation": 0.105207558012
+  },
+  {
+    "date": "2018/11/9",
+    "precipitation": 0.030059163241
+  },
+  {
+    "date": "2018/12/1",
+    "precipitation": 6.9004611429
+  },
+  {
+    "date": "2018/12/10",
+    "precipitation": 1.66939885631
+  },
+  {
+    "date": "2018/12/11",
+    "precipitation": 1.13110234946
+  },
+  {
+    "date": "2018/12/12",
+    "precipitation": 3.06870616028
+  },
+  {
+    "date": "2018/12/13",
+    "precipitation": 0.348647558186
+  },
+  {
+    "date": "2018/12/14",
+    "precipitation": 0.382928454409
+  },
+  {
+    "date": "2018/12/15",
+    "precipitation": 0.276214849015
+  },
+  {
+    "date": "2018/12/16",
+    "precipitation": 0.131449015901
+  },
+  {
+    "date": "2018/12/17",
+    "precipitation": 0.00248700367309
+  },
+  {
+    "date": "2018/12/18",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/12/19",
+    "precipitation": 0.704995944324
+  },
+  {
+    "date": "2018/12/2",
+    "precipitation": 2.15671507723
+  },
+  {
+    "date": "2018/12/20",
+    "precipitation": 4.29849365763
+  },
+  {
+    "date": "2018/12/21",
+    "precipitation": 1.24165433775
+  },
+  {
+    "date": "2018/12/22",
+    "precipitation": 0.304812963774
+  },
+  {
+    "date": "2018/12/23",
+    "precipitation": 0.125368467599
+  },
+  {
+    "date": "2018/12/24",
+    "precipitation": 0.660184011761
+  },
+  {
+    "date": "2018/12/25",
+    "precipitation": 1.53745057554
+  },
+  {
+    "date": "2018/12/26",
+    "precipitation": 0.749314818684
+  },
+  {
+    "date": "2018/12/27",
+    "precipitation": 0.276963301362
+  },
+  {
+    "date": "2018/12/28",
+    "precipitation": 0.500311146479
+  },
+  {
+    "date": "2018/12/29",
+    "precipitation": 0.637653798727
+  },
+  {
+    "date": "2018/12/3",
+    "precipitation": 0.901903542194
+  },
+  {
+    "date": "2018/12/30",
+    "precipitation": 6.21132899709
+  },
+  {
+    "date": "2018/12/31",
+    "precipitation": 0.422333500409
+  },
+  {
+    "date": "2018/12/4",
+    "precipitation": 1.10362292255
+  },
+  {
+    "date": "2018/12/5",
+    "precipitation": 0.137608300194
+  },
+  {
+    "date": "2018/12/6",
+    "precipitation": 1.10541558131
+  },
+  {
+    "date": "2018/12/7",
+    "precipitation": 4.08017815165
+  },
+  {
+    "date": "2018/12/8",
+    "precipitation": 21.2850736779
+  },
+  {
+    "date": "2018/12/9",
+    "precipitation": 3.79442513305
+  },
+  {
+    "date": "2018/2/1",
+    "precipitation": 1.14263629487
+  },
+  {
+    "date": "2018/2/10",
+    "precipitation": 0.729012500737
+  },
+  {
+    "date": "2018/2/11",
+    "precipitation": 0.508762323623
+  },
+  {
+    "date": "2018/2/12",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/2/13",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/2/14",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/2/15",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/2/16",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/2/17",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/2/18",
+    "precipitation": 0.0772152649912
+  },
+  {
+    "date": "2018/2/19",
+    "precipitation": 0.205331177704
+  },
+  {
+    "date": "2018/2/2",
+    "precipitation": 0.00558393711606
+  },
+  {
+    "date": "2018/2/20",
+    "precipitation": 0.107036538332
+  },
+  {
+    "date": "2018/2/21",
+    "precipitation": 1.94715996047
+  },
+  {
+    "date": "2018/2/22",
+    "precipitation": 4.82772098018
+  },
+  {
+    "date": "2018/2/23",
+    "precipitation": 1.33655428456
+  },
+  {
+    "date": "2018/2/24",
+    "precipitation": 7.86589736938
+  },
+  {
+    "date": "2018/2/25",
+    "precipitation": 3.01259398231
+  },
+  {
+    "date": "2018/2/26",
+    "precipitation": 0.595419837409
+  },
+  {
+    "date": "2018/2/27",
+    "precipitation": 3.56539114642
+  },
+  {
+    "date": "2018/2/28",
+    "precipitation": 4.0212220597
+  },
+  {
+    "date": "2018/2/3",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/2/4",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/2/5",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/2/6",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/2/7",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/2/8",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/2/9",
+    "precipitation": 0.253997764171
+  },
+  {
+    "date": "2018/3/1",
+    "precipitation": 0.0831545389022
+  },
+  {
+    "date": "2018/3/10",
+    "precipitation": 0.0414301473445
+  },
+  {
+    "date": "2018/3/11",
+    "precipitation": 0.0324040455901
+  },
+  {
+    "date": "2018/3/12",
+    "precipitation": 0.0360240902123
+  },
+  {
+    "date": "2018/3/13",
+    "precipitation": 0.527032526861
+  },
+  {
+    "date": "2018/3/14",
+    "precipitation": 10.8858723497
+  },
+  {
+    "date": "2018/3/15",
+    "precipitation": 4.02417409564
+  },
+  {
+    "date": "2018/3/16",
+    "precipitation": 5.78800142012
+  },
+  {
+    "date": "2018/3/17",
+    "precipitation": 8.04600304552
+  },
+  {
+    "date": "2018/3/18",
+    "precipitation": 3.72708087599
+  },
+  {
+    "date": "2018/3/19",
+    "precipitation": 17.4995376932
+  },
+  {
+    "date": "2018/3/2",
+    "precipitation": 0.569512137807
+  },
+  {
+    "date": "2018/3/20",
+    "precipitation": 4.11903146132
+  },
+  {
+    "date": "2018/3/21",
+    "precipitation": 0.00819580810739
+  },
+  {
+    "date": "2018/3/22",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/3/23",
+    "precipitation": 0.00554576776333
+  },
+  {
+    "date": "2018/3/24",
+    "precipitation": 0.852801710008
+  },
+  {
+    "date": "2018/3/25",
+    "precipitation": 5.0184525507
+  },
+  {
+    "date": "2018/3/26",
+    "precipitation": 1.23675611152
+  },
+  {
+    "date": "2018/3/27",
+    "precipitation": 0.0264271127498
+  },
+  {
+    "date": "2018/3/28",
+    "precipitation": 6.61432790009
+  },
+  {
+    "date": "2018/3/29",
+    "precipitation": 10.3869978411
+  },
+  {
+    "date": "2018/3/3",
+    "precipitation": 0.561023407923
+  },
+  {
+    "date": "2018/3/30",
+    "precipitation": 7.1390592667
+  },
+  {
+    "date": "2018/3/31",
+    "precipitation": 1.331391519
+  },
+  {
+    "date": "2018/3/4",
+    "precipitation": 18.1741545574
+  },
+  {
+    "date": "2018/3/5",
+    "precipitation": 2.16653390907
+  },
+  {
+    "date": "2018/3/6",
+    "precipitation": 1.44711622689
+  },
+  {
+    "date": "2018/3/7",
+    "precipitation": 20.927386755
+  },
+  {
+    "date": "2018/3/8",
+    "precipitation": 2.00501733648
+  },
+  {
+    "date": "2018/3/9",
+    "precipitation": 0.118448445012
+  },
+  {
+    "date": "2018/4/1",
+    "precipitation": 0.217275448862
+  },
+  {
+    "date": "2018/4/10",
+    "precipitation": 0.0336782014379
+  },
+  {
+    "date": "2018/4/11",
+    "precipitation": 0.41959376784
+  },
+  {
+    "date": "2018/4/12",
+    "precipitation": 0.296714431658
+  },
+  {
+    "date": "2018/4/13",
+    "precipitation": 2.48538786058
+  },
+  {
+    "date": "2018/4/14",
+    "precipitation": 12.09658452
+  },
+  {
+    "date": "2018/4/15",
+    "precipitation": 5.87267789668
+  },
+  {
+    "date": "2018/4/16",
+    "precipitation": 0.891626500365
+  },
+  {
+    "date": "2018/4/17",
+    "precipitation": 0.276568695443
+  },
+  {
+    "date": "2018/4/18",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/4/19",
+    "precipitation": 18.8315677252
+  },
+  {
+    "date": "2018/4/2",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/4/20",
+    "precipitation": 20.2265414135
+  },
+  {
+    "date": "2018/4/21",
+    "precipitation": 5.83033735091
+  },
+  {
+    "date": "2018/4/22",
+    "precipitation": 3.76994209749
+  },
+  {
+    "date": "2018/4/23",
+    "precipitation": 10.9727609479
+  },
+  {
+    "date": "2018/4/24",
+    "precipitation": 7.48947236452
+  },
+  {
+    "date": "2018/4/25",
+    "precipitation": 0.662066635364
+  },
+  {
+    "date": "2018/4/26",
+    "precipitation": 5.68770244208
+  },
+  {
+    "date": "2018/4/27",
+    "precipitation": 9.05805065144
+  },
+  {
+    "date": "2018/4/28",
+    "precipitation": 7.3088509439
+  },
+  {
+    "date": "2018/4/29",
+    "precipitation": 11.0711662201
+  },
+  {
+    "date": "2018/4/3",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/4/30",
+    "precipitation": 8.46778708998
+  },
+  {
+    "date": "2018/4/4",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/4/5",
+    "precipitation": 1.64501270041
+  },
+  {
+    "date": "2018/4/6",
+    "precipitation": 4.84232983704
+  },
+  {
+    "date": "2018/4/7",
+    "precipitation": 1.71588122155
+  },
+  {
+    "date": "2018/4/8",
+    "precipitation": 3.2802525324e-05
+  },
+  {
+    "date": "2018/4/9",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/5/1",
+    "precipitation": 2.39279029096
+  },
+  {
+    "date": "2018/5/10",
+    "precipitation": 4.92403297826
+  },
+  {
+    "date": "2018/5/11",
+    "precipitation": 16.8171281234
+  },
+  {
+    "date": "2018/5/12",
+    "precipitation": 9.0422341657
+  },
+  {
+    "date": "2018/5/13",
+    "precipitation": 5.05807593817
+  },
+  {
+    "date": "2018/5/14",
+    "precipitation": 1.75433854489
+  },
+  {
+    "date": "2018/5/15",
+    "precipitation": 0.16024392784
+  },
+  {
+    "date": "2018/5/16",
+    "precipitation": 0.519933296363
+  },
+  {
+    "date": "2018/5/17",
+    "precipitation": 0.77131905676
+  },
+  {
+    "date": "2018/5/18",
+    "precipitation": 0.0683297526226
+  },
+  {
+    "date": "2018/5/19",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/5/2",
+    "precipitation": 7.11792279266
+  },
+  {
+    "date": "2018/5/20",
+    "precipitation": 0.525310494145
+  },
+  {
+    "date": "2018/5/21",
+    "precipitation": 0.0409708194331
+  },
+  {
+    "date": "2018/5/22",
+    "precipitation": 0.307524166983
+  },
+  {
+    "date": "2018/5/23",
+    "precipitation": 0.0633391281567
+  },
+  {
+    "date": "2018/5/24",
+    "precipitation": 0.229719388925
+  },
+  {
+    "date": "2018/5/25",
+    "precipitation": 0.0678133161795
+  },
+  {
+    "date": "2018/5/26",
+    "precipitation": 0.416607238693
+  },
+  {
+    "date": "2018/5/27",
+    "precipitation": 21.2030084334
+  },
+  {
+    "date": "2018/5/28",
+    "precipitation": 6.84129958555
+  },
+  {
+    "date": "2018/5/29",
+    "precipitation": 5.43881002306
+  },
+  {
+    "date": "2018/5/3",
+    "precipitation": 9.19637042815
+  },
+  {
+    "date": "2018/5/30",
+    "precipitation": 3.73987924938
+  },
+  {
+    "date": "2018/5/31",
+    "precipitation": 12.4528231046
+  },
+  {
+    "date": "2018/5/4",
+    "precipitation": 5.57698384365
+  },
+  {
+    "date": "2018/5/5",
+    "precipitation": 5.19233121355
+  },
+  {
+    "date": "2018/5/6",
+    "precipitation": 5.89931835496
+  },
+  {
+    "date": "2018/5/7",
+    "precipitation": 21.1106796862
+  },
+  {
+    "date": "2018/5/8",
+    "precipitation": 13.5024004603
+  },
+  {
+    "date": "2018/5/9",
+    "precipitation": 26.4730620924
+  },
+  {
+    "date": "2018/6/1",
+    "precipitation": 7.6272434091
+  },
+  {
+    "date": "2018/6/10",
+    "precipitation": 0.260069317153
+  },
+  {
+    "date": "2018/6/11",
+    "precipitation": 0.979691586796
+  },
+  {
+    "date": "2018/6/12",
+    "precipitation": 29.5837867162
+  },
+  {
+    "date": "2018/6/13",
+    "precipitation": 4.73996835674
+  },
+  {
+    "date": "2018/6/14",
+    "precipitation": 0.665259730306
+  },
+  {
+    "date": "2018/6/15",
+    "precipitation": 0.360326029719
+  },
+  {
+    "date": "2018/6/16",
+    "precipitation": 0.464465560095
+  },
+  {
+    "date": "2018/6/17",
+    "precipitation": 0.175782340657
+  },
+  {
+    "date": "2018/6/18",
+    "precipitation": 0.0191893101535
+  },
+  {
+    "date": "2018/6/19",
+    "precipitation": 0.723236314504
+  },
+  {
+    "date": "2018/6/2",
+    "precipitation": 19.0863196557
+  },
+  {
+    "date": "2018/6/20",
+    "precipitation": 7.09068165687
+  },
+  {
+    "date": "2018/6/21",
+    "precipitation": 17.0513876777
+  },
+  {
+    "date": "2018/6/22",
+    "precipitation": 19.4967971986
+  },
+  {
+    "date": "2018/6/23",
+    "precipitation": 18.7231863895
+  },
+  {
+    "date": "2018/6/24",
+    "precipitation": 3.88907278704
+  },
+  {
+    "date": "2018/6/25",
+    "precipitation": 11.8076583345
+  },
+  {
+    "date": "2018/6/26",
+    "precipitation": 7.24816073567
+  },
+  {
+    "date": "2018/6/27",
+    "precipitation": 1.45295968268
+  },
+  {
+    "date": "2018/6/28",
+    "precipitation": 0.000285896533225
+  },
+  {
+    "date": "2018/6/29",
+    "precipitation": 3.26587241378
+  },
+  {
+    "date": "2018/6/3",
+    "precipitation": 11.9481729174
+  },
+  {
+    "date": "2018/6/30",
+    "precipitation": 2.03899743
+  },
+  {
+    "date": "2018/6/4",
+    "precipitation": 4.70117981233
+  },
+  {
+    "date": "2018/6/5",
+    "precipitation": 7.5664914608
+  },
+  {
+    "date": "2018/6/6",
+    "precipitation": 5.0933418024
+  },
+  {
+    "date": "2018/6/7",
+    "precipitation": 20.5834332903
+  },
+  {
+    "date": "2018/6/8",
+    "precipitation": 24.9695190344
+  },
+  {
+    "date": "2018/6/9",
+    "precipitation": 1.5466610683
+  },
+  {
+    "date": "2018/7/1",
+    "precipitation": 0.972733450026
+  },
+  {
+    "date": "2018/7/10",
+    "precipitation": 0.0142208685504
+  },
+  {
+    "date": "2018/7/11",
+    "precipitation": 0.0168644509127
+  },
+  {
+    "date": "2018/7/12",
+    "precipitation": 3.21910757519
+  },
+  {
+    "date": "2018/7/13",
+    "precipitation": 12.7986300842
+  },
+  {
+    "date": "2018/7/14",
+    "precipitation": 10.0415429621
+  },
+  {
+    "date": "2018/7/15",
+    "precipitation": 6.78831414602
+  },
+  {
+    "date": "2018/7/16",
+    "precipitation": 1.27325256366
+  },
+  {
+    "date": "2018/7/17",
+    "precipitation": 0.60378439312
+  },
+  {
+    "date": "2018/7/18",
+    "precipitation": 0.766383550038
+  },
+  {
+    "date": "2018/7/19",
+    "precipitation": 0.705158147162
+  },
+  {
+    "date": "2018/7/2",
+    "precipitation": 4.26639499693
+  },
+  {
+    "date": "2018/7/20",
+    "precipitation": 0.427384604541
+  },
+  {
+    "date": "2018/7/21",
+    "precipitation": 0.0233615477805
+  },
+  {
+    "date": "2018/7/22",
+    "precipitation": 14.3404792343
+  },
+  {
+    "date": "2018/7/23",
+    "precipitation": 9.03583320509
+  },
+  {
+    "date": "2018/7/24",
+    "precipitation": 7.32684004221
+  },
+  {
+    "date": "2018/7/25",
+    "precipitation": 5.88432449203
+  },
+  {
+    "date": "2018/7/26",
+    "precipitation": 3.62810770833
+  },
+  {
+    "date": "2018/7/27",
+    "precipitation": 3.90363226023
+  },
+  {
+    "date": "2018/7/28",
+    "precipitation": 3.66037684622
+  },
+  {
+    "date": "2018/7/29",
+    "precipitation": 3.88183024073
+  },
+  {
+    "date": "2018/7/3",
+    "precipitation": 1.61751157505
+  },
+  {
+    "date": "2018/7/30",
+    "precipitation": 3.02645364626
+  },
+  {
+    "date": "2018/7/31",
+    "precipitation": 7.24215329727
+  },
+  {
+    "date": "2018/7/4",
+    "precipitation": 0.186443303777
+  },
+  {
+    "date": "2018/7/5",
+    "precipitation": 0.151125744555
+  },
+  {
+    "date": "2018/7/6",
+    "precipitation": 22.4584448872
+  },
+  {
+    "date": "2018/7/7",
+    "precipitation": 36.5690377477
+  },
+  {
+    "date": "2018/7/8",
+    "precipitation": 6.40798001404
+  },
+  {
+    "date": "2018/7/9",
+    "precipitation": 2.79442865762
+  },
+  {
+    "date": "2018/8/1",
+    "precipitation": 3.95576755369
+  },
+  {
+    "date": "2018/8/10",
+    "precipitation": 2.13740755226
+  },
+  {
+    "date": "2018/8/11",
+    "precipitation": 7.991664558
+  },
+  {
+    "date": "2018/8/12",
+    "precipitation": 2.9695079634
+  },
+  {
+    "date": "2018/8/13",
+    "precipitation": 3.37330687003
+  },
+  {
+    "date": "2018/8/14",
+    "precipitation": 5.8744007846
+  },
+  {
+    "date": "2018/8/15",
+    "precipitation": 7.04641821011
+  },
+  {
+    "date": "2018/8/16",
+    "precipitation": 17.77327063
+  },
+  {
+    "date": "2018/8/17",
+    "precipitation": 20.9486600531
+  },
+  {
+    "date": "2018/8/18",
+    "precipitation": 2.9780908051
+  },
+  {
+    "date": "2018/8/19",
+    "precipitation": 0.598425261703
+  },
+  {
+    "date": "2018/8/2",
+    "precipitation": 8.2999104316
+  },
+  {
+    "date": "2018/8/20",
+    "precipitation": 2.42445025703
+  },
+  {
+    "date": "2018/8/21",
+    "precipitation": 4.76641940381
+  },
+  {
+    "date": "2018/8/22",
+    "precipitation": 0.433509283647
+  },
+  {
+    "date": "2018/8/23",
+    "precipitation": 1.41019774447
+  },
+  {
+    "date": "2018/8/24",
+    "precipitation": 2.68406762646
+  },
+  {
+    "date": "2018/8/25",
+    "precipitation": 0.77675215285
+  },
+  {
+    "date": "2018/8/26",
+    "precipitation": 5.51099263272
+  },
+  {
+    "date": "2018/8/27",
+    "precipitation": 27.1215292488
+  },
+  {
+    "date": "2018/8/28",
+    "precipitation": 24.0068911541
+  },
+  {
+    "date": "2018/8/29",
+    "precipitation": 9.97254374171
+  },
+  {
+    "date": "2018/8/3",
+    "precipitation": 12.0491246809
+  },
+  {
+    "date": "2018/8/30",
+    "precipitation": 13.7804029063
+  },
+  {
+    "date": "2018/8/31",
+    "precipitation": 28.0023474958
+  },
+  {
+    "date": "2018/8/4",
+    "precipitation": 2.8523386133
+  },
+  {
+    "date": "2018/8/5",
+    "precipitation": 7.52793773283
+  },
+  {
+    "date": "2018/8/6",
+    "precipitation": 4.84138105282
+  },
+  {
+    "date": "2018/8/7",
+    "precipitation": 5.38877549631
+  },
+  {
+    "date": "2018/8/8",
+    "precipitation": 2.12620493766
+  },
+  {
+    "date": "2018/8/9",
+    "precipitation": 4.5852163378
+  },
+  {
+    "date": "2018/9/1",
+    "precipitation": 17.6317209106
+  },
+  {
+    "date": "2018/9/10",
+    "precipitation": 0.00989924993097
+  },
+  {
+    "date": "2018/9/11",
+    "precipitation": 0.000220613073872
+  },
+  {
+    "date": "2018/9/12",
+    "precipitation": 0.17918353074
+  },
+  {
+    "date": "2018/9/13",
+    "precipitation": 1.82503081144
+  },
+  {
+    "date": "2018/9/14",
+    "precipitation": 1.60477945977
+  },
+  {
+    "date": "2018/9/15",
+    "precipitation": 0.0133002823056
+  },
+  {
+    "date": "2018/9/16",
+    "precipitation": 37.2214133849
+  },
+  {
+    "date": "2018/9/17",
+    "precipitation": 56.0215221589
+  },
+  {
+    "date": "2018/9/18",
+    "precipitation": 3.35777005374
+  },
+  {
+    "date": "2018/9/19",
+    "precipitation": 4.03353991494
+  },
+  {
+    "date": "2018/9/2",
+    "precipitation": 11.2992475021
+  },
+  {
+    "date": "2018/9/20",
+    "precipitation": 0.0924147256325
+  },
+  {
+    "date": "2018/9/21",
+    "precipitation": 0.6841150835
+  },
+  {
+    "date": "2018/9/22",
+    "precipitation": 0.59303457684
+  },
+  {
+    "date": "2018/9/23",
+    "precipitation": 2.32576629336
+  },
+  {
+    "date": "2018/9/24",
+    "precipitation": 3.63180760878
+  },
+  {
+    "date": "2018/9/25",
+    "precipitation": 9.99465291931
+  },
+  {
+    "date": "2018/9/26",
+    "precipitation": 18.811671943
+  },
+  {
+    "date": "2018/9/27",
+    "precipitation": 4.40472466486
+  },
+  {
+    "date": "2018/9/28",
+    "precipitation": 2.58198931346
+  },
+  {
+    "date": "2018/9/29",
+    "precipitation": 0.0167766921929
+  },
+  {
+    "date": "2018/9/3",
+    "precipitation": 0.554815430024
+  },
+  {
+    "date": "2018/9/30",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2018/9/4",
+    "precipitation": 0.0205046116686
+  },
+  {
+    "date": "2018/9/5",
+    "precipitation": 1.17679002202
+  },
+  {
+    "date": "2018/9/6",
+    "precipitation": 19.3254900381
+  },
+  {
+    "date": "2018/9/7",
+    "precipitation": 20.8484078763
+  },
+  {
+    "date": "2018/9/8",
+    "precipitation": 0.753669656131
+  },
+  {
+    "date": "2018/9/9",
+    "precipitation": 8.9724559382e-05
+  },
+  {
+    "date": "2019/1/1",
+    "precipitation": 0.372595812973
+  },
+  {
+    "date": "2019/1/10",
+    "precipitation": 7.00496037782
+  },
+  {
+    "date": "2019/1/11",
+    "precipitation": 4.19045541545
+  },
+  {
+    "date": "2019/1/12",
+    "precipitation": 1.19381938388
+  },
+  {
+    "date": "2019/1/13",
+    "precipitation": 0.581038760026
+  },
+  {
+    "date": "2019/1/14",
+    "precipitation": 0.244140558313
+  },
+  {
+    "date": "2019/1/15",
+    "precipitation": 0.361243175563
+  },
+  {
+    "date": "2019/1/16",
+    "precipitation": 1.29042215412
+  },
+  {
+    "date": "2019/1/17",
+    "precipitation": 0.459537254023
+  },
+  {
+    "date": "2019/1/18",
+    "precipitation": 0.044620606016
+  },
+  {
+    "date": "2019/1/19",
+    "precipitation": 1.53057640935
+  },
+  {
+    "date": "2019/1/2",
+    "precipitation": 0.298633977443
+  },
+  {
+    "date": "2019/1/20",
+    "precipitation": 2.57173482725
+  },
+  {
+    "date": "2019/1/21",
+    "precipitation": 1.24326717897
+  },
+  {
+    "date": "2019/1/22",
+    "precipitation": 0.478719462472
+  },
+  {
+    "date": "2019/1/23",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/1/24",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/1/25",
+    "precipitation": 0.0117901214786
+  },
+  {
+    "date": "2019/1/26",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/1/27",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/1/28",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/1/29",
+    "precipitation": 0.0434849049795
+  },
+  {
+    "date": "2019/1/3",
+    "precipitation": 3.68319993737
+  },
+  {
+    "date": "2019/1/30",
+    "precipitation": 0.499486253779
+  },
+  {
+    "date": "2019/1/31",
+    "precipitation": 0.310240614818
+  },
+  {
+    "date": "2019/1/4",
+    "precipitation": 5.91623105084
+  },
+  {
+    "date": "2019/1/5",
+    "precipitation": 1.9527717958
+  },
+  {
+    "date": "2019/1/6",
+    "precipitation": 1.04628746021
+  },
+  {
+    "date": "2019/1/7",
+    "precipitation": 1.56529563077
+  },
+  {
+    "date": "2019/1/8",
+    "precipitation": 1.42262695381
+  },
+  {
+    "date": "2019/1/9",
+    "precipitation": 1.56383486871
+  },
+  {
+    "date": "2019/10/1",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/10/10",
+    "precipitation": 0.34052845491
+  },
+  {
+    "date": "2019/10/11",
+    "precipitation": 1.90351024767
+  },
+  {
+    "date": "2019/10/12",
+    "precipitation": 1.8862968768
+  },
+  {
+    "date": "2019/10/13",
+    "precipitation": 3.08507996352
+  },
+  {
+    "date": "2019/10/14",
+    "precipitation": 1.29781198846
+  },
+  {
+    "date": "2019/10/15",
+    "precipitation": 0.188518510597
+  },
+  {
+    "date": "2019/10/16",
+    "precipitation": 0.627347134969
+  },
+  {
+    "date": "2019/10/17",
+    "precipitation": 0.987008917098
+  },
+  {
+    "date": "2019/10/18",
+    "precipitation": 0.48961686579
+  },
+  {
+    "date": "2019/10/19",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/10/2",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/10/20",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/10/21",
+    "precipitation": 0.000579377042736
+  },
+  {
+    "date": "2019/10/22",
+    "precipitation": 3.58923000313
+  },
+  {
+    "date": "2019/10/23",
+    "precipitation": 18.7478319536
+  },
+  {
+    "date": "2019/10/24",
+    "precipitation": 3.29419955259
+  },
+  {
+    "date": "2019/10/25",
+    "precipitation": 1.30934876606
+  },
+  {
+    "date": "2019/10/26",
+    "precipitation": 0.505822322338
+  },
+  {
+    "date": "2019/10/27",
+    "precipitation": 1.44901135406
+  },
+  {
+    "date": "2019/10/28",
+    "precipitation": 4.63755547857
+  },
+  {
+    "date": "2019/10/29",
+    "precipitation": 1.64061496502
+  },
+  {
+    "date": "2019/10/3",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/10/30",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/10/31",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/10/4",
+    "precipitation": 6.3317624224e-05
+  },
+  {
+    "date": "2019/10/5",
+    "precipitation": 0.00109281591925
+  },
+  {
+    "date": "2019/10/6",
+    "precipitation": 0.905659451538
+  },
+  {
+    "date": "2019/10/7",
+    "precipitation": 1.80263557793
+  },
+  {
+    "date": "2019/10/8",
+    "precipitation": 0.979443376071
+  },
+  {
+    "date": "2019/10/9",
+    "precipitation": 0.479405888834
+  },
+  {
+    "date": "2019/11/1",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/11/10",
+    "precipitation": 4.0842359324e-05
+  },
+  {
+    "date": "2019/11/11",
+    "precipitation": 0.000800445927195
+  },
+  {
+    "date": "2019/11/12",
+    "precipitation": 0.386564418063
+  },
+  {
+    "date": "2019/11/13",
+    "precipitation": 1.81609624107
+  },
+  {
+    "date": "2019/11/14",
+    "precipitation": 0.431546275695
+  },
+  {
+    "date": "2019/11/15",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/11/16",
+    "precipitation": 0.0149922629448
+  },
+  {
+    "date": "2019/11/17",
+    "precipitation": 1.26491155991
+  },
+  {
+    "date": "2019/11/18",
+    "precipitation": 1.24865414795
+  },
+  {
+    "date": "2019/11/19",
+    "precipitation": 0.351878179897
+  },
+  {
+    "date": "2019/11/2",
+    "precipitation": 1.02277619754
+  },
+  {
+    "date": "2019/11/20",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/11/21",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/11/22",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/11/23",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/11/24",
+    "precipitation": 0.0888451420085
+  },
+  {
+    "date": "2019/11/25",
+    "precipitation": 0.0572727514324
+  },
+  {
+    "date": "2019/11/26",
+    "precipitation": 0.250191104771
+  },
+  {
+    "date": "2019/11/27",
+    "precipitation": 0.391022908795
+  },
+  {
+    "date": "2019/11/28",
+    "precipitation": 0.256623738187
+  },
+  {
+    "date": "2019/11/29",
+    "precipitation": 0.0167417817701
+  },
+  {
+    "date": "2019/11/3",
+    "precipitation": 0.239785389503
+  },
+  {
+    "date": "2019/11/30",
+    "precipitation": 0.264668906794
+  },
+  {
+    "date": "2019/11/4",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/11/5",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/11/6",
+    "precipitation": 0.0282282184417
+  },
+  {
+    "date": "2019/11/7",
+    "precipitation": 0.0144466511294
+  },
+  {
+    "date": "2019/11/8",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/11/9",
+    "precipitation": 0.00057179306645
+  },
+  {
+    "date": "2019/12/1",
+    "precipitation": 0.489990163433
+  },
+  {
+    "date": "2019/12/10",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/12/11",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/12/12",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/12/13",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/12/14",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/12/15",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/12/16",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/12/17",
+    "precipitation": 0.0726397668651
+  },
+  {
+    "date": "2019/12/18",
+    "precipitation": 1.33566454053
+  },
+  {
+    "date": "2019/12/19",
+    "precipitation": 2.14474800538
+  },
+  {
+    "date": "2019/12/2",
+    "precipitation": 0.189217365145
+  },
+  {
+    "date": "2019/12/20",
+    "precipitation": 1.05723427136
+  },
+  {
+    "date": "2019/12/21",
+    "precipitation": 2.7302966678
+  },
+  {
+    "date": "2019/12/22",
+    "precipitation": 0.298100480186
+  },
+  {
+    "date": "2019/12/23",
+    "precipitation": 1.06245712559
+  },
+  {
+    "date": "2019/12/24",
+    "precipitation": 0.581729391971
+  },
+  {
+    "date": "2019/12/25",
+    "precipitation": 0.66166970676
+  },
+  {
+    "date": "2019/12/26",
+    "precipitation": 1.18702096329
+  },
+  {
+    "date": "2019/12/27",
+    "precipitation": 0.115836915401
+  },
+  {
+    "date": "2019/12/28",
+    "precipitation": 0.209331427084
+  },
+  {
+    "date": "2019/12/29",
+    "precipitation": 0.00250340493688
+  },
+  {
+    "date": "2019/12/3",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/12/30",
+    "precipitation": 0.246986019156
+  },
+  {
+    "date": "2019/12/31",
+    "precipitation": 0.119370988026
+  },
+  {
+    "date": "2019/12/4",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/12/5",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/12/6",
+    "precipitation": 0.00325585320811
+  },
+  {
+    "date": "2019/12/7",
+    "precipitation": 0.00325585320811
+  },
+  {
+    "date": "2019/12/8",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/12/9",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/2/1",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/2/10",
+    "precipitation": 0.712754137329
+  },
+  {
+    "date": "2019/2/11",
+    "precipitation": 0.380294040456
+  },
+  {
+    "date": "2019/2/12",
+    "precipitation": 1.12406560032
+  },
+  {
+    "date": "2019/2/13",
+    "precipitation": 1.02261000821
+  },
+  {
+    "date": "2019/2/14",
+    "precipitation": 0.595052349998
+  },
+  {
+    "date": "2019/2/15",
+    "precipitation": 0.572884222614
+  },
+  {
+    "date": "2019/2/16",
+    "precipitation": 0.902325321752
+  },
+  {
+    "date": "2019/2/17",
+    "precipitation": 29.4277254151
+  },
+  {
+    "date": "2019/2/18",
+    "precipitation": 19.6775241633
+  },
+  {
+    "date": "2019/2/19",
+    "precipitation": 3.04352208017
+  },
+  {
+    "date": "2019/2/2",
+    "precipitation": 0.0683505533241
+  },
+  {
+    "date": "2019/2/20",
+    "precipitation": 14.0209754657
+  },
+  {
+    "date": "2019/2/21",
+    "precipitation": 13.6810082835
+  },
+  {
+    "date": "2019/2/22",
+    "precipitation": 8.75483481453
+  },
+  {
+    "date": "2019/2/23",
+    "precipitation": 27.0377269699
+  },
+  {
+    "date": "2019/2/24",
+    "precipitation": 8.25641063782
+  },
+  {
+    "date": "2019/2/25",
+    "precipitation": 0.268865738791
+  },
+  {
+    "date": "2019/2/26",
+    "precipitation": 3.00560484392
+  },
+  {
+    "date": "2019/2/27",
+    "precipitation": 3.69728866141
+  },
+  {
+    "date": "2019/2/28",
+    "precipitation": 1.29311908886
+  },
+  {
+    "date": "2019/2/3",
+    "precipitation": 0.100511600546
+  },
+  {
+    "date": "2019/2/4",
+    "precipitation": 0.166022414539
+  },
+  {
+    "date": "2019/2/5",
+    "precipitation": 0.744265972262
+  },
+  {
+    "date": "2019/2/6",
+    "precipitation": 0.427541477
+  },
+  {
+    "date": "2019/2/7",
+    "precipitation": 0.0862631403768
+  },
+  {
+    "date": "2019/2/8",
+    "precipitation": 0.287636454703
+  },
+  {
+    "date": "2019/2/9",
+    "precipitation": 0.375340607242
+  },
+  {
+    "date": "2019/3/1",
+    "precipitation": 0.851083108747
+  },
+  {
+    "date": "2019/3/10",
+    "precipitation": 1.43557648056
+  },
+  {
+    "date": "2019/3/11",
+    "precipitation": 0.165518251388
+  },
+  {
+    "date": "2019/3/12",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/3/13",
+    "precipitation": 5.72047193654
+  },
+  {
+    "date": "2019/3/14",
+    "precipitation": 3.07842597444
+  },
+  {
+    "date": "2019/3/15",
+    "precipitation": 1.57665798528
+  },
+  {
+    "date": "2019/3/16",
+    "precipitation": 0.449819223529
+  },
+  {
+    "date": "2019/3/17",
+    "precipitation": 4.62746397501
+  },
+  {
+    "date": "2019/3/18",
+    "precipitation": 1.72307672989
+  },
+  {
+    "date": "2019/3/19",
+    "precipitation": 2.17601878973
+  },
+  {
+    "date": "2019/3/2",
+    "precipitation": 15.9186563722
+  },
+  {
+    "date": "2019/3/20",
+    "precipitation": 1.50447568506
+  },
+  {
+    "date": "2019/3/21",
+    "precipitation": 3.71043701962
+  },
+  {
+    "date": "2019/3/22",
+    "precipitation": 2.05116833506
+  },
+  {
+    "date": "2019/3/23",
+    "precipitation": 13.1309078423
+  },
+  {
+    "date": "2019/3/24",
+    "precipitation": 13.5013946878
+  },
+  {
+    "date": "2019/3/25",
+    "precipitation": 5.6416867868
+  },
+  {
+    "date": "2019/3/26",
+    "precipitation": 1.76963251197
+  },
+  {
+    "date": "2019/3/27",
+    "precipitation": 1.69844168295
+  },
+  {
+    "date": "2019/3/28",
+    "precipitation": 2.92965521295
+  },
+  {
+    "date": "2019/3/29",
+    "precipitation": 7.83882215454
+  },
+  {
+    "date": "2019/3/3",
+    "precipitation": 4.13534784087
+  },
+  {
+    "date": "2019/3/30",
+    "precipitation": 1.78230519503
+  },
+  {
+    "date": "2019/3/31",
+    "precipitation": 16.4386814117
+  },
+  {
+    "date": "2019/3/4",
+    "precipitation": 19.5646617545
+  },
+  {
+    "date": "2019/3/5",
+    "precipitation": 24.2841641277
+  },
+  {
+    "date": "2019/3/6",
+    "precipitation": 14.8896941725
+  },
+  {
+    "date": "2019/3/7",
+    "precipitation": 21.2582683402
+  },
+  {
+    "date": "2019/3/8",
+    "precipitation": 19.561531754
+  },
+  {
+    "date": "2019/3/9",
+    "precipitation": 9.89589556269
+  },
+  {
+    "date": "2019/4/1",
+    "precipitation": 1.39820028673
+  },
+  {
+    "date": "2019/4/10",
+    "precipitation": 0.845984241968
+  },
+  {
+    "date": "2019/4/11",
+    "precipitation": 25.2649655491
+  },
+  {
+    "date": "2019/4/12",
+    "precipitation": 12.8134354792
+  },
+  {
+    "date": "2019/4/13",
+    "precipitation": 8.33738263716
+  },
+  {
+    "date": "2019/4/14",
+    "precipitation": 20.5621811143
+  },
+  {
+    "date": "2019/4/15",
+    "precipitation": 27.9750727734
+  },
+  {
+    "date": "2019/4/16",
+    "precipitation": 16.2520419914
+  },
+  {
+    "date": "2019/4/17",
+    "precipitation": 2.8260638869
+  },
+  {
+    "date": "2019/4/18",
+    "precipitation": 12.2896174356
+  },
+  {
+    "date": "2019/4/19",
+    "precipitation": 8.46495284804
+  },
+  {
+    "date": "2019/4/2",
+    "precipitation": 1.6370367866
+  },
+  {
+    "date": "2019/4/20",
+    "precipitation": 20.8380051349
+  },
+  {
+    "date": "2019/4/21",
+    "precipitation": 4.66401399934
+  },
+  {
+    "date": "2019/4/22",
+    "precipitation": 13.8513125948
+  },
+  {
+    "date": "2019/4/23",
+    "precipitation": 11.1461873037
+  },
+  {
+    "date": "2019/4/24",
+    "precipitation": 6.07286369327
+  },
+  {
+    "date": "2019/4/25",
+    "precipitation": 8.92198259141
+  },
+  {
+    "date": "2019/4/26",
+    "precipitation": 25.6034548541
+  },
+  {
+    "date": "2019/4/27",
+    "precipitation": 38.0781264018
+  },
+  {
+    "date": "2019/4/28",
+    "precipitation": 10.494675472
+  },
+  {
+    "date": "2019/4/29",
+    "precipitation": 11.2062553475
+  },
+  {
+    "date": "2019/4/3",
+    "precipitation": 10.5335840478
+  },
+  {
+    "date": "2019/4/30",
+    "precipitation": 9.60202945227
+  },
+  {
+    "date": "2019/4/4",
+    "precipitation": 8.67841618434
+  },
+  {
+    "date": "2019/4/5",
+    "precipitation": 5.71504827149
+  },
+  {
+    "date": "2019/4/6",
+    "precipitation": 1.33379870213
+  },
+  {
+    "date": "2019/4/7",
+    "precipitation": 0.324995497453
+  },
+  {
+    "date": "2019/4/8",
+    "precipitation": 0.0730403758945
+  },
+  {
+    "date": "2019/4/9",
+    "precipitation": 0.309160996004
+  },
+  {
+    "date": "2019/5/1",
+    "precipitation": 3.82432625294
+  },
+  {
+    "date": "2019/5/10",
+    "precipitation": 0.287540191241
+  },
+  {
+    "date": "2019/5/11",
+    "precipitation": 0.144682443613
+  },
+  {
+    "date": "2019/5/12",
+    "precipitation": 0.679396016088
+  },
+  {
+    "date": "2019/5/13",
+    "precipitation": 0.302919879744
+  },
+  {
+    "date": "2019/5/14",
+    "precipitation": 0.972020513573
+  },
+  {
+    "date": "2019/5/15",
+    "precipitation": 6.82659741568
+  },
+  {
+    "date": "2019/5/16",
+    "precipitation": 1.65326359954
+  },
+  {
+    "date": "2019/5/17",
+    "precipitation": 6.02774220626
+  },
+  {
+    "date": "2019/5/18",
+    "precipitation": 1.7207152809
+  },
+  {
+    "date": "2019/5/19",
+    "precipitation": 7.35856163645
+  },
+  {
+    "date": "2019/5/2",
+    "precipitation": 1.27804899638
+  },
+  {
+    "date": "2019/5/20",
+    "precipitation": 6.71842823115
+  },
+  {
+    "date": "2019/5/21",
+    "precipitation": 5.42937983605
+  },
+  {
+    "date": "2019/5/22",
+    "precipitation": 3.58552428211
+  },
+  {
+    "date": "2019/5/23",
+    "precipitation": 3.46517859534
+  },
+  {
+    "date": "2019/5/24",
+    "precipitation": 7.2908931669
+  },
+  {
+    "date": "2019/5/25",
+    "precipitation": 7.62570717363
+  },
+  {
+    "date": "2019/5/26",
+    "precipitation": 12.4425853295
+  },
+  {
+    "date": "2019/5/27",
+    "precipitation": 13.3525016762
+  },
+  {
+    "date": "2019/5/28",
+    "precipitation": 8.30108398443
+  },
+  {
+    "date": "2019/5/29",
+    "precipitation": 4.88384931806
+  },
+  {
+    "date": "2019/5/3",
+    "precipitation": 8.01793967557
+  },
+  {
+    "date": "2019/5/30",
+    "precipitation": 13.4397135114
+  },
+  {
+    "date": "2019/5/31",
+    "precipitation": 15.8873556792
+  },
+  {
+    "date": "2019/5/4",
+    "precipitation": 23.9979167938
+  },
+  {
+    "date": "2019/5/5",
+    "precipitation": 13.4974176648
+  },
+  {
+    "date": "2019/5/6",
+    "precipitation": 8.24477009974
+  },
+  {
+    "date": "2019/5/7",
+    "precipitation": 10.0591826887
+  },
+  {
+    "date": "2019/5/8",
+    "precipitation": 16.0869923557
+  },
+  {
+    "date": "2019/5/9",
+    "precipitation": 8.55178512981
+  },
+  {
+    "date": "2019/6/1",
+    "precipitation": 15.4911383319
+  },
+  {
+    "date": "2019/6/10",
+    "precipitation": 27.9671562218
+  },
+  {
+    "date": "2019/6/11",
+    "precipitation": 19.0535025976
+  },
+  {
+    "date": "2019/6/12",
+    "precipitation": 30.7819408509
+  },
+  {
+    "date": "2019/6/13",
+    "precipitation": 7.54945607128
+  },
+  {
+    "date": "2019/6/14",
+    "precipitation": 1.14478526262
+  },
+  {
+    "date": "2019/6/15",
+    "precipitation": 2.64987514005
+  },
+  {
+    "date": "2019/6/16",
+    "precipitation": 3.93619042635
+  },
+  {
+    "date": "2019/6/17",
+    "precipitation": 8.06182326007
+  },
+  {
+    "date": "2019/6/18",
+    "precipitation": 5.00056085357
+  },
+  {
+    "date": "2019/6/19",
+    "precipitation": 3.22981267176
+  },
+  {
+    "date": "2019/6/2",
+    "precipitation": 6.3497995368
+  },
+  {
+    "date": "2019/6/20",
+    "precipitation": 0.650271279181
+  },
+  {
+    "date": "2019/6/21",
+    "precipitation": 0.451081988898
+  },
+  {
+    "date": "2019/6/22",
+    "precipitation": 13.6098493886
+  },
+  {
+    "date": "2019/6/23",
+    "precipitation": 20.1443016971
+  },
+  {
+    "date": "2019/6/24",
+    "precipitation": 19.9402201486
+  },
+  {
+    "date": "2019/6/25",
+    "precipitation": 9.69913686557
+  },
+  {
+    "date": "2019/6/26",
+    "precipitation": 5.31705750069
+  },
+  {
+    "date": "2019/6/27",
+    "precipitation": 5.78917999411
+  },
+  {
+    "date": "2019/6/28",
+    "precipitation": 1.80300670582
+  },
+  {
+    "date": "2019/6/29",
+    "precipitation": 6.38524722565
+  },
+  {
+    "date": "2019/6/3",
+    "precipitation": 2.36622313638
+  },
+  {
+    "date": "2019/6/30",
+    "precipitation": 17.2798323516
+  },
+  {
+    "date": "2019/6/4",
+    "precipitation": 7.02861990354
+  },
+  {
+    "date": "2019/6/5",
+    "precipitation": 8.89163614756
+  },
+  {
+    "date": "2019/6/6",
+    "precipitation": 14.61206418
+  },
+  {
+    "date": "2019/6/7",
+    "precipitation": 8.0456973254
+  },
+  {
+    "date": "2019/6/8",
+    "precipitation": 2.67107257879
+  },
+  {
+    "date": "2019/6/9",
+    "precipitation": 26.0086034131
+  },
+  {
+    "date": "2019/7/1",
+    "precipitation": 12.3166125631
+  },
+  {
+    "date": "2019/7/10",
+    "precipitation": 13.2479036998
+  },
+  {
+    "date": "2019/7/11",
+    "precipitation": 9.21001056074
+  },
+  {
+    "date": "2019/7/12",
+    "precipitation": 20.5698978976
+  },
+  {
+    "date": "2019/7/13",
+    "precipitation": 41.8653383485
+  },
+  {
+    "date": "2019/7/14",
+    "precipitation": 8.3910484854
+  },
+  {
+    "date": "2019/7/15",
+    "precipitation": 11.7291705258
+  },
+  {
+    "date": "2019/7/16",
+    "precipitation": 2.40031120145
+  },
+  {
+    "date": "2019/7/17",
+    "precipitation": 0.00335810245464
+  },
+  {
+    "date": "2019/7/18",
+    "precipitation": 1.03125190384
+  },
+  {
+    "date": "2019/7/19",
+    "precipitation": 3.25124316761
+  },
+  {
+    "date": "2019/7/2",
+    "precipitation": 12.8005924616
+  },
+  {
+    "date": "2019/7/20",
+    "precipitation": 12.3759324861
+  },
+  {
+    "date": "2019/7/21",
+    "precipitation": 2.76972205352
+  },
+  {
+    "date": "2019/7/22",
+    "precipitation": 13.4122524376
+  },
+  {
+    "date": "2019/7/23",
+    "precipitation": 5.54410873838
+  },
+  {
+    "date": "2019/7/24",
+    "precipitation": 4.60729689799
+  },
+  {
+    "date": "2019/7/25",
+    "precipitation": 1.25250515083
+  },
+  {
+    "date": "2019/7/26",
+    "precipitation": 1.75492580777
+  },
+  {
+    "date": "2019/7/27",
+    "precipitation": 1.5488286101
+  },
+  {
+    "date": "2019/7/28",
+    "precipitation": 0.173607357387
+  },
+  {
+    "date": "2019/7/29",
+    "precipitation": 0.999868917322
+  },
+  {
+    "date": "2019/7/3",
+    "precipitation": 14.6030701568
+  },
+  {
+    "date": "2019/7/30",
+    "precipitation": 6.11341195451
+  },
+  {
+    "date": "2019/7/31",
+    "precipitation": 6.31325648291
+  },
+  {
+    "date": "2019/7/4",
+    "precipitation": 4.98920360545
+  },
+  {
+    "date": "2019/7/5",
+    "precipitation": 2.4690888784
+  },
+  {
+    "date": "2019/7/6",
+    "precipitation": 6.59906706063
+  },
+  {
+    "date": "2019/7/7",
+    "precipitation": 26.2362387439
+  },
+  {
+    "date": "2019/7/8",
+    "precipitation": 20.4541493726
+  },
+  {
+    "date": "2019/7/9",
+    "precipitation": 26.9053242051
+  },
+  {
+    "date": "2019/8/1",
+    "precipitation": 14.236787611
+  },
+  {
+    "date": "2019/8/10",
+    "precipitation": 14.1065639041
+  },
+  {
+    "date": "2019/8/11",
+    "precipitation": 13.4321815261
+  },
+  {
+    "date": "2019/8/12",
+    "precipitation": 4.50521492384
+  },
+  {
+    "date": "2019/8/13",
+    "precipitation": 3.7414340025
+  },
+  {
+    "date": "2019/8/14",
+    "precipitation": 3.92279083474
+  },
+  {
+    "date": "2019/8/15",
+    "precipitation": 1.6513791439
+  },
+  {
+    "date": "2019/8/16",
+    "precipitation": 12.4388849281
+  },
+  {
+    "date": "2019/8/17",
+    "precipitation": 10.8124779161
+  },
+  {
+    "date": "2019/8/18",
+    "precipitation": 11.2874501452
+  },
+  {
+    "date": "2019/8/19",
+    "precipitation": 2.31620814326
+  },
+  {
+    "date": "2019/8/2",
+    "precipitation": 8.9015564884
+  },
+  {
+    "date": "2019/8/20",
+    "precipitation": 0.405329674931
+  },
+  {
+    "date": "2019/8/21",
+    "precipitation": 0.210600805543
+  },
+  {
+    "date": "2019/8/22",
+    "precipitation": 0.223010984211
+  },
+  {
+    "date": "2019/8/23",
+    "precipitation": 3.19012833503
+  },
+  {
+    "date": "2019/8/24",
+    "precipitation": 1.35710099052
+  },
+  {
+    "date": "2019/8/25",
+    "precipitation": 32.0511908474
+  },
+  {
+    "date": "2019/8/26",
+    "precipitation": 47.0505411125
+  },
+  {
+    "date": "2019/8/27",
+    "precipitation": 2.07331866349
+  },
+  {
+    "date": "2019/8/28",
+    "precipitation": 0.855790278118
+  },
+  {
+    "date": "2019/8/29",
+    "precipitation": 13.5668273593
+  },
+  {
+    "date": "2019/8/3",
+    "precipitation": 4.48113259608
+  },
+  {
+    "date": "2019/8/30",
+    "precipitation": 12.6508228107
+  },
+  {
+    "date": "2019/8/31",
+    "precipitation": 3.83750461347
+  },
+  {
+    "date": "2019/8/4",
+    "precipitation": 2.69779121926
+  },
+  {
+    "date": "2019/8/5",
+    "precipitation": 0.226641377811
+  },
+  {
+    "date": "2019/8/6",
+    "precipitation": 3.39959501703
+  },
+  {
+    "date": "2019/8/7",
+    "precipitation": 4.60565372648
+  },
+  {
+    "date": "2019/8/8",
+    "precipitation": 10.7900688171
+  },
+  {
+    "date": "2019/8/9",
+    "precipitation": 1.72119204696
+  },
+  {
+    "date": "2019/9/1",
+    "precipitation": 3.61849582565
+  },
+  {
+    "date": "2019/9/10",
+    "precipitation": 6.79813809309
+  },
+  {
+    "date": "2019/9/11",
+    "precipitation": 0.755499661328
+  },
+  {
+    "date": "2019/9/12",
+    "precipitation": 0.0505682337903
+  },
+  {
+    "date": "2019/9/13",
+    "precipitation": 0.991072688081
+  },
+  {
+    "date": "2019/9/14",
+    "precipitation": 6.72042308371
+  },
+  {
+    "date": "2019/9/15",
+    "precipitation": 11.310299092
+  },
+  {
+    "date": "2019/9/16",
+    "precipitation": 5.61027882228
+  },
+  {
+    "date": "2019/9/17",
+    "precipitation": 3.84356999139
+  },
+  {
+    "date": "2019/9/18",
+    "precipitation": 0.307062653291
+  },
+  {
+    "date": "2019/9/19",
+    "precipitation": 0.00374419482759
+  },
+  {
+    "date": "2019/9/2",
+    "precipitation": 3.20630027372
+  },
+  {
+    "date": "2019/9/20",
+    "precipitation": 8.039834561e-06
+  },
+  {
+    "date": "2019/9/21",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/9/22",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/9/23",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/9/24",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/9/25",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/9/26",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/9/27",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/9/28",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/9/29",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/9/3",
+    "precipitation": 0.775981067435
+  },
+  {
+    "date": "2019/9/30",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2019/9/4",
+    "precipitation": 0.76229818133
+  },
+  {
+    "date": "2019/9/5",
+    "precipitation": 0.457292218816
+  },
+  {
+    "date": "2019/9/6",
+    "precipitation": 0.345554691193
+  },
+  {
+    "date": "2019/9/7",
+    "precipitation": 0.0481458312703
+  },
+  {
+    "date": "2019/9/8",
+    "precipitation": 1.59294516717
+  },
+  {
+    "date": "2019/9/9",
+    "precipitation": 7.2411484839
+  },
+  {
+    "date": "2020/1/1",
+    "precipitation": 0.00819580810739
+  },
+  {
+    "date": "2020/1/10",
+    "precipitation": 0.320814893103
+  },
+  {
+    "date": "2020/1/11",
+    "precipitation": 3.25470757398
+  },
+  {
+    "date": "2020/1/12",
+    "precipitation": 0.446955877327
+  },
+  {
+    "date": "2020/1/13",
+    "precipitation": 0.207753250209
+  },
+  {
+    "date": "2020/1/14",
+    "precipitation": 4.9176989923
+  },
+  {
+    "date": "2020/1/15",
+    "precipitation": 1.48782667783
+  },
+  {
+    "date": "2020/1/16",
+    "precipitation": 2.34299257003
+  },
+  {
+    "date": "2020/1/17",
+    "precipitation": 0.191826402156
+  },
+  {
+    "date": "2020/1/18",
+    "precipitation": 0.221215218241
+  },
+  {
+    "date": "2020/1/19",
+    "precipitation": 0.205829046218
+  },
+  {
+    "date": "2020/1/2",
+    "precipitation": 0.145183486325
+  },
+  {
+    "date": "2020/1/20",
+    "precipitation": 0.417359814039
+  },
+  {
+    "date": "2020/1/21",
+    "precipitation": 0.243852029669
+  },
+  {
+    "date": "2020/1/22",
+    "precipitation": 0.258814314223
+  },
+  {
+    "date": "2020/1/23",
+    "precipitation": 0.281467672998
+  },
+  {
+    "date": "2020/1/24",
+    "precipitation": 8.86178238708
+  },
+  {
+    "date": "2020/1/25",
+    "precipitation": 23.3578786919
+  },
+  {
+    "date": "2020/1/26",
+    "precipitation": 3.14762701098
+  },
+  {
+    "date": "2020/1/27",
+    "precipitation": 0.0272347767641
+  },
+  {
+    "date": "2020/1/28",
+    "precipitation": 0.00250252269879
+  },
+  {
+    "date": "2020/1/29",
+    "precipitation": 1.5519025696e-05
+  },
+  {
+    "date": "2020/1/3",
+    "precipitation": 0.098916845468
+  },
+  {
+    "date": "2020/1/30",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/1/31",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/1/4",
+    "precipitation": 0.0134260353183
+  },
+  {
+    "date": "2020/1/5",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/1/6",
+    "precipitation": 0.766894779327
+  },
+  {
+    "date": "2020/1/7",
+    "precipitation": 1.06640605983
+  },
+  {
+    "date": "2020/1/8",
+    "precipitation": 0.00325585320811
+  },
+  {
+    "date": "2020/1/9",
+    "precipitation": 0.0451705033723
+  },
+  {
+    "date": "2020/10/1",
+    "precipitation": 1.25823136658
+  },
+  {
+    "date": "2020/10/10",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/10/11",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/10/12",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/10/13",
+    "precipitation": 1.20895854859
+  },
+  {
+    "date": "2020/10/14",
+    "precipitation": 15.6942328763
+  },
+  {
+    "date": "2020/10/15",
+    "precipitation": 0.994865708322
+  },
+  {
+    "date": "2020/10/16",
+    "precipitation": 0.607501380774
+  },
+  {
+    "date": "2020/10/17",
+    "precipitation": 0.183624438845
+  },
+  {
+    "date": "2020/10/18",
+    "precipitation": 0.112190151074
+  },
+  {
+    "date": "2020/10/19",
+    "precipitation": 0.185493481626
+  },
+  {
+    "date": "2020/10/2",
+    "precipitation": 1.24868647837
+  },
+  {
+    "date": "2020/10/20",
+    "precipitation": 0.110735941153
+  },
+  {
+    "date": "2020/10/21",
+    "precipitation": 0.0263532303271
+  },
+  {
+    "date": "2020/10/22",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/10/23",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/10/24",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/10/25",
+    "precipitation": 0.000729500769963
+  },
+  {
+    "date": "2020/10/26",
+    "precipitation": 2.85111809527
+  },
+  {
+    "date": "2020/10/27",
+    "precipitation": 0.00664194052147
+  },
+  {
+    "date": "2020/10/28",
+    "precipitation": 0.526458136944
+  },
+  {
+    "date": "2020/10/29",
+    "precipitation": 6.37692050359
+  },
+  {
+    "date": "2020/10/3",
+    "precipitation": 1.46921327444
+  },
+  {
+    "date": "2020/10/30",
+    "precipitation": 0.114384340998
+  },
+  {
+    "date": "2020/10/31",
+    "precipitation": 1.5519025696e-05
+  },
+  {
+    "date": "2020/10/4",
+    "precipitation": 3.95131473757
+  },
+  {
+    "date": "2020/10/5",
+    "precipitation": 1.76555310229
+  },
+  {
+    "date": "2020/10/6",
+    "precipitation": 0.102701290246
+  },
+  {
+    "date": "2020/10/7",
+    "precipitation": 0.0849713959333
+  },
+  {
+    "date": "2020/10/8",
+    "precipitation": 0.113272739761
+  },
+  {
+    "date": "2020/10/9",
+    "precipitation": 0.00819580810739
+  },
+  {
+    "date": "2020/11/1",
+    "precipitation": 0.140726809406
+  },
+  {
+    "date": "2020/11/10",
+    "precipitation": 0.000721460935402
+  },
+  {
+    "date": "2020/11/11",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/11/12",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/11/13",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/11/14",
+    "precipitation": 0.100990231103
+  },
+  {
+    "date": "2020/11/15",
+    "precipitation": 0.330082969448
+  },
+  {
+    "date": "2020/11/16",
+    "precipitation": 0.0860716227375
+  },
+  {
+    "date": "2020/11/17",
+    "precipitation": 0.0183359042579
+  },
+  {
+    "date": "2020/11/18",
+    "precipitation": 0.0566434248553
+  },
+  {
+    "date": "2020/11/19",
+    "precipitation": 0.00679722814737
+  },
+  {
+    "date": "2020/11/2",
+    "precipitation": 0.178636581786
+  },
+  {
+    "date": "2020/11/20",
+    "precipitation": 0.333404513996
+  },
+  {
+    "date": "2020/11/21",
+    "precipitation": 1.21314154836
+  },
+  {
+    "date": "2020/11/22",
+    "precipitation": 0.165405959376
+  },
+  {
+    "date": "2020/11/23",
+    "precipitation": 1.26284558565
+  },
+  {
+    "date": "2020/11/24",
+    "precipitation": 0.0910037224596
+  },
+  {
+    "date": "2020/11/25",
+    "precipitation": 0.275022057614
+  },
+  {
+    "date": "2020/11/26",
+    "precipitation": 0.0590880608786
+  },
+  {
+    "date": "2020/11/27",
+    "precipitation": 0.0448866734682
+  },
+  {
+    "date": "2020/11/28",
+    "precipitation": 0.0498305132859
+  },
+  {
+    "date": "2020/11/29",
+    "precipitation": 0.0914652184527
+  },
+  {
+    "date": "2020/11/3",
+    "precipitation": 0.0167194485698
+  },
+  {
+    "date": "2020/11/30",
+    "precipitation": 0.0832694105737
+  },
+  {
+    "date": "2020/11/4",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/11/5",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/11/6",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/11/7",
+    "precipitation": 3.2802525324e-05
+  },
+  {
+    "date": "2020/11/8",
+    "precipitation": 0.000721460935402
+  },
+  {
+    "date": "2020/11/9",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/12/1",
+    "precipitation": 0.0644547997662
+  },
+  {
+    "date": "2020/12/10",
+    "precipitation": 0.0395395432411
+  },
+  {
+    "date": "2020/12/11",
+    "precipitation": 0.0319439242863
+  },
+  {
+    "date": "2020/12/12",
+    "precipitation": 0.0570877020124
+  },
+  {
+    "date": "2020/12/13",
+    "precipitation": 4.33969883229
+  },
+  {
+    "date": "2020/12/14",
+    "precipitation": 4.34897531659
+  },
+  {
+    "date": "2020/12/15",
+    "precipitation": 1.9392009873
+  },
+  {
+    "date": "2020/12/16",
+    "precipitation": 1.1679334326
+  },
+  {
+    "date": "2020/12/17",
+    "precipitation": 0.671662945704
+  },
+  {
+    "date": "2020/12/18",
+    "precipitation": 0.122556266135
+  },
+  {
+    "date": "2020/12/19",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/12/2",
+    "precipitation": 0.270930694533
+  },
+  {
+    "date": "2020/12/20",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/12/21",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/12/22",
+    "precipitation": 0.0294821128075
+  },
+  {
+    "date": "2020/12/23",
+    "precipitation": 0.634992094284
+  },
+  {
+    "date": "2020/12/24",
+    "precipitation": 0.0980377139344
+  },
+  {
+    "date": "2020/12/25",
+    "precipitation": 0.0616491440594
+  },
+  {
+    "date": "2020/12/26",
+    "precipitation": 0.357360689432
+  },
+  {
+    "date": "2020/12/27",
+    "precipitation": 0.157829093843
+  },
+  {
+    "date": "2020/12/28",
+    "precipitation": 0.120603733687
+  },
+  {
+    "date": "2020/12/29",
+    "precipitation": 0.736768975244
+  },
+  {
+    "date": "2020/12/3",
+    "precipitation": 0.10533423733
+  },
+  {
+    "date": "2020/12/30",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/12/31",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/12/4",
+    "precipitation": 0.165011177354
+  },
+  {
+    "date": "2020/12/5",
+    "precipitation": 0.0545574582154
+  },
+  {
+    "date": "2020/12/6",
+    "precipitation": 0.0119077818342
+  },
+  {
+    "date": "2020/12/7",
+    "precipitation": 0.0712769067055
+  },
+  {
+    "date": "2020/12/8",
+    "precipitation": 0.0167194485698
+  },
+  {
+    "date": "2020/12/9",
+    "precipitation": 0.033728809722
+  },
+  {
+    "date": "2020/2/1",
+    "precipitation": 0.808144917617
+  },
+  {
+    "date": "2020/2/10",
+    "precipitation": 0.0156031367795
+  },
+  {
+    "date": "2020/2/11",
+    "precipitation": 1.63360143656
+  },
+  {
+    "date": "2020/2/12",
+    "precipitation": 5.0587206875
+  },
+  {
+    "date": "2020/2/13",
+    "precipitation": 13.6067919076
+  },
+  {
+    "date": "2020/2/14",
+    "precipitation": 38.4968429198
+  },
+  {
+    "date": "2020/2/15",
+    "precipitation": 27.6440493917
+  },
+  {
+    "date": "2020/2/16",
+    "precipitation": 1.42161116083
+  },
+  {
+    "date": "2020/2/17",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/2/18",
+    "precipitation": 0.00219324125673
+  },
+  {
+    "date": "2020/2/19",
+    "precipitation": 0.031363541202
+  },
+  {
+    "date": "2020/2/2",
+    "precipitation": 5.60936276769
+  },
+  {
+    "date": "2020/2/20",
+    "precipitation": 0.0173245127952
+  },
+  {
+    "date": "2020/2/21",
+    "precipitation": 0.045852540218
+  },
+  {
+    "date": "2020/2/22",
+    "precipitation": 0.000721460935402
+  },
+  {
+    "date": "2020/2/23",
+    "precipitation": 1.5519025696e-05
+  },
+  {
+    "date": "2020/2/24",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/2/25",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/2/26",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/2/27",
+    "precipitation": 0.0148978002672
+  },
+  {
+    "date": "2020/2/28",
+    "precipitation": 0.0567135699048
+  },
+  {
+    "date": "2020/2/29",
+    "precipitation": 6.0180907587
+  },
+  {
+    "date": "2020/2/3",
+    "precipitation": 21.9311949672
+  },
+  {
+    "date": "2020/2/4",
+    "precipitation": 9.53797177119
+  },
+  {
+    "date": "2020/2/5",
+    "precipitation": 8.15087690698
+  },
+  {
+    "date": "2020/2/6",
+    "precipitation": 14.1267630589
+  },
+  {
+    "date": "2020/2/7",
+    "precipitation": 2.25118377984
+  },
+  {
+    "date": "2020/2/8",
+    "precipitation": 2.15410444148
+  },
+  {
+    "date": "2020/2/9",
+    "precipitation": 0.258236258131
+  },
+  {
+    "date": "2020/3/1",
+    "precipitation": 0.467602757908
+  },
+  {
+    "date": "2020/3/10",
+    "precipitation": 0.0185621268023
+  },
+  {
+    "date": "2020/3/11",
+    "precipitation": 3.67836827715
+  },
+  {
+    "date": "2020/3/12",
+    "precipitation": 3.31652748843
+  },
+  {
+    "date": "2020/3/13",
+    "precipitation": 2.65074289692
+  },
+  {
+    "date": "2020/3/14",
+    "precipitation": 0.0529709917992
+  },
+  {
+    "date": "2020/3/15",
+    "precipitation": 0.00032426867275
+  },
+  {
+    "date": "2020/3/16",
+    "precipitation": 2.09833836082
+  },
+  {
+    "date": "2020/3/17",
+    "precipitation": 20.849508297
+  },
+  {
+    "date": "2020/3/18",
+    "precipitation": 29.1594540286
+  },
+  {
+    "date": "2020/3/19",
+    "precipitation": 11.4064570002
+  },
+  {
+    "date": "2020/3/2",
+    "precipitation": 5.46796536331
+  },
+  {
+    "date": "2020/3/20",
+    "precipitation": 0.859140754033
+  },
+  {
+    "date": "2020/3/21",
+    "precipitation": 0.345595198295
+  },
+  {
+    "date": "2020/3/22",
+    "precipitation": 0.798597013789
+  },
+  {
+    "date": "2020/3/23",
+    "precipitation": 22.6554784338
+  },
+  {
+    "date": "2020/3/24",
+    "precipitation": 6.55076564019
+  },
+  {
+    "date": "2020/3/25",
+    "precipitation": 24.2920500629
+  },
+  {
+    "date": "2020/3/26",
+    "precipitation": 8.94668895078
+  },
+  {
+    "date": "2020/3/27",
+    "precipitation": 25.6324853575
+  },
+  {
+    "date": "2020/3/28",
+    "precipitation": 1.31652562697
+  },
+  {
+    "date": "2020/3/29",
+    "precipitation": 13.7931946605
+  },
+  {
+    "date": "2020/3/3",
+    "precipitation": 32.0309755256
+  },
+  {
+    "date": "2020/3/30",
+    "precipitation": 1.21023015301
+  },
+  {
+    "date": "2020/3/31",
+    "precipitation": 0.840326017644
+  },
+  {
+    "date": "2020/3/4",
+    "precipitation": 15.6589628357
+  },
+  {
+    "date": "2020/3/5",
+    "precipitation": 0.689832610143
+  },
+  {
+    "date": "2020/3/6",
+    "precipitation": 4.80829792884
+  },
+  {
+    "date": "2020/3/7",
+    "precipitation": 0.937581110324
+  },
+  {
+    "date": "2020/3/8",
+    "precipitation": 0.630842753266
+  },
+  {
+    "date": "2020/3/9",
+    "precipitation": 2.32449733511
+  },
+  {
+    "date": "2020/4/1",
+    "precipitation": 4.49519994087
+  },
+  {
+    "date": "2020/4/10",
+    "precipitation": 1.88112270074
+  },
+  {
+    "date": "2020/4/11",
+    "precipitation": 5.86433520719
+  },
+  {
+    "date": "2020/4/12",
+    "precipitation": 0.058938117332
+  },
+  {
+    "date": "2020/4/13",
+    "precipitation": 0.0808120352541
+  },
+  {
+    "date": "2020/4/14",
+    "precipitation": 0.262165752358
+  },
+  {
+    "date": "2020/4/15",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/4/16",
+    "precipitation": 6.7633614e-05
+  },
+  {
+    "date": "2020/4/17",
+    "precipitation": 0.0620820852154
+  },
+  {
+    "date": "2020/4/18",
+    "precipitation": 3.77960090034
+  },
+  {
+    "date": "2020/4/19",
+    "precipitation": 2.67999920888
+  },
+  {
+    "date": "2020/4/2",
+    "precipitation": 26.3002313844
+  },
+  {
+    "date": "2020/4/20",
+    "precipitation": 0.651259889696
+  },
+  {
+    "date": "2020/4/21",
+    "precipitation": 3.64965740974
+  },
+  {
+    "date": "2020/4/22",
+    "precipitation": 19.9864828799
+  },
+  {
+    "date": "2020/4/23",
+    "precipitation": 3.46396352239
+  },
+  {
+    "date": "2020/4/24",
+    "precipitation": 4.61201217318
+  },
+  {
+    "date": "2020/4/25",
+    "precipitation": 0.176993387507
+  },
+  {
+    "date": "2020/4/26",
+    "precipitation": 0.036335321711
+  },
+  {
+    "date": "2020/4/27",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/4/28",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/4/29",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/4/3",
+    "precipitation": 34.7132494731
+  },
+  {
+    "date": "2020/4/30",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/4/4",
+    "precipitation": 27.4166138293
+  },
+  {
+    "date": "2020/4/5",
+    "precipitation": 19.9075191015
+  },
+  {
+    "date": "2020/4/6",
+    "precipitation": 14.6773198645
+  },
+  {
+    "date": "2020/4/7",
+    "precipitation": 7.3644886893e-05
+  },
+  {
+    "date": "2020/4/8",
+    "precipitation": 0.0133002823056
+  },
+  {
+    "date": "2020/4/9",
+    "precipitation": 0.0413447025782
+  },
+  {
+    "date": "2020/5/1",
+    "precipitation": 0.863730347085
+  },
+  {
+    "date": "2020/5/10",
+    "precipitation": 9.01372524069
+  },
+  {
+    "date": "2020/5/11",
+    "precipitation": 20.0478222698
+  },
+  {
+    "date": "2020/5/12",
+    "precipitation": 0.160223393461
+  },
+  {
+    "date": "2020/5/13",
+    "precipitation": 6.42790694007
+  },
+  {
+    "date": "2020/5/14",
+    "precipitation": 1.2384057124
+  },
+  {
+    "date": "2020/5/15",
+    "precipitation": 6.42392933498
+  },
+  {
+    "date": "2020/5/16",
+    "precipitation": 31.2019179448
+  },
+  {
+    "date": "2020/5/17",
+    "precipitation": 5.79947162824
+  },
+  {
+    "date": "2020/5/18",
+    "precipitation": 1.4683201589
+  },
+  {
+    "date": "2020/5/19",
+    "precipitation": 4.9698371666
+  },
+  {
+    "date": "2020/5/2",
+    "precipitation": 0.170389766363
+  },
+  {
+    "date": "2020/5/20",
+    "precipitation": 18.0324732913
+  },
+  {
+    "date": "2020/5/21",
+    "precipitation": 30.609481522
+  },
+  {
+    "date": "2020/5/22",
+    "precipitation": 1.26222804286
+  },
+  {
+    "date": "2020/5/23",
+    "precipitation": 0.0725731344916
+  },
+  {
+    "date": "2020/5/24",
+    "precipitation": 2.17882724727
+  },
+  {
+    "date": "2020/5/25",
+    "precipitation": 29.8151335429
+  },
+  {
+    "date": "2020/5/26",
+    "precipitation": 1.06374193385
+  },
+  {
+    "date": "2020/5/27",
+    "precipitation": 0.307950695721
+  },
+  {
+    "date": "2020/5/28",
+    "precipitation": 0.476098779616
+  },
+  {
+    "date": "2020/5/29",
+    "precipitation": 8.93965898479
+  },
+  {
+    "date": "2020/5/3",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/5/30",
+    "precipitation": 8.16291334543
+  },
+  {
+    "date": "2020/5/31",
+    "precipitation": 16.972213143
+  },
+  {
+    "date": "2020/5/4",
+    "precipitation": 0.0660439840613
+  },
+  {
+    "date": "2020/5/5",
+    "precipitation": 0.451087769327
+  },
+  {
+    "date": "2020/5/6",
+    "precipitation": 0.00147178031684
+  },
+  {
+    "date": "2020/5/7",
+    "precipitation": 0.000721460935402
+  },
+  {
+    "date": "2020/5/8",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/5/9",
+    "precipitation": 2.83184350546
+  },
+  {
+    "date": "2020/6/1",
+    "precipitation": 21.8097601351
+  },
+  {
+    "date": "2020/6/10",
+    "precipitation": 9.61525743266
+  },
+  {
+    "date": "2020/6/11",
+    "precipitation": 1.57126503716
+  },
+  {
+    "date": "2020/6/12",
+    "precipitation": 0.0148978002672
+  },
+  {
+    "date": "2020/6/13",
+    "precipitation": 0.626329237218
+  },
+  {
+    "date": "2020/6/14",
+    "precipitation": 7.25510651462
+  },
+  {
+    "date": "2020/6/15",
+    "precipitation": 7.55338173027
+  },
+  {
+    "date": "2020/6/16",
+    "precipitation": 4.73406463991
+  },
+  {
+    "date": "2020/6/17",
+    "precipitation": 3.04615644145
+  },
+  {
+    "date": "2020/6/18",
+    "precipitation": 1.85733483513
+  },
+  {
+    "date": "2020/6/19",
+    "precipitation": 3.15758419626
+  },
+  {
+    "date": "2020/6/2",
+    "precipitation": 15.6146501645
+  },
+  {
+    "date": "2020/6/20",
+    "precipitation": 1.42800777935
+  },
+  {
+    "date": "2020/6/21",
+    "precipitation": 0.788476724546
+  },
+  {
+    "date": "2020/6/22",
+    "precipitation": 0.213449350439
+  },
+  {
+    "date": "2020/6/23",
+    "precipitation": 1.81029052356
+  },
+  {
+    "date": "2020/6/24",
+    "precipitation": 11.2608525667
+  },
+  {
+    "date": "2020/6/25",
+    "precipitation": 43.0964220667
+  },
+  {
+    "date": "2020/6/26",
+    "precipitation": 9.48731246971
+  },
+  {
+    "date": "2020/6/27",
+    "precipitation": 2.91208138179
+  },
+  {
+    "date": "2020/6/28",
+    "precipitation": 0.62001195927
+  },
+  {
+    "date": "2020/6/29",
+    "precipitation": 0.127792151892
+  },
+  {
+    "date": "2020/6/3",
+    "precipitation": 12.188318048
+  },
+  {
+    "date": "2020/6/30",
+    "precipitation": 2.50613634629
+  },
+  {
+    "date": "2020/6/4",
+    "precipitation": 12.6115645075
+  },
+  {
+    "date": "2020/6/5",
+    "precipitation": 11.4769592975
+  },
+  {
+    "date": "2020/6/6",
+    "precipitation": 27.248325387
+  },
+  {
+    "date": "2020/6/7",
+    "precipitation": 23.0310952152
+  },
+  {
+    "date": "2020/6/8",
+    "precipitation": 21.3897541379
+  },
+  {
+    "date": "2020/6/9",
+    "precipitation": 22.7154670853
+  },
+  {
+    "date": "2020/7/1",
+    "precipitation": 1.15694401957
+  },
+  {
+    "date": "2020/7/10",
+    "precipitation": 22.7827412548
+  },
+  {
+    "date": "2020/7/11",
+    "precipitation": 13.5145440159
+  },
+  {
+    "date": "2020/7/12",
+    "precipitation": 4.5135155718
+  },
+  {
+    "date": "2020/7/13",
+    "precipitation": 0.0662468909768
+  },
+  {
+    "date": "2020/7/14",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/7/15",
+    "precipitation": 0.158453508075
+  },
+  {
+    "date": "2020/7/16",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/7/17",
+    "precipitation": 1.413797391
+  },
+  {
+    "date": "2020/7/18",
+    "precipitation": 0.766438827008
+  },
+  {
+    "date": "2020/7/19",
+    "precipitation": 4.60492005406
+  },
+  {
+    "date": "2020/7/2",
+    "precipitation": 5.16702026861
+  },
+  {
+    "date": "2020/7/20",
+    "precipitation": 1.65045891995
+  },
+  {
+    "date": "2020/7/21",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/7/22",
+    "precipitation": 0.019560248536
+  },
+  {
+    "date": "2020/7/23",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/7/24",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/7/25",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/7/26",
+    "precipitation": 0.447237647944
+  },
+  {
+    "date": "2020/7/27",
+    "precipitation": 10.366069206
+  },
+  {
+    "date": "2020/7/28",
+    "precipitation": 1.875431553
+  },
+  {
+    "date": "2020/7/29",
+    "precipitation": 1.44004505941
+  },
+  {
+    "date": "2020/7/3",
+    "precipitation": 6.83705673505
+  },
+  {
+    "date": "2020/7/30",
+    "precipitation": 7.59774148953
+  },
+  {
+    "date": "2020/7/31",
+    "precipitation": 6.06111001451
+  },
+  {
+    "date": "2020/7/4",
+    "precipitation": 5.56213033803
+  },
+  {
+    "date": "2020/7/5",
+    "precipitation": 1.27130580076
+  },
+  {
+    "date": "2020/7/6",
+    "precipitation": 0.389453967436
+  },
+  {
+    "date": "2020/7/7",
+    "precipitation": 0.313177652298
+  },
+  {
+    "date": "2020/7/8",
+    "precipitation": 0.873703812924
+  },
+  {
+    "date": "2020/7/9",
+    "precipitation": 2.42054680801
+  },
+  {
+    "date": "2020/8/1",
+    "precipitation": 4.7068876795
+  },
+  {
+    "date": "2020/8/10",
+    "precipitation": 3.65241571069
+  },
+  {
+    "date": "2020/8/11",
+    "precipitation": 2.47393791175
+  },
+  {
+    "date": "2020/8/12",
+    "precipitation": 6.43765671971
+  },
+  {
+    "date": "2020/8/13",
+    "precipitation": 10.1103057023
+  },
+  {
+    "date": "2020/8/14",
+    "precipitation": 9.54300728763
+  },
+  {
+    "date": "2020/8/15",
+    "precipitation": 7.55484590588
+  },
+  {
+    "date": "2020/8/16",
+    "precipitation": 11.4564523921
+  },
+  {
+    "date": "2020/8/17",
+    "precipitation": 3.35945097366
+  },
+  {
+    "date": "2020/8/18",
+    "precipitation": 6.54707369912
+  },
+  {
+    "date": "2020/8/19",
+    "precipitation": 25.484764607
+  },
+  {
+    "date": "2020/8/2",
+    "precipitation": 3.70653337484
+  },
+  {
+    "date": "2020/8/20",
+    "precipitation": 24.8895494116
+  },
+  {
+    "date": "2020/8/21",
+    "precipitation": 1.64877768597
+  },
+  {
+    "date": "2020/8/22",
+    "precipitation": 1.17556857627
+  },
+  {
+    "date": "2020/8/23",
+    "precipitation": 0.124551291193
+  },
+  {
+    "date": "2020/8/24",
+    "precipitation": 0.394190089524
+  },
+  {
+    "date": "2020/8/25",
+    "precipitation": 15.2927455339
+  },
+  {
+    "date": "2020/8/26",
+    "precipitation": 8.71758217639
+  },
+  {
+    "date": "2020/8/27",
+    "precipitation": 0.0438392665372
+  },
+  {
+    "date": "2020/8/28",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2020/8/29",
+    "precipitation": 0.153772448057
+  },
+  {
+    "date": "2020/8/3",
+    "precipitation": 11.2139752262
+  },
+  {
+    "date": "2020/8/30",
+    "precipitation": 0.157485992022
+  },
+  {
+    "date": "2020/8/31",
+    "precipitation": 0.304604415519
+  },
+  {
+    "date": "2020/8/4",
+    "precipitation": 9.83681413582
+  },
+  {
+    "date": "2020/8/5",
+    "precipitation": 13.5790218296
+  },
+  {
+    "date": "2020/8/6",
+    "precipitation": 12.4947518642
+  },
+  {
+    "date": "2020/8/7",
+    "precipitation": 0.834248593216
+  },
+  {
+    "date": "2020/8/8",
+    "precipitation": 1.6401262662e-05
+  },
+  {
+    "date": "2020/8/9",
+    "precipitation": 0.00368858041587
+  },
+  {
+    "date": "2020/9/1",
+    "precipitation": 0.0657626583858
+  },
+  {
+    "date": "2020/9/10",
+    "precipitation": 2.57580858318
+  },
+  {
+    "date": "2020/9/11",
+    "precipitation": 9.7906337175
+  },
+  {
+    "date": "2020/9/12",
+    "precipitation": 9.79157970038
+  },
+  {
+    "date": "2020/9/13",
+    "precipitation": 6.61411190263
+  },
+  {
+    "date": "2020/9/14",
+    "precipitation": 1.51378266187
+  },
+  {
+    "date": "2020/9/15",
+    "precipitation": 4.15053232757
+  },
+  {
+    "date": "2020/9/16",
+    "precipitation": 3.27834965091
+  },
+  {
+    "date": "2020/9/17",
+    "precipitation": 2.66906894632
+  },
+  {
+    "date": "2020/9/18",
+    "precipitation": 5.02734557634
+  },
+  {
+    "date": "2020/9/19",
+    "precipitation": 5.60012532832
+  },
+  {
+    "date": "2020/9/2",
+    "precipitation": 4.0842359324e-05
+  },
+  {
+    "date": "2020/9/20",
+    "precipitation": 12.0627790738
+  },
+  {
+    "date": "2020/9/21",
+    "precipitation": 8.90226066658
+  },
+  {
+    "date": "2020/9/22",
+    "precipitation": 11.5952609062
+  },
+  {
+    "date": "2020/9/23",
+    "precipitation": 3.53342068971
+  },
+  {
+    "date": "2020/9/24",
+    "precipitation": 1.99433066701
+  },
+  {
+    "date": "2020/9/25",
+    "precipitation": 2.6058722338
+  },
+  {
+    "date": "2020/9/26",
+    "precipitation": 14.9736291081
+  },
+  {
+    "date": "2020/9/27",
+    "precipitation": 2.14202102459
+  },
+  {
+    "date": "2020/9/28",
+    "precipitation": 0.258719268037
+  },
+  {
+    "date": "2020/9/29",
+    "precipitation": 3.01957097657
+  },
+  {
+    "date": "2020/9/3",
+    "precipitation": 1.11261539236
+  },
+  {
+    "date": "2020/9/30",
+    "precipitation": 1.43728297676
+  },
+  {
+    "date": "2020/9/4",
+    "precipitation": 6.49895423062
+  },
+  {
+    "date": "2020/9/5",
+    "precipitation": 9.60019934149
+  },
+  {
+    "date": "2020/9/6",
+    "precipitation": 2.61081971009
+  },
+  {
+    "date": "2020/9/7",
+    "precipitation": 20.8629540983
+  },
+  {
+    "date": "2020/9/8",
+    "precipitation": 9.1041523198
+  },
+  {
+    "date": "2020/9/9",
+    "precipitation": 0.965671786056
+  },
+  {
+    "date": "2021/1/1",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/1/10",
+    "precipitation": 0.207252487827
+  },
+  {
+    "date": "2021/1/11",
+    "precipitation": 0.323286088951
+  },
+  {
+    "date": "2021/1/12",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/1/13",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/1/14",
+    "precipitation": 0.00325585320811
+  },
+  {
+    "date": "2021/1/15",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/1/16",
+    "precipitation": 0.0143245136797
+  },
+  {
+    "date": "2021/1/17",
+    "precipitation": 0.0117901214786
+  },
+  {
+    "date": "2021/1/18",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/1/19",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/1/2",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/1/20",
+    "precipitation": 0.472543526944
+  },
+  {
+    "date": "2021/1/21",
+    "precipitation": 1.81738053424
+  },
+  {
+    "date": "2021/1/22",
+    "precipitation": 0.133016725944
+  },
+  {
+    "date": "2021/1/23",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/1/24",
+    "precipitation": 0.00596876020055
+  },
+  {
+    "date": "2021/1/25",
+    "precipitation": 0.607192497332
+  },
+  {
+    "date": "2021/1/26",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/1/27",
+    "precipitation": 0.0425685565156
+  },
+  {
+    "date": "2021/1/28",
+    "precipitation": 0.00819580810739
+  },
+  {
+    "date": "2021/1/29",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/1/3",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/1/30",
+    "precipitation": 0.00668911835998
+  },
+  {
+    "date": "2021/1/31",
+    "precipitation": 0.104453152788
+  },
+  {
+    "date": "2021/1/4",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/1/5",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/1/6",
+    "precipitation": 0.241976628973
+  },
+  {
+    "date": "2021/1/7",
+    "precipitation": 1.45086993453
+  },
+  {
+    "date": "2021/1/8",
+    "precipitation": 0.140787389291
+  },
+  {
+    "date": "2021/1/9",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/10/1",
+    "precipitation": 7.10607948935
+  },
+  {
+    "date": "2021/10/10",
+    "precipitation": 10.7251536622
+  },
+  {
+    "date": "2021/10/11",
+    "precipitation": 0.297080483753
+  },
+  {
+    "date": "2021/10/12",
+    "precipitation": 0.449725091477
+  },
+  {
+    "date": "2021/10/13",
+    "precipitation": 2.66449146608
+  },
+  {
+    "date": "2021/10/14",
+    "precipitation": 1.58464048577
+  },
+  {
+    "date": "2021/10/15",
+    "precipitation": 3.19365325146
+  },
+  {
+    "date": "2021/10/16",
+    "precipitation": 2.94688988622
+  },
+  {
+    "date": "2021/10/17",
+    "precipitation": 0.167833419061
+  },
+  {
+    "date": "2021/10/18",
+    "precipitation": 0.0150002111619
+  },
+  {
+    "date": "2021/10/19",
+    "precipitation": 0.709959105627
+  },
+  {
+    "date": "2021/10/2",
+    "precipitation": 1.59677356956
+  },
+  {
+    "date": "2021/10/20",
+    "precipitation": 11.42607958
+  },
+  {
+    "date": "2021/10/21",
+    "precipitation": 6.94930036958
+  },
+  {
+    "date": "2021/10/22",
+    "precipitation": 0.340660692168
+  },
+  {
+    "date": "2021/10/23",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/10/24",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/10/25",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/10/26",
+    "precipitation": 0.00418468731405
+  },
+  {
+    "date": "2021/10/27",
+    "precipitation": 0.0720978669901
+  },
+  {
+    "date": "2021/10/28",
+    "precipitation": 0.753556115907
+  },
+  {
+    "date": "2021/10/29",
+    "precipitation": 13.8158153994
+  },
+  {
+    "date": "2021/10/3",
+    "precipitation": 1.0199496694
+  },
+  {
+    "date": "2021/10/30",
+    "precipitation": 6.71994917077
+  },
+  {
+    "date": "2021/10/31",
+    "precipitation": 19.3835527064
+  },
+  {
+    "date": "2021/10/4",
+    "precipitation": 2.4441097784e-05
+  },
+  {
+    "date": "2021/10/5",
+    "precipitation": 0.0409708194331
+  },
+  {
+    "date": "2021/10/6",
+    "precipitation": 0.0434694666326
+  },
+  {
+    "date": "2021/10/7",
+    "precipitation": 0.130465352205
+  },
+  {
+    "date": "2021/10/8",
+    "precipitation": 4.01623901344
+  },
+  {
+    "date": "2021/10/9",
+    "precipitation": 13.8949592866
+  },
+  {
+    "date": "2021/11/1",
+    "precipitation": 8.03998598823
+  },
+  {
+    "date": "2021/11/10",
+    "precipitation": 0.256314453635
+  },
+  {
+    "date": "2021/11/11",
+    "precipitation": 0.162759649439
+  },
+  {
+    "date": "2021/11/12",
+    "precipitation": 0.0620789099518
+  },
+  {
+    "date": "2021/11/13",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/11/14",
+    "precipitation": 1.17063766818
+  },
+  {
+    "date": "2021/11/15",
+    "precipitation": 2.56054570402
+  },
+  {
+    "date": "2021/11/16",
+    "precipitation": 6.13897016996
+  },
+  {
+    "date": "2021/11/17",
+    "precipitation": 4.04072463254
+  },
+  {
+    "date": "2021/11/18",
+    "precipitation": 0.170427352951
+  },
+  {
+    "date": "2021/11/19",
+    "precipitation": 0.936308090227
+  },
+  {
+    "date": "2021/11/2",
+    "precipitation": 5.95706271551
+  },
+  {
+    "date": "2021/11/20",
+    "precipitation": 9.78044127614
+  },
+  {
+    "date": "2021/11/21",
+    "precipitation": 10.2997497352
+  },
+  {
+    "date": "2021/11/22",
+    "precipitation": 0.937951356675
+  },
+  {
+    "date": "2021/11/23",
+    "precipitation": 0.119446490575
+  },
+  {
+    "date": "2021/11/24",
+    "precipitation": 0.021829088995
+  },
+  {
+    "date": "2021/11/25",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/11/26",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/11/27",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/11/28",
+    "precipitation": 0.00271290698375
+  },
+  {
+    "date": "2021/11/29",
+    "precipitation": 0.0164430453442
+  },
+  {
+    "date": "2021/11/3",
+    "precipitation": 3.34360393329
+  },
+  {
+    "date": "2021/11/30",
+    "precipitation": 0.0137301384014
+  },
+  {
+    "date": "2021/11/4",
+    "precipitation": 2.31219111193
+  },
+  {
+    "date": "2021/11/5",
+    "precipitation": 2.0557481625
+  },
+  {
+    "date": "2021/11/6",
+    "precipitation": 4.1815903617
+  },
+  {
+    "date": "2021/11/7",
+    "precipitation": 16.6759990175
+  },
+  {
+    "date": "2021/11/8",
+    "precipitation": 0.1521718023
+  },
+  {
+    "date": "2021/11/9",
+    "precipitation": 0.469423600277
+  },
+  {
+    "date": "2021/12/1",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/12/10",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/12/11",
+    "precipitation": 0.00147178031684
+  },
+  {
+    "date": "2021/12/12",
+    "precipitation": 0.0652276899284
+  },
+  {
+    "date": "2021/12/13",
+    "precipitation": 0.0193821289304
+  },
+  {
+    "date": "2021/12/14",
+    "precipitation": 0.0065411594312
+  },
+  {
+    "date": "2021/12/15",
+    "precipitation": 0.262708070782
+  },
+  {
+    "date": "2021/12/16",
+    "precipitation": 0.335489833283
+  },
+  {
+    "date": "2021/12/17",
+    "precipitation": 0.0511479695883
+  },
+  {
+    "date": "2021/12/18",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/12/19",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/12/2",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/12/20",
+    "precipitation": 11.0457094193
+  },
+  {
+    "date": "2021/12/21",
+    "precipitation": 1.34640932939
+  },
+  {
+    "date": "2021/12/22",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/12/23",
+    "precipitation": 0.00248700367309
+  },
+  {
+    "date": "2021/12/24",
+    "precipitation": 0.360012501254
+  },
+  {
+    "date": "2021/12/25",
+    "precipitation": 0.404316987914
+  },
+  {
+    "date": "2021/12/26",
+    "precipitation": 1.61716805251
+  },
+  {
+    "date": "2021/12/27",
+    "precipitation": 0.718079215863
+  },
+  {
+    "date": "2021/12/28",
+    "precipitation": 0.763765435872
+  },
+  {
+    "date": "2021/12/29",
+    "precipitation": 0.26633360315
+  },
+  {
+    "date": "2021/12/3",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/12/30",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/12/31",
+    "precipitation": 0.0483259604728
+  },
+  {
+    "date": "2021/12/4",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/12/5",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/12/6",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/12/7",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/12/8",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/12/9",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/2/1",
+    "precipitation": 0.0677788454007
+  },
+  {
+    "date": "2021/2/10",
+    "precipitation": 48.5683105193
+  },
+  {
+    "date": "2021/2/11",
+    "precipitation": 0.00733831634925
+  },
+  {
+    "date": "2021/2/12",
+    "precipitation": 0.381668375845
+  },
+  {
+    "date": "2021/2/13",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/2/14",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/2/15",
+    "precipitation": 0.163372277329
+  },
+  {
+    "date": "2021/2/16",
+    "precipitation": 2.07600276319
+  },
+  {
+    "date": "2021/2/17",
+    "precipitation": 0.0167194485698
+  },
+  {
+    "date": "2021/2/18",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/2/19",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/2/2",
+    "precipitation": 0.119835268405
+  },
+  {
+    "date": "2021/2/20",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/2/21",
+    "precipitation": 0.0198111065731
+  },
+  {
+    "date": "2021/2/22",
+    "precipitation": 0.00664194052147
+  },
+  {
+    "date": "2021/2/23",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/2/24",
+    "precipitation": 2.24278063429
+  },
+  {
+    "date": "2021/2/25",
+    "precipitation": 10.770688705
+  },
+  {
+    "date": "2021/2/26",
+    "precipitation": 2.91867223188
+  },
+  {
+    "date": "2021/2/27",
+    "precipitation": 1.72689361615
+  },
+  {
+    "date": "2021/2/28",
+    "precipitation": 3.65073605819
+  },
+  {
+    "date": "2021/2/3",
+    "precipitation": 0.149786301123
+  },
+  {
+    "date": "2021/2/4",
+    "precipitation": 0.00816200143933
+  },
+  {
+    "date": "2021/2/5",
+    "precipitation": 0.0132838810429
+  },
+  {
+    "date": "2021/2/6",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/2/7",
+    "precipitation": 0.00716270709926
+  },
+  {
+    "date": "2021/2/8",
+    "precipitation": 2.15745582695
+  },
+  {
+    "date": "2021/2/9",
+    "precipitation": 57.5041318135
+  },
+  {
+    "date": "2021/3/1",
+    "precipitation": 4.72139678044
+  },
+  {
+    "date": "2021/3/10",
+    "precipitation": 9.20352394839
+  },
+  {
+    "date": "2021/3/11",
+    "precipitation": 5.97667376622
+  },
+  {
+    "date": "2021/3/12",
+    "precipitation": 2.23422843756
+  },
+  {
+    "date": "2021/3/13",
+    "precipitation": 2.24575074078
+  },
+  {
+    "date": "2021/3/14",
+    "precipitation": 0.415116185991
+  },
+  {
+    "date": "2021/3/15",
+    "precipitation": 0.0820101158357
+  },
+  {
+    "date": "2021/3/16",
+    "precipitation": 0.0789366786514
+  },
+  {
+    "date": "2021/3/17",
+    "precipitation": 0.00271290698375
+  },
+  {
+    "date": "2021/3/18",
+    "precipitation": 0.00553433027831
+  },
+  {
+    "date": "2021/3/19",
+    "precipitation": 0.232165086287
+  },
+  {
+    "date": "2021/3/2",
+    "precipitation": 0.0664278673771
+  },
+  {
+    "date": "2021/3/20",
+    "precipitation": 1.06348191227
+  },
+  {
+    "date": "2021/3/21",
+    "precipitation": 1.9072897305
+  },
+  {
+    "date": "2021/3/22",
+    "precipitation": 0.297503258297
+  },
+  {
+    "date": "2021/3/23",
+    "precipitation": 0.666740205242
+  },
+  {
+    "date": "2021/3/24",
+    "precipitation": 0.0344262194012
+  },
+  {
+    "date": "2021/3/25",
+    "precipitation": 0.104349782174
+  },
+  {
+    "date": "2021/3/26",
+    "precipitation": 0.257262049714
+  },
+  {
+    "date": "2021/3/27",
+    "precipitation": 0.610492403069
+  },
+  {
+    "date": "2021/3/28",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/3/29",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/3/3",
+    "precipitation": 6.91995396614
+  },
+  {
+    "date": "2021/3/30",
+    "precipitation": 1.66505410342
+  },
+  {
+    "date": "2021/3/31",
+    "precipitation": 0.975378927265
+  },
+  {
+    "date": "2021/3/4",
+    "precipitation": 5.5653205929
+  },
+  {
+    "date": "2021/3/5",
+    "precipitation": 8.05315455701
+  },
+  {
+    "date": "2021/3/6",
+    "precipitation": 7.07734813123
+  },
+  {
+    "date": "2021/3/7",
+    "precipitation": 0.127229913876
+  },
+  {
+    "date": "2021/3/8",
+    "precipitation": 2.1309708963
+  },
+  {
+    "date": "2021/3/9",
+    "precipitation": 9.23841170633
+  },
+  {
+    "date": "2021/4/1",
+    "precipitation": 0.107570701634
+  },
+  {
+    "date": "2021/4/10",
+    "precipitation": 2.53623639776
+  },
+  {
+    "date": "2021/4/11",
+    "precipitation": 0.568373153691
+  },
+  {
+    "date": "2021/4/12",
+    "precipitation": 1.48831263702
+  },
+  {
+    "date": "2021/4/13",
+    "precipitation": 0.896674078021
+  },
+  {
+    "date": "2021/4/14",
+    "precipitation": 7.04450315883
+  },
+  {
+    "date": "2021/4/15",
+    "precipitation": 12.977126418
+  },
+  {
+    "date": "2021/4/16",
+    "precipitation": 12.1684458572
+  },
+  {
+    "date": "2021/4/17",
+    "precipitation": 3.95661224687
+  },
+  {
+    "date": "2021/4/18",
+    "precipitation": 26.671636108
+  },
+  {
+    "date": "2021/4/19",
+    "precipitation": 19.4919952484
+  },
+  {
+    "date": "2021/4/2",
+    "precipitation": 0.0843373529837
+  },
+  {
+    "date": "2021/4/20",
+    "precipitation": 3.14811222381
+  },
+  {
+    "date": "2021/4/21",
+    "precipitation": 1.09753300512
+  },
+  {
+    "date": "2021/4/22",
+    "precipitation": 0.0907300547932
+  },
+  {
+    "date": "2021/4/23",
+    "precipitation": 0.103910787229
+  },
+  {
+    "date": "2021/4/24",
+    "precipitation": 1.4043616916
+  },
+  {
+    "date": "2021/4/25",
+    "precipitation": 2.9705153764
+  },
+  {
+    "date": "2021/4/26",
+    "precipitation": 19.8241741548
+  },
+  {
+    "date": "2021/4/27",
+    "precipitation": 4.92495947559
+  },
+  {
+    "date": "2021/4/28",
+    "precipitation": 6.02742617331
+  },
+  {
+    "date": "2021/4/29",
+    "precipitation": 0.428779369916
+  },
+  {
+    "date": "2021/4/3",
+    "precipitation": 1.09527774941
+  },
+  {
+    "date": "2021/4/30",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/4/4",
+    "precipitation": 4.09297436978
+  },
+  {
+    "date": "2021/4/5",
+    "precipitation": 0.596045441225
+  },
+  {
+    "date": "2021/4/6",
+    "precipitation": 0.0167349675955
+  },
+  {
+    "date": "2021/4/7",
+    "precipitation": 8.46432520625
+  },
+  {
+    "date": "2021/4/8",
+    "precipitation": 8.74163102529
+  },
+  {
+    "date": "2021/4/9",
+    "precipitation": 1.92457981239
+  },
+  {
+    "date": "2021/5/1",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/5/10",
+    "precipitation": 1.69231877844
+  },
+  {
+    "date": "2021/5/11",
+    "precipitation": 8.35203083969
+  },
+  {
+    "date": "2021/5/12",
+    "precipitation": 11.330842295
+  },
+  {
+    "date": "2021/5/13",
+    "precipitation": 11.8333312195
+  },
+  {
+    "date": "2021/5/14",
+    "precipitation": 4.90901079637
+  },
+  {
+    "date": "2021/5/15",
+    "precipitation": 0.541849082242
+  },
+  {
+    "date": "2021/5/16",
+    "precipitation": 16.5591176608
+  },
+  {
+    "date": "2021/5/17",
+    "precipitation": 24.9174320152
+  },
+  {
+    "date": "2021/5/18",
+    "precipitation": 7.79814090154
+  },
+  {
+    "date": "2021/5/19",
+    "precipitation": 22.918193145
+  },
+  {
+    "date": "2021/5/2",
+    "precipitation": 13.8938312404
+  },
+  {
+    "date": "2021/5/20",
+    "precipitation": 14.3130900613
+  },
+  {
+    "date": "2021/5/21",
+    "precipitation": 1.5570018448
+  },
+  {
+    "date": "2021/5/22",
+    "precipitation": 1.05330647187
+  },
+  {
+    "date": "2021/5/23",
+    "precipitation": 7.37978961066
+  },
+  {
+    "date": "2021/5/24",
+    "precipitation": 5.90876719751
+  },
+  {
+    "date": "2021/5/25",
+    "precipitation": 4.55702292546
+  },
+  {
+    "date": "2021/5/26",
+    "precipitation": 6.5023119734
+  },
+  {
+    "date": "2021/5/27",
+    "precipitation": 2.25121497074
+  },
+  {
+    "date": "2021/5/28",
+    "precipitation": 3.35958028845
+  },
+  {
+    "date": "2021/5/29",
+    "precipitation": 6.3046866664
+  },
+  {
+    "date": "2021/5/3",
+    "precipitation": 11.8288197575
+  },
+  {
+    "date": "2021/5/30",
+    "precipitation": 12.5383926392
+  },
+  {
+    "date": "2021/5/31",
+    "precipitation": 22.3371676158
+  },
+  {
+    "date": "2021/5/4",
+    "precipitation": 20.9332368828
+  },
+  {
+    "date": "2021/5/5",
+    "precipitation": 1.87886295548
+  },
+  {
+    "date": "2021/5/6",
+    "precipitation": 1.75568297412
+  },
+  {
+    "date": "2021/5/7",
+    "precipitation": 8.23563164401
+  },
+  {
+    "date": "2021/5/8",
+    "precipitation": 4.72221199981
+  },
+  {
+    "date": "2021/5/9",
+    "precipitation": 2.06586979319
+  },
+  {
+    "date": "2021/6/1",
+    "precipitation": 20.2513544335
+  },
+  {
+    "date": "2021/6/10",
+    "precipitation": 3.15336491171
+  },
+  {
+    "date": "2021/6/11",
+    "precipitation": 3.42086022159
+  },
+  {
+    "date": "2021/6/12",
+    "precipitation": 3.82874992784
+  },
+  {
+    "date": "2021/6/13",
+    "precipitation": 2.21745172983
+  },
+  {
+    "date": "2021/6/14",
+    "precipitation": 1.7209351327
+  },
+  {
+    "date": "2021/6/15",
+    "precipitation": 1.73206985313
+  },
+  {
+    "date": "2021/6/16",
+    "precipitation": 5.69955447151
+  },
+  {
+    "date": "2021/6/17",
+    "precipitation": 5.44606026885
+  },
+  {
+    "date": "2021/6/18",
+    "precipitation": 0.132913837182
+  },
+  {
+    "date": "2021/6/19",
+    "precipitation": 0.0140053420187
+  },
+  {
+    "date": "2021/6/2",
+    "precipitation": 13.6042593554
+  },
+  {
+    "date": "2021/6/20",
+    "precipitation": 3.97539638999
+  },
+  {
+    "date": "2021/6/21",
+    "precipitation": 26.3506909916
+  },
+  {
+    "date": "2021/6/22",
+    "precipitation": 5.99845815854
+  },
+  {
+    "date": "2021/6/23",
+    "precipitation": 17.0430751737
+  },
+  {
+    "date": "2021/6/24",
+    "precipitation": 12.930484388
+  },
+  {
+    "date": "2021/6/25",
+    "precipitation": 9.34153531316
+  },
+  {
+    "date": "2021/6/26",
+    "precipitation": 6.99055741494
+  },
+  {
+    "date": "2021/6/27",
+    "precipitation": 3.82669926839
+  },
+  {
+    "date": "2021/6/28",
+    "precipitation": 9.59498759925
+  },
+  {
+    "date": "2021/6/29",
+    "precipitation": 17.8097669808
+  },
+  {
+    "date": "2021/6/3",
+    "precipitation": 29.5897474542
+  },
+  {
+    "date": "2021/6/30",
+    "precipitation": 7.58241990446
+  },
+  {
+    "date": "2021/6/4",
+    "precipitation": 6.02777095243
+  },
+  {
+    "date": "2021/6/5",
+    "precipitation": 0.0409708194331
+  },
+  {
+    "date": "2021/6/6",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/6/7",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/6/8",
+    "precipitation": 1.73300455916
+  },
+  {
+    "date": "2021/6/9",
+    "precipitation": 0.953968077126
+  },
+  {
+    "date": "2021/7/1",
+    "precipitation": 3.50828948768
+  },
+  {
+    "date": "2021/7/10",
+    "precipitation": 4.0842359324e-05
+  },
+  {
+    "date": "2021/7/11",
+    "precipitation": 1.80256415519
+  },
+  {
+    "date": "2021/7/12",
+    "precipitation": 0.0227824634053
+  },
+  {
+    "date": "2021/7/13",
+    "precipitation": 0.0479485759035
+  },
+  {
+    "date": "2021/7/14",
+    "precipitation": 0.0288422822986
+  },
+  {
+    "date": "2021/7/15",
+    "precipitation": 0.00643429226517
+  },
+  {
+    "date": "2021/7/16",
+    "precipitation": 2.95036875628
+  },
+  {
+    "date": "2021/7/17",
+    "precipitation": 0.989207289179
+  },
+  {
+    "date": "2021/7/18",
+    "precipitation": 6.99037954865
+  },
+  {
+    "date": "2021/7/19",
+    "precipitation": 6.92128192431
+  },
+  {
+    "date": "2021/7/2",
+    "precipitation": 3.75862188138
+  },
+  {
+    "date": "2021/7/20",
+    "precipitation": 3.14345877917
+  },
+  {
+    "date": "2021/7/21",
+    "precipitation": 12.7192008541
+  },
+  {
+    "date": "2021/7/22",
+    "precipitation": 1.14192432494
+  },
+  {
+    "date": "2021/7/23",
+    "precipitation": 0.191409617882
+  },
+  {
+    "date": "2021/7/24",
+    "precipitation": 1.36768430242
+  },
+  {
+    "date": "2021/7/25",
+    "precipitation": 0.175771794962
+  },
+  {
+    "date": "2021/7/26",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/7/27",
+    "precipitation": 1.53067444915
+  },
+  {
+    "date": "2021/7/28",
+    "precipitation": 4.22888293625
+  },
+  {
+    "date": "2021/7/29",
+    "precipitation": 2.38392984969
+  },
+  {
+    "date": "2021/7/3",
+    "precipitation": 11.0317465659
+  },
+  {
+    "date": "2021/7/30",
+    "precipitation": 1.60584485381
+  },
+  {
+    "date": "2021/7/31",
+    "precipitation": 4.4434415642
+  },
+  {
+    "date": "2021/7/4",
+    "precipitation": 2.85456357074
+  },
+  {
+    "date": "2021/7/5",
+    "precipitation": 0.698279052084
+  },
+  {
+    "date": "2021/7/6",
+    "precipitation": 0.575073525166
+  },
+  {
+    "date": "2021/7/7",
+    "precipitation": 2.82277750998
+  },
+  {
+    "date": "2021/7/8",
+    "precipitation": 1.2306440492
+  },
+  {
+    "date": "2021/7/9",
+    "precipitation": 0.00132399613644
+  },
+  {
+    "date": "2021/8/1",
+    "precipitation": 4.27622281255
+  },
+  {
+    "date": "2021/8/10",
+    "precipitation": 7.05237772666
+  },
+  {
+    "date": "2021/8/11",
+    "precipitation": 12.920463851
+  },
+  {
+    "date": "2021/8/12",
+    "precipitation": 0.518230743688
+  },
+  {
+    "date": "2021/8/13",
+    "precipitation": 4.78117713397
+  },
+  {
+    "date": "2021/8/14",
+    "precipitation": 8.99124082499
+  },
+  {
+    "date": "2021/8/15",
+    "precipitation": 13.4562894706
+  },
+  {
+    "date": "2021/8/16",
+    "precipitation": 0.846323320018
+  },
+  {
+    "date": "2021/8/17",
+    "precipitation": 0.0476085336032
+  },
+  {
+    "date": "2021/8/18",
+    "precipitation": 4.93898497662
+  },
+  {
+    "date": "2021/8/19",
+    "precipitation": 1.0129142604
+  },
+  {
+    "date": "2021/8/2",
+    "precipitation": 6.73778980295
+  },
+  {
+    "date": "2021/8/20",
+    "precipitation": 0.204148741228
+  },
+  {
+    "date": "2021/8/21",
+    "precipitation": 0.0255378771977
+  },
+  {
+    "date": "2021/8/22",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/8/23",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/8/24",
+    "precipitation": 0.0130278421647
+  },
+  {
+    "date": "2021/8/25",
+    "precipitation": 3.57156470045
+  },
+  {
+    "date": "2021/8/26",
+    "precipitation": 9.69851615084
+  },
+  {
+    "date": "2021/8/27",
+    "precipitation": 2.12066429002
+  },
+  {
+    "date": "2021/8/28",
+    "precipitation": 0.688409505802
+  },
+  {
+    "date": "2021/8/29",
+    "precipitation": 1.26371609332
+  },
+  {
+    "date": "2021/8/3",
+    "precipitation": 10.745235267
+  },
+  {
+    "date": "2021/8/30",
+    "precipitation": 0.0884717701362
+  },
+  {
+    "date": "2021/8/31",
+    "precipitation": 5.71439794959
+  },
+  {
+    "date": "2021/8/4",
+    "precipitation": 5.77292114187
+  },
+  {
+    "date": "2021/8/5",
+    "precipitation": 11.142110876
+  },
+  {
+    "date": "2021/8/6",
+    "precipitation": 8.16852315995
+  },
+  {
+    "date": "2021/8/7",
+    "precipitation": 3.13393458114
+  },
+  {
+    "date": "2021/8/8",
+    "precipitation": 2.08610553548
+  },
+  {
+    "date": "2021/8/9",
+    "precipitation": 7.70934268803
+  },
+  {
+    "date": "2021/9/1",
+    "precipitation": 3.72807470977
+  },
+  {
+    "date": "2021/9/10",
+    "precipitation": 0.356083555933
+  },
+  {
+    "date": "2021/9/11",
+    "precipitation": 0.0921253095908
+  },
+  {
+    "date": "2021/9/12",
+    "precipitation": 3.2802525324e-05
+  },
+  {
+    "date": "2021/9/13",
+    "precipitation": 0.0408648837762
+  },
+  {
+    "date": "2021/9/14",
+    "precipitation": 1.95377724242
+  },
+  {
+    "date": "2021/9/15",
+    "precipitation": 13.619895549
+  },
+  {
+    "date": "2021/9/16",
+    "precipitation": 2.40013441005
+  },
+  {
+    "date": "2021/9/17",
+    "precipitation": 7.32155344745
+  },
+  {
+    "date": "2021/9/18",
+    "precipitation": 0.440516590857
+  },
+  {
+    "date": "2021/9/19",
+    "precipitation": 1.22072002827
+  },
+  {
+    "date": "2021/9/2",
+    "precipitation": 0.740264070142
+  },
+  {
+    "date": "2021/9/20",
+    "precipitation": 0.963277506182
+  },
+  {
+    "date": "2021/9/21",
+    "precipitation": 3.91866632355
+  },
+  {
+    "date": "2021/9/22",
+    "precipitation": 2.16970493406
+  },
+  {
+    "date": "2021/9/23",
+    "precipitation": 5.78329667585
+  },
+  {
+    "date": "2021/9/24",
+    "precipitation": 1.49264896814
+  },
+  {
+    "date": "2021/9/25",
+    "precipitation": 0.655556576605
+  },
+  {
+    "date": "2021/9/26",
+    "precipitation": 0.690202549793
+  },
+  {
+    "date": "2021/9/27",
+    "precipitation": 0.302568866008
+  },
+  {
+    "date": "2021/9/28",
+    "precipitation": 8.9724559382e-05
+  },
+  {
+    "date": "2021/9/29",
+    "precipitation": 0.358940196239
+  },
+  {
+    "date": "2021/9/3",
+    "precipitation": 0.0
+  },
+  {
+    "date": "2021/9/30",
+    "precipitation": 0.448015486817
+  },
+  {
+    "date": "2021/9/4",
+    "precipitation": 0.175407167332
+  },
+  {
+    "date": "2021/9/5",
+    "precipitation": 0.000351179974625
+  },
+  {
+    "date": "2021/9/6",
+    "precipitation": 4.52270571324
+  },
+  {
+    "date": "2021/9/7",
+    "precipitation": 17.2635244565
+  },
+  {
+    "date": "2021/9/8",
+    "precipitation": 0.0222487438521
+  },
+  {
+    "date": "2021/9/9",
+    "precipitation": 0.0452919624148
+  }
+]
