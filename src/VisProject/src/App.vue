@@ -283,10 +283,14 @@ export default {
 </style>
 
 <style scoped>
+:root {
+  --menu-width: 150px;
+}
+
 .sidebar-container {
   display: flex !important;
   flex-direction: column !important;
-  width: 250px !important;
+  width: var(--menu-width) !important;
   min-height: 100vh !important;
   background-color: transparent !important; /* 移除侧边栏容器的背景色 */
   box-shadow: none !important; /* 移除阴影 */
@@ -332,7 +336,7 @@ export default {
 
 :deep(.el-menu) {
   border-right: none !important;
-  width: 90% !important; /* 使菜单宽度填充容器 */
+  width: 90% !important;
 }
 
 :deep(.el-menu-vertical-demo .el-menu-item),
@@ -342,6 +346,7 @@ export default {
   height: 50px !important;
   line-height: 50px !important;
   padding: 0 20px !important;
+  width: 90% !important;
 }
 
 :deep(.el-menu-vertical-demo .el-menu-item:hover),
@@ -355,9 +360,9 @@ export default {
 }
 
 :deep(.el-sub-menu .el-menu-item) {
-  min-width: 150px !important;
-  padding-right: 10px !important;
-  margin-right: 0 !important;
+  width: var(--menu-width) !important;  /* 使用同样的宽度变量 */
+  padding: 0 20px !important;
+  margin: 0 !important;
   background-color: #363d40 !important;
 }
 
