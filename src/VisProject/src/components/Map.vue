@@ -55,12 +55,12 @@
         
         return {
           name: cityName, // 市名
-          value: Math.floor(Math.random() * 1000), // 随机生成数值（0-1000）
+          value: cityToAQI[cityName], // 随机生成数值（0-1000）
           itemStyle: {
             color: color // 根据省份映射的颜色
           },
           tooltip: {
-            formatter: `{b}<br/>销量: {c}<br/>省份: ${province}` // 自定义提示信息
+            formatter: `{b}<br/>AQI: {c}<br/>省份: ${province}` // 自定义提示信息
           }
         }
       })
@@ -95,12 +95,12 @@
           // },
           visualMap: {//配置视觉映射，用于将数值映射为颜色，最小值是 0，最大值是 1000，使用了从浅蓝色到黄色再到橙红色的渐变色。
           min: 0,
-          max: 1000,
+          max: 200,
           text: ['High', 'Low'],
           realtime: false,
           calculable: true,
           inRange: {
-              color: ['lightskyblue', 'yellow', 'orangered']
+              color: ["#4ae24a", "#aee24a", "#ffe24a", "#ffc04a", "#ff7e4a"]
           }
           },
           series: [//配置地图系列，设置为中国地图，不显示区域标签，
