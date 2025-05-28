@@ -166,25 +166,30 @@ export default {
 .date-selector {
   position: absolute;
   right: 20px;
-  top: 20px;
+  top: -30px;
   background: rgba(255, 255, 255, 0.9);
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  padding: 8px 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 1;
 }
 
 .date-selector label {
-  display: block;
-  margin: 8px 0;
+  margin: 0;
   color: #333;
   font-size: 14px;
+  white-space: nowrap;
 }
 
-.date-selector input {
-  padding: 8px;
+.date-selector input[type="date"] {
+  padding: 4px 8px;
   border: 1px solid #ddd;
   border-radius: 4px;
-  width: 160px;
+  width: 130px;
+  height: 28px;
   font-size: 14px;
 }
 
