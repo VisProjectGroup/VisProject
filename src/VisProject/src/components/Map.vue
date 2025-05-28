@@ -7,8 +7,11 @@
     import { ref,nextTick, onMounted } from 'vue'
     import china from '../assets/data/map/china.json'
     import * as echarts from 'echarts'
+    import * as d3 from 'd3'
     import cityToProvince from '../assets/data/map/city_to_province1.json';
     import provinceToColor from '../assets/data/map/province_to_color.json';
+    import cityAQIData from "../assets/data/yearly_data/2015-2021_aqi_per_year_avg.json";
+
 
     // 定义 emit 用于触发父组件事件 即给 app.vue 传递城市名称
     const emit = defineEmits(['CityClick'])
@@ -31,11 +34,28 @@
       const getColorByProvince = (provinceName) => {
         return provinceToColor[provinceName] || '#FFFFFF' // 默认灰色
       }
+
+      // 构建 cityName -> AQI 的映射
+      const cityToAQI = {}
+      cityAQIData.forEach(item => {
+        cityToAQI[item.city] = parseFloat(item.AQI)
+      })
+
+      // AQI 颜色映射函数
+      const getColorByCityAQI = (cityName) => {
+        const aqi = cityToAQI[cityName]
+        if (aqi === undefined) return '#cccccc'
+        const colorScale = d3.scaleLinear()
+          .domain([0, 50, 100, 150, 200, 300, 500])
+          .range(["#4ae24a", "#aee24a", "#ffe24a", "#ffc04a", "#ff7e4a", "#e24a4a", "#7e0023"])
+        return colorScale(aqi)
+      }
       
       // 生成带颜色的数据数组（从 cityToProvince 生成）
       const dataWithColors = Object.keys(cityToProvince).map(cityName => {
         const province = getProvinceByCity(cityName)
-        const color = getColorByProvince(province)
+        // const color = getColorByProvince(province)
+        const color = getColorByCityAQI(cityName)
         
         return {
           name: cityName, // 市名
