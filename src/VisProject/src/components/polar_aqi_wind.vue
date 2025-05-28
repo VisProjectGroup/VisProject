@@ -14,8 +14,9 @@
             :key="y"
             :class="['year-btn-rect', { active: selectedYear === y }]"
             @click="selectedYear = y"
-            style="border-radius: 0; margin: 0; border: 1px solid #4a90e2; border-right: none; padding: 4px 12px; background: white; color: #4a90e2; font-size: 14px;"
-            :style="y === years[Math.ceil(years.length/2)-1] ? 'border-right:1px solid #4a90e2;' : ''">
+            style="border-radius: 0; margin: 0; border: 1px solid #4a90e2; border-right: none; padding: 4px 12px; background: white; color: #4a90e2; font-size: 14px; outline: none;"
+            :style="y === years[Math.ceil(years.length/2)-1] ? 'border-right:1px solid #4a90e2;' : ''"
+            tabindex="-1">
             {{ y }}
           </button>
         </div>
@@ -25,8 +26,9 @@
             :key="y"
             :class="['year-btn-rect', { active: selectedYear === y }]"
             @click="selectedYear = y"
-            style="border-radius: 0; margin: 0; border: 1px solid #4a90e2; border-right: none; padding: 4px 12px; background: white; color: #4a90e2; font-size: 14px;"
-            :style="y === years[years.length-1] ? 'border-right:1px solid #4a90e2;' : ''">
+            style="border-radius: 0; margin: 0; border: 1px solid #4a90e2; border-right: none; padding: 4px 12px; background: white; color: #4a90e2; font-size: 14px; outline: none;"
+            :style="y === years[years.length-1] ? 'border-right:1px solid #4a90e2;' : ''"
+            tabindex="-1">
             {{ y }}
           </button>
         </div>
@@ -196,7 +198,7 @@ export default {
         )
         .attr("fill", "transparent")
         .attr("cursor", "pointer")
-        .on("mouseover", (d) => {
+        .on("mouseover", (event, d) => {
           this.selectedMonth = d.month;
           this.monthData = d;
         })
@@ -281,6 +283,11 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.year-btn-rect.active {
+  background-color: #4a90e2 !important;
+  color: white !important;
 }
 
 .axis text {

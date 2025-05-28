@@ -90,16 +90,17 @@ export default {
 
       if (this.processedData.length === 0) return;
 
-      const margin = { top: 50, right: 40, bottom: 10, left: 40 };
-      const width = this.width - margin.left - margin.right;
-      const height = this.height - margin.top - margin.bottom;
+      const container = this.$refs.chartContainer;
+      const width = container.clientWidth;
+      const height = container.clientHeight;
 
-      const svg = d3.select(this.$refs.chartContainer)
+      const svg = d3
+        .select(this.$refs.chartContainer)
         .append("svg")
-        .attr("width", this.width)
-        .attr("height", this.height)
-        .append("g")
-        .attr("transform", `translate(${margin.left},${margin.top})`);
+        .attr("width", "100%")
+        .attr("height", "100%")
+        .attr("viewBox", `-35 0 ${width+80} ${height}`)
+        .attr("preserveAspectRatio", "xMidYMid meet")
 
       // 为每个维度设置单独的数据范围
       const y = {};
@@ -134,7 +135,7 @@ export default {
         .attr("class", "data-line")
         .attr("d", d => d3.line()(this.dimensions.map(dim => [x(dim), y[dim](d[dim])])))
         .attr("stroke", d => color(d.aqi))
-        .attr("stroke-width", 2)
+        .attr("stroke-width", 2.4)
         .attr("fill", "none")
         .attr("opacity", 0.7);
 
@@ -150,7 +151,7 @@ export default {
           .attr("y", -16)
           .attr("fill", "#333")
           .text(this.getAxisLabel(dim))
-          .style("font-size", "15px");
+          .style("font-size", "13px");
       });
 
       // 初始化刷选区域
@@ -200,20 +201,20 @@ export default {
         .style("border", "1px solid #aaa")
         .style("padding", "8px 12px")
         .style("border-radius", "4px")
-        .style("font-size", "14px")
+        .style("font-size", "12px")
         .style("color", "#222")
         .style("box-shadow", "0 2px 8px rgba(0,0,0,0.15)")
         .style("display", "none")
         .style("z-index", 10);
 
-      // 添加鼠标悬浮交互
+      // 鼠标悬浮交互
       svg.selectAll(".data-line")
         .on("mouseover", function(event, d) {
           d3.select(this).attr("stroke-width", 4).attr("opacity", 1);
           tooltip
-        .style("display", "block")
-        .style("text-align", "left")
-        .html(
+          .style("display", "block")
+          .style("text-align", "left")
+          .html(
           `<div><b>年份:</b> ${d.years}</div>
            <div><b>AQI:</b> ${d.aqi.toFixed(2)}</div>
            <div><b>降水量:</b> ${d.precipitation.toFixed(2)} mm</div>

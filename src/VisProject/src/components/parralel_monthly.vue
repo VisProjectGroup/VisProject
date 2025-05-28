@@ -1,25 +1,40 @@
 <template>
   <div style="display: flex; flex-direction: column; align-items: center;">
-    <div style="font-size: 22px; font-weight: bold; margin-bottom: 16px;">
+    <div style="font-size: 18px; font-weight: bold; margin-bottom: 8px;">
       当前城市：{{ CityName }}
     </div>
-    <div style="font-size: 22px; font-weight: bold; margin-bottom: 16px;">
+    <div style="font-size: 18px; font-weight: bold; margin-bottom: 8px;">
       月度平行坐标分析
     </div>
-    <div style="width: 100%; display: flex; flex-direction: row; align-items: center; justify-content: center; margin-bottom: 20px;">
-      <div class="year-btn-group-rect" style="display: flex;">
-        <button
-          v-for="(y, idx) in years"
-          :key="y"
-          :class="['year-btn-rect', { active: selectedYear === y }]"
-          @click="selectedYear = y"
-          style="border-radius: 0; margin: 0; border: 1px solid #4a90e2; border-right: none; padding: 8px 20px; background: white; color: #4a90e2; font-size: 16px;"
-          :style="idx === years.length - 1 ? 'border-right:1px solid #4a90e2;' : ''">
-          {{ y }}
-        </button>
+    <div style="width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 12px;">
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <div class="year-btn-group-rect" style="display: flex;">
+          <button
+            v-for="y in years.slice(0, Math.ceil(years.length/2))"
+            :key="y"
+            :class="['year-btn-rect', { active: selectedYear === y }]"
+            @click="selectedYear = y"
+            style="border-radius: 0; margin: 0; border: 1px solid #4a90e2; border-right: none; padding: 4px 12px; background: white; color: #4a90e2; font-size: 14px; outline: none;"
+            :style="y === years[Math.ceil(years.length/2)-1] ? 'border-right:1px solid #4a90e2;' : ''"
+            tabindex="-1">
+            {{ y }}
+          </button>
+        </div>
+        <div class="year-btn-group-rect" style="display: flex;">
+          <button
+            v-for="y in years.slice(Math.ceil(years.length/2))"
+            :key="y"
+            :class="['year-btn-rect', { active: selectedYear === y }]"
+            @click="selectedYear = y"
+            style="border-radius: 0; margin: 0; border: 1px solid #4a90e2; border-right: none; padding: 4px 12px; background: white; color: #4a90e2; font-size: 14px; outline: none;"
+            :style="y === years[years.length-1] ? 'border-right:1px solid #4a90e2;' : ''"
+            tabindex="-1">
+            {{ y }}
+          </button>
+        </div>
       </div>
     </div>
-    <div ref="chartContainer" class="chart-container" style="width: 100%; height: 600px;"></div>
+    <div ref="chartContainer" class="chart-container" style="width: 100%; height: 600px; display: flex; justify-content: center;"></div>
   </div>
 </template>
 
@@ -102,16 +117,17 @@ export default {
 
       if (this.processedData.length === 0) return;
 
-      const margin = { top: 50, right: 30, bottom: 10, left: 30 };
-      const width = this.width - margin.left - margin.right;
-      const height = this.height - margin.top - margin.bottom;
+      const container = this.$refs.chartContainer;
+      const width = container.clientWidth;
+      const height = container.clientHeight;
 
-      const svg = d3.select(this.$refs.chartContainer)
+      const svg = d3
+        .select(this.$refs.chartContainer)
         .append("svg")
-        .attr("width", this.width)
-        .attr("height", this.height)
-        .append("g")
-        .attr("transform", `translate(${margin.left},${margin.top})`);
+        .attr("width", "100%")
+        .attr("height", "100%")
+        .attr("viewBox", `-21 0 ${width+60} ${height}`)
+        .attr("preserveAspectRatio", "xMidYMid meet")
 
       // 每个维度坐标轴自定义
       const y = {};
@@ -165,7 +181,7 @@ export default {
           .style("text-anchor", "middle")
           .attr("y", -16)
           .attr("fill", "#333")
-          .style("font-size", "15px")
+          .style("font-size", "13px")
           .text(this.getAxisLabel(dim));
       });
 

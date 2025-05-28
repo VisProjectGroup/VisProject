@@ -42,6 +42,9 @@
     <div class="polar-area" v-if="columFactoryshow">
       <ColumnFactoryComponent :CityName="selectedCity" />
     </div>
+    <div class="polar-area" v-if="lineshow">
+      <ComposedLineComponent :CityName="selectedCity" />
+    </div>
     <div class="polar-area" v-if="roseAQIrainshow">
       <PolarAQIRainComponent :CityName="selectedCity"/>
     </div>
@@ -65,6 +68,7 @@ import ColumnAQIComponent from './components/ColumnAQI.vue';
 import ColumnRainComponent from './components/ColumnRain.vue';
 import ColumnWindComponent from './components/ColumnWind.vue';
 import ColumnFactoryComponent from './components/ColumnFactory.vue';
+import ComposedLineComponent from './components/ComposedLine.vue';
 import PolarAQIRainComponent from './components/polar_aqi_rain.vue';
 import PolarAQIWindComponent from './components/polar_aqi_wind.vue';
 import ParallelMonthlyComponent from './components/parralel_monthly.vue';
