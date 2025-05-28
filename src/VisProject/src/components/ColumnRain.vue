@@ -1,12 +1,12 @@
 <template>
-  <div style="display: flex; flex-direction: column; align-items: center;">
+  <div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
     <div class="date-selector">
       <label>起始日期：</label>
       <input type="date" v-model="startDate">
       <label>结束日期：</label>
       <input type="date" v-model="endDate">
     </div>
-    <div>
+    <div style="width: 100%;">
       <div style="font-size: 22px; font-weight: bold; margin-bottom: 16px;">
         {{ CityName }} 的降水量(mm)历史数据
       </div>
@@ -166,7 +166,7 @@ export default {
 .date-selector {
   position: absolute;
   right: 20px;
-  top: -30px;
+  top: 10px;
   background: rgba(255, 255, 255, 0.9);
   padding: 8px 12px;
   border-radius: 6px;

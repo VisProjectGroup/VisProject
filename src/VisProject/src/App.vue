@@ -264,22 +264,25 @@ export default {
 .container {
   display: flex !important;
   gap: 0 !important;
-  padding: 0 !important;
+  padding: 70px 0 0 0 !important;
+  margin-top: -20px !important;
 }
 
 .map-area { 
-  width: 50% !important;
+  width: 40% !important;
   background-color: #e8e8f0 !important;
   padding: 20px !important;
-  margin-left: 100px !important;
+  margin-left: 50px !important;
 }
 
 .polar-area, .right-panel {
-  width: 80% !important;
+  width: 100% !important;
+  max-width: 1200px !important;
   background-color: #f5f5f5 !important;
   padding: 20px !important;
   border: 1px solid #e5e7eb !important;
   border-radius: 4px !important;
+  margin-left: 20px !important;
 }
 </style>
 
