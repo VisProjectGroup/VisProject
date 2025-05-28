@@ -54,6 +54,9 @@
     <div class="right-panel" v-if="parallelyearshow">
       <ParallelYearlyComponent :CityName="selectedCity"/>
     </div>
+    <div class="right-panel" v-if="heatmapshow">
+      <HeatMapComponent :CityName="selectedCity"/>
+    </div>
   </div>
 </template>
 
@@ -69,6 +72,7 @@ import PolarAQIRainComponent from './components/polar_aqi_rain.vue';
 import PolarAQIWindComponent from './components/polar_aqi_wind.vue';
 import ParallelMonthlyComponent from './components/parralel_monthly.vue';
 import ParallelYearlyComponent from './components/parralel_yearly.vue';
+import HeatMapComponent from './components/HeatMap.vue';
 
 const selectedCity = ref('杭州市');
 const handleCityClick = (CityName) => {
