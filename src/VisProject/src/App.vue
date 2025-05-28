@@ -269,14 +269,14 @@ export default {
 }
 
 .map-area { 
-  width: 40% !important;
+  width: 60% !important;
   background-color: #e8e8f0 !important;
   padding: 20px !important;
   margin-left: 50px !important;
 }
 
 .polar-area, .right-panel {
-  width: 100% !important;
+  width: 40% !important;
   max-width: 1200px !important;
   background-color: #f5f5f5 !important;
   padding: 20px !important;

@@ -17,11 +17,7 @@
     const emit = defineEmits(['CityClick'])
     
     const mapEcharts = () =>{//初始化地图的函数
-      let initMap = echarts.init(document.querySelector('#mapDom')
-        , null, {
-        width: '800px', // 地图大小
-        height: '600px' // 地图大小
-      });//初始化 ECharts 实例，将其绑定到之前模板中的mapDom元素
+      let initMap = echarts.init(document.querySelector('#mapDom'));//初始化 ECharts 实例，将其绑定到之前模板中的mapDom元素
       echarts.registerMap('china', china);//注册中国地图
       // 为每个市添加省份信息并分配颜色
         
@@ -77,7 +73,7 @@
               fontSize: 24,  // 加大字体
               fontWeight: 'bold'  // 加粗
           },
-          left: 250, 
+          left: 'center', 
           top: 20,  // 距离顶部的距离
           sublink:
               'http://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E8%A1%8C%E6%94%BF%E5%8D%80%E5%8A%83#cite_note-12'
@@ -144,13 +140,21 @@
 <style scoped>
 .map-container {
   width: 100%;  /* 占满父容器宽度 */
-  height: 80vh; /* 使用视口高度的80% */
+  height: 100%; /* 使用视口高度的100% */
   margin: 0 auto;
   overflow: hidden; /* 添加overflow:hidden使超出部分隐藏 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 #mapDom {
-  width: 100%;
-  height: 100%;
+  width: 90%;  /* 控制地图宽度，留出边距 */
+  height: 90%; /* 控制地图高度，留出边距 */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>
