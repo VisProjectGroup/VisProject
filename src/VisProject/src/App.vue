@@ -116,16 +116,16 @@ const ChartData = [
       }
     ]
   },
-  {
-    id : 3,
-    functionName: "气泡图",
-    children : [
-      {
-        id : 31,
-        functionName : "气泡图"
-      }
-    ]
-  },
+  // {
+  //   id : 3,
+  //   functionName: "气泡图",
+  //   children : [
+  //     {
+  //       id : 31,
+  //       functionName : "气泡图"
+  //     }
+  //   ]
+  // },
   {
     id : 4,
     functionName: "玫瑰图",
@@ -218,9 +218,9 @@ export default {
       if(newval === 21){
         this.lineshow = true;
       }
-      if(newval === 31){
-        this.bubbleshow = true;
-      }
+      // if(newval === 31){
+      //   this.bubbleshow = true;
+      // }
       if(newval === 51){
         this.heatmapshow = true;
       }
@@ -251,9 +251,9 @@ export default {
       if(oldval === 21){
         this.lineshow = false;
       }
-      if(oldval === 31){
-        this.bubbleshow = false;
-      }
+      // if(oldval === 31){
+      //   this.bubbleshow = false;
+      // }
       if(oldval === 51){
         this.heatmapshow = false;
       }

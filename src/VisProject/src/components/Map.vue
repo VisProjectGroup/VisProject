@@ -1,139 +1,169 @@
 <template>
   <div class="map-container">
-      <div id='mapDom'></div>
+    <div class="map-controls">
+      <button 
+        class="color-toggle-button"
+        :class="{ active: useAQIColor }"
+        @click="toggleColorMode"
+      >
+        {{ useAQIColor ? '切换省份配色' : '切换AQI配色' }}
+      </button>
+    </div>
+    <div id='mapDom'></div>
   </div>
 </template>
+
 <script setup>
-    import { ref,nextTick, onMounted } from 'vue'
-    import china from '../assets/data/map/china.json'
-    import * as echarts from 'echarts'
-    import * as d3 from 'd3'
-    import cityToProvince from '../assets/data/map/city_to_province1.json';
-    import provinceToColor from '../assets/data/map/province_to_color.json';
-    import cityAQIData from "../assets/data/yearly_data/2015-2021_aqi_per_year_avg.json";
+import { ref, nextTick, onMounted } from 'vue'
+import china from '../assets/data/map/china.json'
+import * as echarts from 'echarts'
+import * as d3 from 'd3'
+import cityToProvince from '../assets/data/map/city_to_province1.json';
+import provinceToColor from '../assets/data/map/province_to_color.json';
+import cityAQIData from "../assets/data/yearly_data/2015-2021_aqi_per_year_avg.json";
 
+// 记录地图染色方法的变量
+const useAQIColor = ref(false) // 控制颜色模式的响应式变量
+let initMap = null // 声明地图实例变量 记录地图是否初始化避免重复初始化
 
-    // 定义 emit 用于触发父组件事件 即给 app.vue 传递城市名称
-    const emit = defineEmits(['CityClick'])
+// 切换颜色模式
+const toggleColorMode = () => {
+  useAQIColor.value = !useAQIColor.value
+  refreshMap()
+}
+
+// 定义 emit 用于触发父组件事件 即给 app.vue 传递城市名称
+const emit = defineEmits(['CityClick'])
+
+// 生成带颜色的数据数组（从 cityToProvince 生成）
+const generateMapData = () => {
+  // 根据市名获取对应的省份
+  const getProvinceByCity = (cityName) => {
+    return cityToProvince[cityName] || '未知省份'
+  }
+
+  // 根据省份获取对应的颜色
+  const getColorByProvince = (provinceName) => {
+    return provinceToColor[provinceName] || '#FFFFFF' // 默认灰色
+  }
+
+  // 构建 cityName -> AQI 的映射
+  const cityToAQI = {}
+  cityAQIData.forEach(item => {
+    cityToAQI[item.city] = parseFloat(item.AQI)
+  })
+
+  // AQI 颜色映射函数
+  const getColorByCityAQI = (cityName) => {
+    const aqi = cityToAQI[cityName]
+    if (aqi === undefined) return '#cccccc'
+    const colorScale = d3.scaleLinear()
+    .domain([0, 50, 100, 150, 200, 300, 500])
+    .range(["#4ae24a", "#aee24a", "#ffe24a", "#ffc04a", "#ff7e4a", "#e24a4a", "#7e0023"])
+    return colorScale(aqi)
+  }
+
+  return Object.keys(cityToProvince).map(cityName => {
+    const province = getProvinceByCity(cityName)
+    const color = useAQIColor.value? getColorByCityAQI(cityName) : getColorByProvince(province)
     
-    const mapEcharts = () =>{//初始化地图的函数
-      let initMap = echarts.init(document.querySelector('#mapDom'));//初始化 ECharts 实例，将其绑定到之前模板中的mapDom元素
-      echarts.registerMap('china', china);//注册中国地图
-      // 为每个市添加省份信息并分配颜色
-        
-      // 根据市名获取对应的省份
-      const getProvinceByCity = (cityName) => {
-        return cityToProvince[cityName] || '未知省份'
+    return {
+      name: cityName, // 市名
+      value: cityToAQI[cityName], // 随机生成数值（0-1000）
+      itemStyle: {
+        color: color // 根据省份映射的颜色
+      },
+      tooltip: {
+        formatter: `{b}<br/>AQI: {c}<br/>省份: ${province}` // 自定义提示信息
       }
-        
-        // 根据省份获取对应的颜色
-      const getColorByProvince = (provinceName) => {
-        return provinceToColor[provinceName] || '#FFFFFF' // 默认灰色
-      }
-
-      // 构建 cityName -> AQI 的映射
-      const cityToAQI = {}
-      cityAQIData.forEach(item => {
-        cityToAQI[item.city] = parseFloat(item.AQI)
-      })
-
-      // AQI 颜色映射函数
-      const getColorByCityAQI = (cityName) => {
-        const aqi = cityToAQI[cityName]
-        if (aqi === undefined) return '#cccccc'
-        const colorScale = d3.scaleLinear()
-          .domain([0, 50, 100, 150, 200, 300, 500])
-          .range(["#4ae24a", "#aee24a", "#ffe24a", "#ffc04a", "#ff7e4a", "#e24a4a", "#7e0023"])
-        return colorScale(aqi)
-      }
-      
-      // 生成带颜色的数据数组（从 cityToProvince 生成）
-      const dataWithColors = Object.keys(cityToProvince).map(cityName => {
-        const province = getProvinceByCity(cityName)
-        // const color = getColorByProvince(province)
-        const color = getColorByCityAQI(cityName)
-        
-        return {
-          name: cityName, // 市名
-          value: cityToAQI[cityName], // 随机生成数值（0-1000）
-          itemStyle: {
-            color: color // 根据省份映射的颜色
-          },
-          tooltip: {
-            formatter: `{b}<br/>AQI: {c}<br/>省份: ${province}` // 自定义提示信息
-          }
-        }
-      })
-
-
-      let options = {
-          title: {//配置地图标题，主标题是 "中国地图"，副标题设置了一个链接
-          text: '中国地图',
-          textStyle: {
-              fontSize: 24,  // 加大字体
-              fontWeight: 'bold'  // 加粗
-          },
-          left: 'center', 
-          top: 20,  // 距离顶部的距离
-          sublink:
-              'http://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E8%A1%8C%E6%94%BF%E5%8D%80%E5%8A%83#cite_note-12'
-          },
-          tooltip: {//配置鼠标悬停时的提示框，当鼠标悬停在地图区域上时，会显示区域名称和对应的值
-          trigger: 'item',
-          formatter: '{b}<br/>{c} (销量)'
-          },
-          // toolbox: {//配置工具栏，显示在右侧中间位置，包含数据视图、重置和保存为图片等功能。
-          // show: true,
-          // orient: 'vertical',
-          // left: 'right',
-          // top: 'center',
-          // feature: {
-          //     dataView: { readOnly: false },
-          //     restore: {},
-          //     saveAsImage: {}
-          // }
-          // },
-          visualMap: {//配置视觉映射，用于将数值映射为颜色，最小值是 0，最大值是 1000，使用了从浅蓝色到黄色再到橙红色的渐变色。
-          min: 0,
-          max: 200,
-          text: ['High', 'Low'],
-          realtime: false,
-          calculable: true,
-          inRange: {
-              color: ["#4ae24a", "#aee24a", "#ffe24a", "#ffc04a", "#ff7e4a"]
-          }
-          },
-          series: [//配置地图系列，设置为中国地图，不显示区域标签，
-          {
-              name: '中国',
-              type: 'map',
-              map: 'china',
-              label: {
-              show: false
-              },
-              data: dataWithColors, // 使用带颜色的数据
-              roam: true // 开启平移和缩放功能，若只想开启缩放，可设置为'roam: \'scale\''
-          }
-          ]
-      }
-      initMap.setOption(options)
-
-      // 添加地图点击事件监听
-      initMap.on('click', (params) => {
-        // 点击的是地图区域
-        if (params.componentType === 'series') {
-          const CityName = params.name // 获取点击的市名
-          // 触发自定义事件，传递省份名称
-          emit('CityClick', CityName)
-        }
-      })
     }
-    onMounted(()=>{//在组件挂载后，给dataList赋值，包含了中国各省市自治区的数据。
-        
-        nextTick(()=>{
-            mapEcharts()
-        })
+  })
+}
+
+const mapEcharts = () =>{//初始化地图的函数
+  initMap = echarts.init(document.querySelector('#mapDom'));//初始化 ECharts 实例，将其绑定到之前模板中的mapDom元素
+  echarts.registerMap('china', china);//注册中国地图
+
+  // 初始化地图
+  let options = {
+    title: {//配置地图标题，主标题是 "中国地图"，副标题设置了一个链接
+      text: '中国地图',
+      textStyle: {
+        fontSize: 24,  // 加大字体
+        fontWeight: 'bold'  // 加粗
+      },
+      left: 'center', 
+      top: 20,  // 距离顶部的距离
+      sublink:
+        'http://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E8%A1%8C%E6%94%BF%E5%8D%80%E5%8A%83#cite_note-12'
+    },
+    tooltip: {//配置鼠标悬停时的提示框，当鼠标悬停在地图区域上时，会显示区域名称和对应的值
+      trigger: 'item',
+      formatter: '{b}<br/>{c} (销量)'
+    },
+    // toolbox: {//配置工具栏，显示在右侧中间位置，包含数据视图、重置和保存为图片等功能。
+    // show: true,
+    // orient: 'vertical',
+    // left: 'right',
+    // top: 'center',
+    // feature: {
+    //     dataView: { readOnly: false },
+    //     restore: {},
+    //     saveAsImage: {}
+    // }
+    // },
+    visualMap: {//配置视觉映射，用于将数值映射为颜色，最小值是 0，最大值是 1000，使用了从浅蓝色到黄色再到橙红色的渐变色。
+      min: 0,
+      max: 200,
+      text: ['High', 'Low'],
+      realtime: false,
+      calculable: true,
+      inRange: {
+        color: ["#4ae24a", "#aee24a", "#ffe24a", "#ffc04a", "#ff7e4a"]
+      }
+    },
+    series: [//配置地图系列，设置为中国地图，不显示区域标签，
+    {
+      name: '中国',
+      type: 'map',
+      map: 'china',
+      label: {
+        show: false
+      },
+      data: generateMapData(), // 使用带颜色的数据
+      roam: true // 开启平移和缩放功能，若只想开启缩放，可设置为'roam: \'scale\''
+    }
+    ]
+  }
+  initMap.setOption(options)
+
+  // 添加地图点击事件监听
+  initMap.on('click', (params) => {
+    // 点击的是地图区域
+    if (params.componentType === 'series') {
+      const CityName = params.name // 获取点击的市名
+      // 触发自定义事件，传递省份名称
+      emit('CityClick', CityName)
+    }
+  })
+}
+
+// 刷新地图函数
+const refreshMap = () => {
+  if (initMap) {
+    initMap.setOption({
+      series: [{
+        data: generateMapData() // 重新生成数据
+      }]
     })
+  }
+}
+
+onMounted(()=>{//在组件挂载后，给dataList赋值，包含了中国各省市自治区的数据。
+  nextTick(()=>{
+    mapEcharts()
+  })
+})
 </script>
 
 
@@ -156,5 +186,47 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+/* 按钮样式 */
+
+.map-controls {
+  position: absolute;
+  top: 20px; /* 调整按钮距离顶部的位置 */
+  right: 20px; /* 调整按钮距离右侧的位置 */
+  z-index: 10; /* 确保按钮显示在地图上方 */
+}
+
+#mapDom {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 按钮样式 */
+.color-toggle-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+  font-family: 'Segoe UI', system-ui;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.color-toggle-button:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-1px);
+}
+
+.color-toggle-button.active {
+  background-color: #20B2AA;
+  color: white;
+  box-shadow: 0 3px 8px rgba(32, 178, 170, 0.3);
 }
 </style>
