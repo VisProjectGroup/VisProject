@@ -271,18 +271,19 @@ export default {
 .map-area { 
   width: 60% !important;
   background-color: #e8e8f0 !important;
-  padding: 20px !important;
-  margin-left: 50px !important;
+  padding: 15px !important;
+  margin-left: 20px !important;
 }
 
 .polar-area, .right-panel {
   width: 40% !important;
-  max-width: 1200px !important;
   background-color: #f5f5f5 !important;
-  padding: 20px !important;
+  padding: 15px !important;
   border: 1px solid #e5e7eb !important;
   border-radius: 4px !important;
-  margin-left: 20px !important;
+  margin-left: 15px !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
 }
 </style>
 

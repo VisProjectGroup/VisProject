@@ -1,25 +1,38 @@
 <template>
   <div style="display: flex; flex-direction: column; align-items: center;">
-    <div style="font-size: 22px; font-weight: bold; margin-bottom: 16px;">
+    <div style="font-size: 18px; font-weight: bold; margin-bottom: 8px;">
       当前城市：{{ CityName }}
     </div>
-    <div style="font-size: 22px; font-weight: bold; margin-bottom: 16px;">
+    <div style="font-size: 18px; font-weight: bold; margin-bottom: 8px;">
       AQI - 风速 玫瑰图
     </div>
-    <div style="width: 100%; display: flex; flex-direction: row; align-items: center; justify-content: center; margin-bottom: 20px;">
-      <div class="year-btn-group-rect" style="display: flex;">
-        <button
-          v-for="(y, idx) in years"
-          :key="y"
-          :class="['year-btn-rect', { active: selectedYear === y }]"
-          @click="selectedYear = y"
-          style="border-radius: 0; margin: 0; border: 1px solid #4a90e2; border-right: none; padding: 8px 20px; background: white; color: #4a90e2; font-size: 16px;"
-          :style="idx === years.length - 1 ? 'border-right:1px solid #4a90e2;' : ''">
-          {{ y }}
-        </button>
+    <div style="width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 12px;">
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <div class="year-btn-group-rect" style="display: flex;">
+          <button
+            v-for="y in years.slice(0, Math.ceil(years.length/2))"
+            :key="y"
+            :class="['year-btn-rect', { active: selectedYear === y }]"
+            @click="selectedYear = y"
+            style="border-radius: 0; margin: 0; border: 1px solid #4a90e2; border-right: none; padding: 4px 12px; background: white; color: #4a90e2; font-size: 14px;"
+            :style="y === years[Math.ceil(years.length/2)-1] ? 'border-right:1px solid #4a90e2;' : ''">
+            {{ y }}
+          </button>
+        </div>
+        <div class="year-btn-group-rect" style="display: flex;">
+          <button
+            v-for="y in years.slice(Math.ceil(years.length/2))"
+            :key="y"
+            :class="['year-btn-rect', { active: selectedYear === y }]"
+            @click="selectedYear = y"
+            style="border-radius: 0; margin: 0; border: 1px solid #4a90e2; border-right: none; padding: 4px 12px; background: white; color: #4a90e2; font-size: 14px;"
+            :style="y === years[years.length-1] ? 'border-right:1px solid #4a90e2;' : ''">
+            {{ y }}
+          </button>
+        </div>
       </div>
     </div>
-    <div ref="chartContainer" class="chart-container" style="display: flex; justify-content: center;"></div>
+    <div ref="chartContainer" class="chart-container" style="width: 100%; height: 600px; display: flex; justify-content: center;"></div>
     <div v-if="selectedMonth !== null" style="margin-top: 16px; font-size: 18px;">
       <b>{{ months[selectedMonth] }}</b> - 风速: {{ monthData.wind.toFixed(2) }} km/h, AQI: {{ monthData.aqi.toFixed(2) }}
     </div>
@@ -108,15 +121,18 @@ export default {
       }));
       this.mergedData = mergedData;
 
-      const width = 800;
-      const height = 600;
+      const container = this.$refs.chartContainer;
+      const width = container.clientWidth;
+      const height = container.clientHeight;
       const margin = { top: 50, right: 50, bottom: 50, left: 50 };
 
       const svg = d3
         .select(this.$refs.chartContainer)
         .append("svg")
-        .attr("width", width)
-        .attr("height", height);
+        .attr("width", "100%")
+        .attr("height", "100%")
+        .attr("viewBox", `0 0 ${width} ${height}`)
+        .attr("preserveAspectRatio", "xMidYMid meet");
 
       const chart = svg
         .append("g")
@@ -259,7 +275,12 @@ export default {
 
 <style>
 .chart-container {
-  margin: 20px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .axis text {
