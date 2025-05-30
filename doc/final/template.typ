@@ -33,7 +33,7 @@
 
   // 封面部分开始
   set align(center)
-  image("ZJULOGO.jpg", fit: "cover", width: 5cm)
+  image("assets/ZJULOGO.jpg", fit: "cover", width: 5cm)
   set text(stroke: 0.03em, size: 三号)
   set align(center)
   set box(stroke: (bottom: 1pt), inset: (bottom: 20%, left: -10%, right: -10%))
