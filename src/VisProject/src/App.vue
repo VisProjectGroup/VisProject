@@ -281,6 +281,8 @@ export default {
   background-color: #e8e8f0 !important;
   padding: 15px !important;
   margin-left: 20px !important;
+  max-height: calc(100vh - 90px) !important;
+  overflow: auto !important;
 }
 
 .polar-area, .right-panel {
@@ -291,7 +293,10 @@ export default {
   border-radius: 4px !important;
   margin-left: 15px !important;
   box-sizing: border-box !important;
-  overflow: hidden !important;
+  overflow: auto !important;
+  max-height: calc(100vh - 90px) !important;
+  display: flex !important;
+  flex-direction: column !important;
 }
 </style>
 
