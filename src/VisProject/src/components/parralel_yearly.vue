@@ -42,6 +42,7 @@ export default {
       years: ["2015", "2016", "2017", "2018", "2019", "2020", "2021"],
       dimensions: ["years", "aqi", "precipitation", "wind", "industry"],
       colorScale: null,
+      brushedRegions: new Map(),
     };
   },
   computed: {
@@ -75,9 +76,19 @@ export default {
     },
   watch: {
     CityCode() {
+      this.brushedRegions.clear();
+      this.dimensions.forEach(dim => {
+        this.brushedRegions.delete(dim);
+      });
+      this.updateHighlight();
       this.renderChart();
     },
     CityName() {
+      this.brushedRegions.clear();
+      this.dimensions.forEach(dim => {
+        this.brushedRegions.delete(dim);
+      });
+      this.updateHighlight();
       this.renderChart();
     }
   },
@@ -108,12 +119,12 @@ export default {
         if (dim === "years") {
           y[dim] = d3.scaleLinear()
             .domain([2015, 2021])
-            .range([height, 0]);
+            .range([height/1.2, 0]);
         } else {
           const extent = d3.extent(this.processedData, d => d[dim]);
           y[dim] = d3.scaleLinear()
           .domain(extent)
-          .range([height, 0]);
+          .range([height/1.2, 0]);
         }
       });
 

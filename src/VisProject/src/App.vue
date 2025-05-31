@@ -132,11 +132,11 @@ const ChartData = [
     children : [
       {
         id : 41,
-        functionName : "雨量-空气质量玫瑰图"
+        functionName : "雨量-AQI 玫瑰图"
       },
       {
         id : 42,
-        functionName : "风力-空气质量玫瑰图"
+        functionName : "风力-AQI 玫瑰图"
       }
 
     ]

@@ -4,7 +4,7 @@
       当前城市：{{ CityName }}
     </div>
     <div style="font-size: 18px; font-weight: bold; margin-bottom: 8px;">
-      AQI - 风速 玫瑰图
+      风力 - AQI 玫瑰图
     </div>
     <div style="width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 12px;">
       <div style="display: flex; flex-direction: column; gap: 8px;">
@@ -34,8 +34,8 @@
         </div>
       </div>
     </div>
-    <div ref="chartContainer" class="chart-container" style="width: 100%; height: 600px; display: flex; justify-content: center;"></div>
-    <div v-if="selectedMonth !== null" style="margin-top: 16px; font-size: 18px;">
+    <div ref="chartContainer" class="chart-container" style="width: 100%; height: 600px; display: flex; justify-content: center;margin-top: -60px;"></div>
+    <div v-if="selectedMonth !== null" style="margin-top: -143px; font-size: 18px;">
       <b>{{ months[selectedMonth] }}</b> - 风速: {{ monthData.wind.toFixed(2) }} km/h, AQI: {{ monthData.aqi.toFixed(2) }}
     </div>
   </div>
@@ -244,7 +244,7 @@ export default {
       const legend = svg
         .append("g")
         .attr("class", "legend")
-        .attr("transform", `translate(${width - 150}, 20)`);
+        .attr("transform", `translate(${width - 150}, 80)`);
 
       // AQI 区域图例
       legend

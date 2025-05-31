@@ -70,6 +70,7 @@ export default {
       selectedYear: "2015",
       dimensions: ["month", "aqi", "precipitation", "wind"],
       colorScale: null,
+      brushedRegions: new Map(),
     };
   },
   computed: {
@@ -99,12 +100,27 @@ export default {
   },
   watch: {
     selectedYear() {
+      this.brushedRegions.clear();
+      this.dimensions.forEach(dim => {
+        this.brushedRegions.delete(dim);
+      });
+      this.updateHighlight();
       this.renderChart();
     },
     CityCode() {
+      this.brushedRegions.clear();
+      this.dimensions.forEach(dim => {
+        this.brushedRegions.delete(dim);
+      });
+      this.updateHighlight();
       this.renderChart();
     },
     CityName() {
+      this.brushedRegions.clear();
+      this.dimensions.forEach(dim => {
+        this.brushedRegions.delete(dim);
+      });
+      this.updateHighlight();
       this.renderChart();
     }
   },
@@ -135,17 +151,17 @@ export default {
         if (dim === "month") {
           y[dim] = d3.scaleLinear()
           .domain([1, 12])
-          .range([height, 0]);
+          .range([height/1.2, 0]);
         } else if (dim === "precipitation") {
           const max = d3.max(this.processedData, d => d[dim]);
           y[dim] = d3.scaleLinear()
           .domain([0, max])
-          .range([height, 0]);
+          .range([height/1.2, 0]);
         } else {
           const extent = d3.extent(this.processedData, d => d[dim]);
           y[dim] = d3.scaleLinear()
           .domain(extent)
-          .range([height, 0]);
+          .range([height/1.2, 0]);
         }
       });
 
