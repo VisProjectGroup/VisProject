@@ -300,3 +300,27 @@ AQI 配色模式：在地图上显示各个城市的 AQI 值，从高到低用�
 平行坐标图同样支持鼠标悬停交互，鼠标悬停在某个折线区域时，触发 `mouseover` 事件，获取该折线的具体数据并在旁边显示 AQI、降水量、风速和工业能耗的具体数值；鼠标移出时，触发 `mouseout` 事件，隐藏显示的窗口；
 
 = 案例展示
+#figure(
+  image("assets/pre0.png"),
+  caption: "城市AQI数据展示"
+) 
+
+#figure(
+  image("assets/pre1.png"),
+  caption: "折线图数据展示"
+) 
+
+#figure(
+  image("assets/pre2.png"),
+  caption: "玫瑰图数据展示"
+) 
+
+#figure(
+  image("assets/pre2.png"),
+  caption: "热力图数据展示"
+) 
+
+#figure(
+  image("assets/pre3.png"),
+  caption: "折线图数据展示"
+) 
