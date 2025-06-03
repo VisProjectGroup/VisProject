@@ -31,16 +31,16 @@
   // 二级标题（加粗，15pt，括号中文数字编号）
   show heading.where(level: 2): set heading(numbering: "1.")
   show heading.where(level: 2): set text(stroke: 0.03em, size: 15pt)
-  show heading.where(level: 2): set block(above: 1.2em, below: 0.8em)
+  show heading.where(level: 2): set block(above: 1.2em, below: 1em)
   
   // 三级标题（加粗，14pt，阿拉伯数字编号）
   show heading.where(level: 3): set heading(numbering: "1.")
   show heading.where(level: 3): set text(stroke: 0.03em, size: 四号)
-  show heading.where(level: 3): set block(above: 1em, below: 0.5em)
+  show heading.where(level: 3): set block(above: 1em, below: 1em)
   // 四级标题（加粗，12pt，英文数字编号）
   show heading.where(level: 4): set heading(numbering: "1.")
   show heading.where(level: 4): set text(stroke: 0.03em, size: 小四)
-  show heading.where(level: 4): set block(above: 0.8em, below: 0.3em)
+  show heading.where(level: 4): set block(above: 0.8em, below: 0.8em)
   // ===========================
   // 设置纸张大小与页边距
   set page(paper: "a4", margin: (top: 2.54cm, bottom: 2.54cm, left: 1.91cm, right: 1.91cm), numbering: (..args) => {
