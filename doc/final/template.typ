@@ -20,8 +20,28 @@
   // 设置字体
   set text(font: "SimSun", size: 四号)
   show raw: set text(font: ("Consolas", "SimSun"), size: 10pt)
+  // show heading.where(level: 1): set heading(numbering: "一、")
+  // show heading.where(level: 1): set text(stroke: 0.03em)
+    // ==== 新增：标题样式设置 ====
+  // 一级标题（加粗，16pt，中文数字编号）
   show heading.where(level: 1): set heading(numbering: "一、")
-  show heading.where(level: 1): set text(stroke: 0.03em)
+  show heading.where(level: 1): set text(stroke: 0.03em, size: 三号)
+  show heading.where(level: 1): set block(above: 1.5em, below: 1em)
+  
+  // 二级标题（加粗，15pt，括号中文数字编号）
+  show heading.where(level: 2): set heading(numbering: "1.")
+  show heading.where(level: 2): set text(stroke: 0.03em, size: 15pt)
+  show heading.where(level: 2): set block(above: 1.2em, below: 0.8em)
+  
+  // 三级标题（加粗，14pt，阿拉伯数字编号）
+  show heading.where(level: 3): set heading(numbering: "1.")
+  show heading.where(level: 3): set text(stroke: 0.03em, size: 四号)
+  show heading.where(level: 3): set block(above: 1em, below: 0.5em)
+  // 四级标题（加粗，12pt，英文数字编号）
+  show heading.where(level: 4): set heading(numbering: "1.")
+  show heading.where(level: 4): set text(stroke: 0.03em, size: 小四)
+  show heading.where(level: 4): set block(above: 0.8em, below: 0.3em)
+  // ===========================
   // 设置纸张大小与页边距
   set page(paper: "a4", margin: (top: 2.54cm, bottom: 2.54cm, left: 1.91cm, right: 1.91cm), numbering: (..args) => {
     let ind = args.pos().at(0)
