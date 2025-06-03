@@ -2,7 +2,6 @@
   name: "实验名称",
   instructor: "教师",
   lab_name: "实验名称",
-  class: "班级",
   ta: "助教",
   author: "姓名",
   author-id: "学号",
@@ -63,8 +62,6 @@
   [#text(lab_name, size:24pt)]
   v(2cm)
   [#box("教师:", stroke: none) #box(instructor, width: 9.4cm)]
-  v(.1cm)
-  [#box("班级:", stroke: none) #box(class, width: 9.4cm)]
   v(.1cm)
 
   [#box("成员:", stroke: none) #box("李文耀 3230102302", width: 9.4cm)]

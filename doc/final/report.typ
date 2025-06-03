@@ -1,8 +1,7 @@
 #import "template.typ" : colab, solution
 
 #show: colab.with(
-  instructor: "", 
-  class: "",
+  instructor: "巫英才 陈为 谢潇 翁荻 朱闽峰", 
   ta: "",
   author: "", 
   lab_name: "",
