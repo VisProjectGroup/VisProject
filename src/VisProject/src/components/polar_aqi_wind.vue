@@ -157,7 +157,7 @@ export default {
         .outerRadius((d) => radiusScale(d.wind) / aqi_scaling)
         .curve(d3.curveLinearClosed);
       
-      const aqiLine = d3
+      const aqiarea = d3
         .lineRadial()
         .angle((d) => angleScale(d.month))
         .radius((d) => radiusScale(d.aqi))
@@ -171,7 +171,7 @@ export default {
       chart
         .append("path")
         .datum(mergedData)
-        .attr("d", aqiLine)
+        .attr("d", aqiarea)
         .attr("fill", "#00D800")
         .attr("fill-opacity", 0.3)
         .attr("stroke", "#008800")

@@ -159,7 +159,7 @@ export default {
         .outerRadius((d) => radiusScale(d.precipitation) / aqi_scaling)
         .curve(d3.curveLinearClosed);
       
-      const aqiLine = d3
+      const aqiarea = d3
         .lineRadial()
         .angle((d) => angleScale(d.month))
         .radius((d) => radiusScale(d.aqi))
@@ -173,7 +173,7 @@ export default {
       chart
         .append("path")
         .datum(mergedData)
-        .attr("d", aqiLine)
+        .attr("d", aqiarea)
         .attr("fill", "#00D800")
         .attr("fill-opacity", 0.3)
         .attr("stroke", "#008800")
@@ -195,8 +195,8 @@ export default {
         .attr("class", "month-hover")
         .attr("d", (d, i) =>
           arc({
-        startAngle: angleScale(i),
-        endAngle: angleScale(i + 1),
+            startAngle: angleScale(i),
+            endAngle: angleScale(i + 1),
           })
         )
         .attr("fill", "transparent")
@@ -230,11 +230,11 @@ export default {
         .text((d) => d);
 
       const maxRadius = radiusScale.range()[1];
-      const gridRadii = [1, 2, 3].map(i => (i * maxRadius) / 3);
+      const gridR = [1, 2, 3].map(i => (i * maxRadius) / 3);
 
       axis
         .selectAll(".grid-circle")
-        .data(gridRadii)
+        .data(gridR)
         .join("circle")
         .attr("class", "grid-circle")
         .attr("r", d => d)

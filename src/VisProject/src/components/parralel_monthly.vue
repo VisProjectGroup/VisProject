@@ -70,7 +70,6 @@ export default {
       selectedYear: "2015",
       dimensions: ["month", "aqi", "precipitation", "wind"],
       colorScale: null,
-      brushedRegions: new Map(),
     };
   },
   computed: {
@@ -100,27 +99,12 @@ export default {
   },
   watch: {
     selectedYear() {
-      this.brushedRegions.clear();
-      this.dimensions.forEach(dim => {
-        this.brushedRegions.delete(dim);
-      });
-      this.updateHighlight();
       this.renderChart();
     },
     CityCode() {
-      this.brushedRegions.clear();
-      this.dimensions.forEach(dim => {
-        this.brushedRegions.delete(dim);
-      });
-      this.updateHighlight();
       this.renderChart();
     },
     CityName() {
-      this.brushedRegions.clear();
-      this.dimensions.forEach(dim => {
-        this.brushedRegions.delete(dim);
-      });
-      this.updateHighlight();
       this.renderChart();
     }
   },
@@ -201,41 +185,6 @@ export default {
           .text(this.getAxisLabel(dim));
       });
 
-      // 初始化刷选区域
-      if (!this.brushedRegions) this.brushedRegions = new Map();
-
-      // 添加刷选交互
-      this.dimensions.forEach(dim => {
-        const brush = d3.brushY()
-          .extent([[-30, 0], [30, height]])
-          .on("brush", (event) => this.handleBrush(event, dim, y))
-          .on("end", (event) => this.handleBrushEnd(event, dim, y));
-
-        const brushG = svg.append("g")
-          .attr("class", `brush brush-${dim}`)
-          .attr("transform", `translate(${x(dim)},0)`)
-          .call(brush);
-
-        // 单击任何地方取消所有刷选
-        d3.select(this.$refs.chartContainer)
-          .on("click", (event) => {
-            if (event.target.tagName === "svg" || event.target.classList.contains("chart-container")) {
-              this.brushedRegions.clear();
-              this.dimensions.forEach(dim => {
-            d3.select(`.brush-${dim}`).call(brush.move, null);
-                });
-                this.updateHighlight();
-              }
-          });
-
-        // 如果有已刷选区域，恢复显示
-        if (this.brushedRegions.has(dim)) {
-          const [min, max] = this.brushedRegions.get(dim);
-          d3.select(`.brush-${dim}`)
-            .call(brush.move, [y[dim](max), y[dim](min)]);
-        }
-      });
-
       // 悬浮显示线条数据
       let tooltip = d3.select(this.$refs.chartContainer)
         .selectAll(".pc-tooltip")
@@ -278,32 +227,6 @@ export default {
           tooltip.style("display", "none");
         });
         },
-
-    handleBrush(event, dim, yScales) {
-      if (!event.selection) return;
-      const [y0, y1] = event.selection.map(yScales[dim].invert);
-      this.brushedRegions.set(dim, [Math.min(y0, y1), Math.max(y0, y1)]);
-      this.updateHighlight();
-    },
-
-    handleBrushEnd(event, dim, yScales) {
-      // 如果没有刷选，清除该维度的刷选
-      if (!event.selection) {
-        this.brushedRegions.delete(dim);
-        this.updateHighlight();
-      }
-    },
-
-    updateHighlight() {
-      d3.selectAll(".data-line")
-        .transition()
-        .duration(200)
-        .style("opacity", d =>
-          Array.from(this.brushedRegions).every(([dim, [min, max]]) =>
-           d[dim] >= min && d[dim] <= max
-        ) ? 1 : 0.1
-      );
-    },
 
     getAxisLabel(dim) {
       const labels = {
